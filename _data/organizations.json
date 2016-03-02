@@ -147,9 +147,9 @@
 		"base_url": "https://api.slack.com/",
 		"blog": "http://slackhq.com/",
 		"blogrss": "http://slackhq.com/rss",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
 		"tags": [
 			"My API Stack",
 			"Messaging-Stack",
