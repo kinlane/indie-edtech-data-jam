@@ -38,7 +38,7 @@ project_summary: This is a research project to help me better understand exactly
 # Navigation
 navigation:
   - label1: Home
-    link1: /index.html
+    link1: /indie-edtech-data-jam/
     size1: 80
     extend: 0
     label2:
@@ -47,11 +47,11 @@ navigation:
     padding: 0
     decorate: 0
   - label1: Updates
-    link1: /updates/
+    link1: /indie-edtech-data-jam/updates/
     size1: 80
     extend: 1
     label2: RSS
-    link2: /updates.xml
+    link2: /indie-edtech-data-jam/updates.xml
     size2: 60
     padding: 5
     decorate: 0
