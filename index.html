@@ -1,27 +1,75 @@
 ---
 layout: page
-title: APIs
+title: Indie EdTech Data Jam
 ---
 
+<h1>Indie EdTech Data Jam</h1>
+<p>To help me prepare for talks, discussions, and workshops at the Indie EdTech Data Jam at Davidson College this month, I wanted to pull together a collection of APIs, and should be APIs to help students better understand what is APIs, and why they are important.</p>
+<p>As I was talking with the rest of the event planning group, I jotted down a list of APIs that should be present. This was the additional list of APIs I will be profiling, a list tht I"m sure will be adding to.</p>
 <table width="100%" border="0" cellpadding="3" cellspacing="2">
   {% for org in site.data.organizations %}
   <tr>
     <td align="left" width="80%" style="border-top: 1px solid #CCC; padding-top:18px;">
-      <a href="{{ org.website }}" id="home-logo-link-18911"><img src="{{ org.logo }}" width="{{ org.logo_width }}" align="left" style="padding: 15px;" /></a>
-      <a href="{{ org.website }}" id="home-name-link-18911" style="color: #000;"><strong>{{ org.name }}</strong></a>
+      <a href="{{ org.website }}"><img src="{{ org.logo }}" width="{{ org.logo_width }}" align="left" style="padding: 15px;" /></a>
+      <a href="{{ org.website }}" style="color: #000;"><strong>{{ org.name }}</strong></a>
       {{ org.details }}
     </td>
     <td width="50" align="center" style="border-top: 1px solid #CCC;">
-      <a href="{{ org.website }}" target="_blank" title="Website"><img id="home-icon-img-18911" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="28" align="center" /></a>
+      <a href="{{ org.website }}" target="_blank" title="Website">
+        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="28" align="center" />
+    </a>
     </td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;"></td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;"></td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;">
-      <a href="{{ org.twitter }}" target="_blank" title="Twitter"><img id="twitter-icon-img-18911" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="33" align="center" /></a>
+    <td width="50" align="center">
+      {% if org.portal_url != empty %}
+        <a href="{{ org.portal_url }}" target="_blank" title="Portal">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-portal-developers.jpg" width="23" align="center" />
+        </a>
+      {% endif %}
     </td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;"></td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;"></td>
-    <td width="150" align="center" style="font-size: 11px;" style="border-top: 1px solid #CCC;"></td>
+    <td width="50" align="center">
+      {% if org.blog != empty %}
+        <a href="{{ org.blog }}" target="_blank" title="Blog">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="18" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.blogrss != empty %}
+        <a href="{{ org.blogrss }}" target="_blank" title="Blog RSS">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="18" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.twitter != empty %}
+        <a href="{{ org.twitter }}" target="_blank" title="Twitter">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="23" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.github != empty %}
+        <a href="{{ org.github }}" target="_blank" title="Github">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.apisjson_url != empty %}
+        <a href="{{ org.apisjson_url }}" target="_blank" title="APIs.json">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.sdksio_url != empty %}
+        <a href="{{ org.sdksio_url }}" target="_blank" title="SDKs.io">
+          <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/sdks-io/sdks-io-icon.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
   </tr>
   {% endfor %}
 </table>
+<p>Next I will be making sure these APis are profiled, complete with <a href="https://github.com/OAI/OpenAPI-Specification">OpenAPI Specs</a>, that will help me better articulate what these platforms do, and wrap in <a href="http://apisjson.org">APIs.json</a>, which will then let me, and other attendees discover within the toolbox I have put together. <a href="https://github.com/kinlane/indie-edtech-data-jam">This toolbox is available as a machine readable, forkable Github repository, than anyone could clone, and make their own changes to the collection</a>.</p>
+<p>This is not meant to be a definiive list of APIs that university students will be interested in--it is meant to be one possible list to explore as they are getting to know the world of APis, and learning about how they impact their lives, as we have a conversation in North Carolina.</p>
