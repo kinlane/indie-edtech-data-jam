@@ -1,0 +1,42 @@
+{
+	"name": "Indie EdTech Data Jam",
+	"created": "2016-03-03",
+	"modified": "2016-03-03",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+	],
+	"tags": [
+		"Indie EdTech Data Jam",
+		"Indie EdTech Data Jam"
+	],
+	"include": [
+		{
+			"name": "Dropbox",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/dropbox/apis.json"
+		},
+		{
+			"name": "Facebook",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/apis.json"
+		},
+		{
+			"name": "Giphy",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/apis.json"
+		},
+		{
+			"name": "Instagram",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/apis.json"
+		},
+		{
+			"name": "Slack",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
