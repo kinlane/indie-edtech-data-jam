@@ -1,0 +1,86 @@
+{
+	"name": "WordPress",
+	"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+	"tags": [
+		"API",
+		"Application Programming Interfaces",
+		"api lifeycle",
+		"blogging",
+		"cms",
+		"content",
+		"content management",
+		"indie edtech data jam"
+	],
+	"created": "2016-03-03",
+	"modified": "2016-03-03",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "WordPress.com",
+			"description": "WordPress.com, the hosted version of the popular open source blogging software, exposes site data via its XML-RPC API. Embedding other services is supported and users can post to their WordPress blog using many popular Weblog Clients built on the API. The API uses OAuth2 protocol for authentication.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+			"humanURL": "http://develop.wordpress.com/",
+			"baseURL": "http://develop.wordpress.com/",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"blogging",
+				"cms",
+				"content",
+				"content management",
+				"indie edtech data jam"
+			],
+			"properties": [
+			]
+		},
+		{
+			"name": "WordPress.org API",
+			"description": "WordPress.org is home of the installable version of WordPress. The WordPress.org API provides a series of call exposing various informational assets and tools. Available resources include stats on systems running WordPress and contributor information. Tools include a secret key generator and access to WordPress plugins and themes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+			"humanURL": "http://v2.wp-api.org",
+			"baseURL": "http://v2.wp-api.org",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"blogging",
+				"cms",
+				"content",
+				"content management",
+				"indie edtech data jam"
+			],
+			"properties": [
+				{
+					"type": "x-documentation",
+					"url": "http://v2.wp-api.org/reference/"
+				},
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-api-openapi-spec.json"
+				}
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "X-blog",
+			"url": "http://wordpress.org/news/"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
