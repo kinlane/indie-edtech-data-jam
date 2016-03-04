@@ -28,8 +28,32 @@
 			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/apis.json"
 		},
 		{
+			"name": "Instructure Canvas",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/apis.json"
+		},
+		{
 			"name": "Slack",
 			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/apis.json"
+		},
+		{
+			"name": "Snapchat",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/snapchat/apis.json"
+		},
+		{
+			"name": "Telegram",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/telegram/apis.json"
+		},
+		{
+			"name": "Tinder",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/tinder/apis.json"
+		},
+		{
+			"name": "WordPress",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/apis.json"
+		},
+		{
+			"name": "Yik Yak",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/yik-yak/apis.json"
 		}
 	],
 	"maintainers": [
