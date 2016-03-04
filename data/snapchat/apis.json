@@ -1,0 +1,61 @@
+{
+	"name": "Snapchat",
+	"description": "Snapchat is the fastest way to share a moment with friends. You control how long your friends can view your message &ndash; simply set the timer up to ten seconds and send. Theyll have that long to view your message and then it disappears forever. We&rsquo;ll let you know if they take a screenshot! Build relationships, collect points, and view your best friends. Snapchat is instantly fun and insanely playful. Show your friends how clever you can be and enjoy the lightness of being!",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/snapchat-logo.png",
+	"tags": [
+		"API",
+		"Application Programming Interfaces",
+		"advertising",
+		"api activist target",
+		"chat",
+		"indie edtech data jam",
+		"messaging"
+	],
+	"created": "2016-03-03",
+	"modified": "2016-03-03",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/snapchat/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Snapchat API",
+			"description": "Snapchat is the fastest way to share a moment with friends. You control how long your friends can view your message &ndash; simply set the timer up to ten seconds and send. Theyll have that long to view your message and then it disappears forever. We&rsquo;ll let you know if they take a screenshot! Build relationships, collect points, and view your best friends. Snapchat is instantly fun and insanely playful. Show your friends how clever you can be and enjoy the lightness of being!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/snapchat-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"advertising",
+				"api activist target",
+				"chat",
+				"indie edtech data jam",
+				"messaging"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/snapchat/snapchat-api-openapi-spec.json"
+				}
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "X-portal",
+			"url": "https://www.snapchat.com/"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
