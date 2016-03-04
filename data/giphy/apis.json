@@ -15,7 +15,7 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Giphy",
+			"name": "Giphy Gif API",
 			"description": "Giphy is an animated search engine for discovering and sharing GIF images. Giphy exposes its search capabilities through a RESTlike API. The API is comprised of nine JSON endpoints, allowing developers to search for GIFs using a variety of filters and search parameters.",
 			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png",
 			"humanURL": "http://api.giphy.com/",
@@ -30,12 +30,48 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/giphy-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/giphy-gif-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Giphy Stickers API",
+			"description": "Giphy is a search engine for GIFs. Animated GIFs have existed for decades, but there was still no good way to browse and discover the best the web had to offer. And the vision for Giphy isn&rsquo;t really just about finding GIFs. It&rsquo;s a search engine today but soon you&rsquo;ll see it grow into a community, a platform with a host of features targeted at gif artists, enthusiasts, bloggers, and anyone generally looking to discover or create that next big meme.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"gifs",
+				"images",
+				"indie edtech data jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/giphy-stickers-api-openapi-spec.json"
 				}
 			]
 		}
 	],
 	"x-common": [
+		{
+			"type": "X-blog",
+			"url": "http://blog.giphy.com/"
+		},
+		{
+			"type": "X-portal",
+			"url": "https://api.giphy.com/"
+		},
+		{
+			"type": "X-github",
+			"url": "https://github.com/Giphy"
+		},
+		{
+			"type": "X-twitter",
+			"url": "https://twitter.com/giphy"
+		}
 	],
 	"include": [
 		{
