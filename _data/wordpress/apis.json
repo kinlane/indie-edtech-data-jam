@@ -18,11 +18,11 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "WordPress.com",
-			"description": "WordPress.com, the hosted version of the popular open source blogging software, exposes site data via its XML-RPC API. Embedding other services is supported and users can post to their WordPress blog using many popular Weblog Clients built on the API. The API uses OAuth2 protocol for authentication.",
+			"name": "Wordpress.org Categories API",
+			"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
 			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
-			"humanURL": "http://develop.wordpress.com/",
-			"baseURL": "http://develop.wordpress.com/",
+			"humanURL": "",
+			"baseURL": "",
 			"tags": [
 				"API",
 				"Application Programming Interfaces",
@@ -34,10 +34,83 @@
 				"indie edtech data jam"
 			],
 			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-categories-api-openapi-spec.json"
+				}
 			]
 		},
 		{
-			"name": "WordPress.org API",
+			"name": "Wordpress.org Comments API",
+			"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"blogging",
+				"cms",
+				"content",
+				"content management",
+				"indie edtech data jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-comments-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Wordpress.org Media API",
+			"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"blogging",
+				"cms",
+				"content",
+				"content management",
+				"indie edtech data jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-media-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Wordpress.org Pages API",
+			"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"blogging",
+				"cms",
+				"content",
+				"content management",
+				"indie edtech data jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-pages-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Wordpress.org Post API",
 			"description": "WordPress.org is home of the installable version of WordPress. The WordPress.org API provides a series of call exposing various informational assets and tools. Available resources include stats on systems running WordPress and contributor information. Tools include a secret key generator and access to WordPress plugins and themes.",
 			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
 			"humanURL": "http://v2.wp-api.org",
@@ -56,6 +129,79 @@
 				{
 					"type": "x-documentation",
 					"url": "http://v2.wp-api.org/reference/"
+				},
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-post-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Wordpress.org Tags API",
+			"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"blogging",
+				"cms",
+				"content",
+				"content management",
+				"indie edtech data jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-tags-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Wordpress.org Taxonomies API",
+			"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"blogging",
+				"cms",
+				"content",
+				"content management",
+				"indie edtech data jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-taxonomies-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Wordpress.org Users API",
+			"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"blogging",
+				"cms",
+				"content",
+				"content management",
+				"indie edtech data jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-users-api-openapi-spec.json"
 				}
 			]
 		}
