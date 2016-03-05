@@ -177,7 +177,7 @@ title: Indie EdTech Data Jam
                         {% for method in method_json %}
                           {% assign verb = method[0] | upcase %}
                           {% assign summary = method[1].summary %}
-                          <li>{{ summary }}</li>
+                          <li><a name="{{ summary }}" title="{{ path[0] }} [{{ verb }}]">{{ summary }}</li>
                         {% endfor %}
                       {% endfor %}
                     {% endfor %}
