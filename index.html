@@ -147,8 +147,7 @@ title: Indie EdTech Data Jam
                 {% endfor %}
 
                 <tr>
-                  <td width="50"></td>
-                  <td>
+                  <td align="left">
                     <strong>{{ api.name }}</strong>
                   </td>
                   <td align="center">
@@ -168,7 +167,7 @@ title: Indie EdTech Data Jam
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="5">
+                  <td colspan="4" align="left">
                     <ul>
                     {% for spec in openapi_spec_json %}
                       {% for path in spec.paths %}
