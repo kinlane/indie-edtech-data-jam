@@ -132,7 +132,7 @@ title: Indie EdTech Data Jam
                     {% assign pathname = pathname | replace: '/','' %}
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign openapi_spec_json = file | map: pathname %}
-{{ file }}
+
                   {% endif %}
 
                   {% if property.type == 'x-postman %}
