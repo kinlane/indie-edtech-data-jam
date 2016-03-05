@@ -128,9 +128,15 @@ title: Indie EdTech Data Jam
                     {% assign pathname = pathname | replace: '/data/','' %}
                     {% assign thisname = apijson.name | downcase %}
                     {% assign thisname = thisname | append:'/' %}
+
+                    this name: {{ thisname }}<br />
+
                     {% assign pathname = pathname | replace: thisname,'' %}
                     {% assign pathname = pathname | replace: '/','' %}
                     {% assign pathname = pathname | replace: '.json','' %}
+
+                    path name: {{ pathname }}<br />
+
                     {% assign openapi_spec_json = file | map: pathname %}
 
                   {% endif %}
