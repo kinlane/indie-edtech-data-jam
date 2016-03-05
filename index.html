@@ -172,6 +172,7 @@ title: Indie EdTech Data Jam
                     <ul>
                     {% for spec in openapi_spec_json %}
                       {% for path in spec.paths %}
+                        {{ path }}
                         {% assign method_json = path[1] %}
                         {% for method in method_json %}
                           {% assign verb = method[0] | upcase %}
