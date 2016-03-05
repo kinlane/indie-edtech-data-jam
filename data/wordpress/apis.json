@@ -12,8 +12,8 @@
 		"content management",
 		"indie edtech data jam"
 	],
-	"created": "2016-03-03",
-	"modified": "2016-03-03",
+	"created": "2016-03-04",
+	"modified": "2016-03-04",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -56,10 +56,6 @@
 				{
 					"type": "x-documentation",
 					"url": "http://v2.wp-api.org/reference/"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-api-openapi-spec.json"
 				}
 			]
 		}
