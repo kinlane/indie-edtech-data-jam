@@ -3,14 +3,10 @@
 	"description": "Giphy is a search engine for GIFs. Animated GIFs have existed for decades, but there was still no good way to browse and discover the best the web had to offer. And the vision for Giphy isn&rsquo;t really just about finding GIFs. It&rsquo;s a search engine today but soon you&rsquo;ll see it grow into a community, a platform with a host of features targeted at gif artists, enthusiasts, bloggers, and anyone generally looking to discover or create that next big meme.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"gifs",
-		"images",
-		"indie edtech data jam"
+		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -21,11 +17,7 @@
 			"humanURL": "http://api.giphy.com/",
 			"baseURL": "http://api.giphy.com/",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"gifs",
-				"images",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -41,11 +33,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"gifs",
-				"images",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -57,19 +45,19 @@
 	],
 	"x-common": [
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://blog.giphy.com/"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "https://api.giphy.com/"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/Giphy"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/giphy"
 		}
 	],
@@ -82,7 +70,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
