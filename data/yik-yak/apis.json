@@ -3,15 +3,10 @@
 	"description": "Yik Yak is a social media smartphone application. It is available for iOS and Android and it allows people pseudo-anonymously to create and view discussion threads within a 5-mile radius (termed Yaks by the application). It is similar to other anonymous sharing apps such as Nearby, but differs from others such as Whisper in that it is intended for sharing primarily with those in proximity to the user, potentially making it more intimate and relevant for people reading the posts. All users have the ability to contribute to the stream by writing, responding, and voting up or voting down (liking or disliking) yaks.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yik-yak-logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"api activist target",
-		"geo",
-		"indie edtech data jam",
-		"social discovery"
+		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/yik-yak/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -22,12 +17,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api activist target",
-				"geo",
-				"indie edtech data jam",
-				"social discovery"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -39,7 +29,7 @@
 	],
 	"x-common": [
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "https://www.yikyak.com"
 		}
 	],
@@ -52,7 +42,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
