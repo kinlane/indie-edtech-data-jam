@@ -1,13 +1,12 @@
 {
 	"name": "Indie EdTech Data Jam",
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 	],
 	"tags": [
-		"Indie EdTech Data Jam",
 		"Indie EdTech Data Jam"
 	],
 	"include": [
@@ -59,7 +58,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
