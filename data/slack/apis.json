@@ -3,14 +3,10 @@
 	"description": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"indie edtech data jam",
-		"messaging api",
-		"my api stack"
+		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -21,11 +17,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -41,11 +33,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -61,11 +49,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -81,11 +65,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -101,11 +81,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -121,11 +97,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -141,11 +113,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -161,11 +129,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -181,11 +145,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -201,11 +161,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -221,11 +177,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -241,11 +193,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -261,11 +209,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -281,11 +225,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -301,11 +241,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -321,11 +257,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -341,11 +273,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -361,11 +289,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -381,11 +305,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"messaging api",
-				"my api stack"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -397,107 +317,107 @@
 	],
 	"x-common": [
 		{
-			"type": "X-application-gallery",
+			"type": "x-application-gallery",
 			"url": "https://slack.com/apps"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://slackhq.com/"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "https://medium.com/slack-developer-blog"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "http://slackhq.com/rss"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "https://medium.com/feed/slack-developer-blog"
 		},
 		{
-			"type": "X-dedicated-branding-page",
+			"type": "x-dedicated-branding-page",
 			"url": "https://slack.com/brand-guidelines"
 		},
 		{
-			"type": "X-buttons",
+			"type": "x-buttons",
 			"url": "https://api.slack.com/docs/slack-button"
 		},
 		{
-			"type": "X-c-sharp",
+			"type": "x-c-sharp",
 			"url": "https://api.slack.com/web"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "https://api.slack.com/"
 		},
 		{
-			"type": "X-faq",
+			"type": "x-faq",
 			"url": "https://api.slack.com/faq"
 		},
 		{
-			"type": "X-getting-started",
+			"type": "x-getting-started",
 			"url": "https://slack.com/getting-started"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/slackhq"
 		},
 		{
-			"type": "X-webhooks-targets",
+			"type": "x-webhooks-targets",
 			"url": "https://api.slack.com/incoming-webhooks"
 		},
 		{
-			"type": "X-authentication-overview",
+			"type": "x-authentication-overview",
 			"url": "https://api.slack.com/docs/oauth"
 		},
 		{
-			"type": "X-oauth-scopes",
+			"type": "x-oauth-scopes",
 			"url": "https://api.slack.com/docs/oauth-scopes"
 		},
 		{
-			"type": "X-webhook-targets",
+			"type": "x-webhook-targets",
 			"url": "https://api.slack.com/outgoing-webhooks"
 		},
 		{
-			"type": "X-presence",
+			"type": "x-presence",
 			"url": "https://api.slack.com/docs/presence"
 		},
 		{
-			"type": "X-dedicated-plans--pricing-page",
+			"type": "x-dedicated-plans--pricing-page",
 			"url": "https://slack.com/pricing"
 		},
 		{
-			"type": "X-privacy-policy-page",
+			"type": "x-privacy-policy-page",
 			"url": "https://slack.com/privacy-policy"
 		},
 		{
-			"type": "X-overview",
+			"type": "x-overview",
 			"url": "https://api.slack.com/docs/rate-limits"
 		},
 		{
-			"type": "X-websockets",
+			"type": "x-websockets",
 			"url": "https://api.slack.com/rtm"
 		},
 		{
-			"type": "X-security-practices-page",
+			"type": "x-security-practices-page",
 			"url": "https://slack.com/security"
 		},
 		{
-			"type": "X-status-dashboard",
+			"type": "x-status-dashboard",
 			"url": "https://status.slack.com/"
 		},
 		{
-			"type": "X-support-overview-page",
+			"type": "x-support-overview-page",
 			"url": "https://get.slack.help/hc/en-us"
 		},
 		{
-			"type": "X-terms-of-service-page",
+			"type": "x-terms-of-service-page",
 			"url": "https://slack.com/terms-of-service"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/slackapi"
 		}
 	],
@@ -510,7 +430,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
