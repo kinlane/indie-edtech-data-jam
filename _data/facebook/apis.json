@@ -3,20 +3,10 @@
 	"description": "Facebook is an online social networking service that allows its users to connect with friends and family as well as make new connections. It provides its users with the ability to create a profile, update information, add images, send friend requests, and accept requests from other users. Its features include status update, photo tagging and sharing, and more.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook-logo.jpg",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"indie edtech data jam",
-		"my api stack",
-		"partners",
-		"payment-api",
-		"payments",
-		"social",
-		"social advertising",
-		"social api",
-		"social network"
+		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -27,17 +17,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -53,17 +33,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -79,17 +49,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -105,17 +65,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -131,17 +81,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -157,17 +97,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -183,17 +113,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -209,17 +129,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -235,17 +145,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -261,17 +161,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -287,17 +177,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -313,17 +193,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -339,17 +209,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -365,17 +225,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -391,17 +241,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -417,17 +257,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -443,17 +273,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -469,17 +289,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -495,17 +305,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -521,17 +321,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -547,17 +337,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -573,17 +353,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -599,17 +369,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -625,17 +385,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -651,17 +401,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -677,17 +417,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -703,17 +433,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -729,17 +449,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -755,17 +465,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -781,17 +481,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -807,17 +497,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -833,17 +513,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -859,17 +529,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -885,17 +545,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -911,17 +561,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -937,17 +577,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -963,17 +593,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -989,17 +609,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1015,17 +625,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1041,17 +641,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1067,17 +657,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1093,17 +673,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1119,17 +689,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1145,17 +705,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1171,17 +721,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1197,17 +737,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"indie edtech data jam",
-				"my api stack",
-				"partners",
-				"payment-api",
-				"payments",
-				"social",
-				"social advertising",
-				"social api",
-				"social network"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -1219,63 +749,55 @@
 	],
 	"x-common": [
 		{
-			"type": "X-android-sdk",
+			"type": "x-android-sdk",
 			"url": "https://developers.facebook.com/docs/android/share"
 		},
 		{
-			"type": "X-application-gallery",
+			"type": "x-application-gallery",
 			"url": "https://developers.facebook.com/docs/showcase/"
 		},
 		{
-			"type": "X-best-practices",
+			"type": "x-best-practices",
 			"url": "https://developers.facebook.com/docs/sharing/best-practices"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://blog.facebook.com"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "https://twitter.com/airpushads"
 		},
 		{
-			"type": "X-forum",
+			"type": "x-forum",
 			"url": "https://www.facebook.com/groups/fbdevelopers"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/facebook"
 		},
 		{
-			"type": "X-ios-sdk",
+			"type": "x-ios-sdk",
 			"url": "https://developers.facebook.com/docs/ios/share"
 		},
 		{
-			"type": "X-",
-			"url": "https://developers.facebook.com/docs/reference/javascript/"
-		},
-		{
-			"type": "X-linkedin",
+			"type": "x-linkedin",
 			"url": "https://www.linkedin.com/in/linkedin"
 		},
 		{
-			"type": "X-",
-			"url": "https://developers.facebook.com/docs/reference/php/"
-		},
-		{
-			"type": "X-road-map",
+			"type": "x-road-map",
 			"url": "https://developers.facebook.com/docs/apps/migrations"
 		},
 		{
-			"type": "X-status-dashboard",
+			"type": "x-status-dashboard",
 			"url": "https://developers.facebook.com/status/"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/facebook"
 		},
 		{
-			"type": "X-webinars",
+			"type": "x-webinars",
 			"url": "https://facebook.com"
 		}
 	],
@@ -1288,7 +810,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
