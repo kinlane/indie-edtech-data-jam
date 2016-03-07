@@ -3,14 +3,10 @@
 	"description": "Instructure is a technology company that is focused on improving  education. Founded in 2008 by two Computer Science graduate students,  Instructure built Canvas - the only open source learning management  system and the only LMS native to the cloud. Instructure now services  over 160 institutions in higher education and K-12. Investors include  OpenView Venture Partners and Tomorrow Ventures.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/canvas-logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"education",
-		"indie edtech data jam",
-		"lms"
+		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -21,11 +17,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -41,11 +33,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -61,11 +49,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -81,11 +65,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -101,11 +81,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -121,11 +97,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -141,11 +113,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -161,11 +129,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -181,11 +145,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -201,11 +161,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -221,11 +177,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -241,11 +193,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -261,11 +209,7 @@
 			"humanURL": "https://canvas.instructure.com/doc/api/index.html",
 			"baseURL": "https://canvas.instructure.com/doc/api/index.html",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"education",
-				"indie edtech data jam",
-				"lms"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -277,11 +221,11 @@
 	],
 	"x-common": [
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://blog.instructure.com"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "https://canvas.instructure.com/doc/api/index.html"
 		}
 	],
@@ -294,7 +238,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
