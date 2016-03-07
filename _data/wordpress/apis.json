@@ -3,17 +3,10 @@
 	"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"api lifeycle",
-		"blogging",
-		"cms",
-		"content",
-		"content management",
-		"indie edtech data jam"
+		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -24,14 +17,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"blogging",
-				"cms",
-				"content",
-				"content management",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -47,14 +33,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"blogging",
-				"cms",
-				"content",
-				"content management",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -70,14 +49,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"blogging",
-				"cms",
-				"content",
-				"content management",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -93,14 +65,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"blogging",
-				"cms",
-				"content",
-				"content management",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -116,14 +81,7 @@
 			"humanURL": "http://v2.wp-api.org",
 			"baseURL": "http://v2.wp-api.org",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"blogging",
-				"cms",
-				"content",
-				"content management",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -143,14 +101,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"blogging",
-				"cms",
-				"content",
-				"content management",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -166,14 +117,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"blogging",
-				"cms",
-				"content",
-				"content management",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -189,14 +133,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"blogging",
-				"cms",
-				"content",
-				"content management",
-				"indie edtech data jam"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -208,7 +145,7 @@
 	],
 	"x-common": [
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://wordpress.org/news/"
 		}
 	],
@@ -221,7 +158,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
