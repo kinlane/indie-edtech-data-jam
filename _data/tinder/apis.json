@@ -3,15 +3,10 @@
 	"description": "Tinder is a location-based dating and social discovery application (using Facebook) that facilitates communication between mutually interested users, allowing matched users to chat.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tinder-logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"api activist target",
-		"dating",
-		"indie edtech data jam",
-		"social discovery"
+		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/tinder/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -22,12 +17,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api activist target",
-				"dating",
-				"indie edtech data jam",
-				"social discovery"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -39,7 +29,7 @@
 	],
 	"x-common": [
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "https://www.gotinder.com/"
 		}
 	],
@@ -52,7 +42,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
