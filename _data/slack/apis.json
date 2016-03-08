@@ -2,11 +2,12 @@
 	"name": "Slack",
 	"description": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+	"x-open-ranking": "0",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-07",
-	"modified": "2016-03-07",
+	"created": "2016-03-08",
+	"modified": "2016-03-08",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
