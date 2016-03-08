@@ -2,7 +2,7 @@
 	"name": "WordPress",
 	"description": "WordPress, which is commonly used to refer to all WordPress products, is the most popular and fastest growing publishing platform on the web. WordPress began as a blogging platform but soon evolved to include additional types of websites including news sites, corporate sites (for large brands and small businesses alike), e-commerce sites and everything in between.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/969_logo.png",
-	"x-open-ranking": "0",
+	"x-open-ranking": "1",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
