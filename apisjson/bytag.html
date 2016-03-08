@@ -66,16 +66,16 @@ var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
                   {
             $FullCount = $FullCount + 1;
 
-                  var loadIt3 = $.getJSON($url, function($oadf) {
+                  var loadIt3 = $.getJSON($url, function($openapi spec) {
 
-                    $paths = $oadf['paths'];
-                    $title = $oadf['info']['title'];
+                    $paths = $openapi spec['paths'];
+                    $title = $openapi spec['info']['title'];
 
               $apiSlug = $title.replace(/ /g,"-");
               $apiSlug = $apiSlug.toLowerCase();
 
               // show the unique host
-              $host = $oadf['host'];
+              $host = $openapi spec['host'];
 
                     $.each($paths, function(pathKey, pathValue) {
 
