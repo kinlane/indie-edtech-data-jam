@@ -2,7 +2,7 @@
 	"name": "Instructure Canvas",
 	"description": "Instructure is a technology company that is focused on improving  education. Founded in 2008 by two Computer Science graduate students,  Instructure built Canvas - the only open source learning management  system and the only LMS native to the cloud. Instructure now services  over 160 institutions in higher education and K-12. Investors include  OpenView Venture Partners and Tomorrow Ventures.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/canvas-logo.png",
-	"x-open-ranking": "0",
+	"x-open-ranking": "1",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
