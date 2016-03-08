@@ -48,14 +48,10 @@ title: Indie EdTech Data Jam
         {% endif %}
 
           <tr>
-            <td>
-              {% if apijson.image != null %}
-                <a href="{{ website_url }}">
-                  <img src="{{ apijson.image }}" align="left" style="padding: 15px;" width="150" />
-                </a>
+            <td width="80" align="center">
+              {% if apijson.x-open-ranking != 0 %}
+                <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-rating-{{ apijson.x-open-ranking }}.png" align="left" style="padding: 15px;" width="75" />
               {% endif %}
-              <a href="{{ website_url }}" style="font-size: 22px;"><strong>{{ apijson.name }}</strong></a><br />
-              {{ apijson.description }}
             </td>
             <td colspan="2">
               {% if apijson.image != null %}
