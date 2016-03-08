@@ -2,11 +2,12 @@
 	"name": "Telegram",
 	"description": "Telegram is about freedom and openness &ndash; our code is open for everyone, as is our API. Today we&rsquo;re making another step towards openness by launching a Bot API and platform for third-party developers to create bots. Bots are simply Telegram accounts operated by software &ndash; not people &ndash; and theyll often have AI features. They can do anything &ndash; teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/telegram-logo.png",
+	"x-open-ranking": "0",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-07",
-	"modified": "2016-03-07",
+	"created": "2016-03-08",
+	"modified": "2016-03-08",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/telegram/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
