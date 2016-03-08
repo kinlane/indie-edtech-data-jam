@@ -2,11 +2,12 @@
 	"name": "Dropbox",
 	"description": "Dropbox is a file hosting service operated by Dropbox, Inc., that offers cloud storage, file synchronization, and client software. Dropbox allows users to create a special folder on each of their computers, which Dropbox then synchronizes so that it appears to be the same folder (with the same contents) regardless of which computer is used to view it. Files placed in this folder also are accessible through a website and mobile phone applications.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dropbox-logo.png",
+	"x-open-ranking": "0",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-07",
-	"modified": "2016-03-07",
+	"created": "2016-03-08",
+	"modified": "2016-03-08",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/dropbox/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
