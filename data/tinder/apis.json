@@ -2,7 +2,7 @@
 	"name": "Tinder",
 	"description": "Tinder is a location-based dating and social discovery application (using Facebook) that facilitates communication between mutually interested users, allowing matched users to chat.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tinder-logo.png",
-	"x-open-ranking": "0",
+	"x-open-ranking": "3",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
