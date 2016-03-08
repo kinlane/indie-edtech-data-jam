@@ -3,17 +3,10 @@
 	"description": "Instagram is an online mobile photo-sharing, video-sharing and social networking service that enables its users to take pictures and videos, and share them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr and Flickr. A distinctive feature is that it confines photos to a square shape, similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect ratio typically used by mobile device cameras. Users can also apply digital filters to their images. The maximum duration for Instagram videos is 15 seconds.",
 	"image": "https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.2365-6/851582_417171855069447_55288290_n.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"images",
-		"indie edtech data jam",
-		"my api stack",
-		"photo",
-		"photo api",
-		"social media"
+		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-07",
+	"modified": "2016-03-07",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -24,14 +17,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"images",
-				"indie edtech data jam",
-				"my api stack",
-				"photo",
-				"photo api",
-				"social media"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -47,14 +33,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"images",
-				"indie edtech data jam",
-				"my api stack",
-				"photo",
-				"photo api",
-				"social media"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -70,14 +49,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"images",
-				"indie edtech data jam",
-				"my api stack",
-				"photo",
-				"photo api",
-				"social media"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -93,14 +65,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"images",
-				"indie edtech data jam",
-				"my api stack",
-				"photo",
-				"photo api",
-				"social media"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -116,14 +81,7 @@
 			"humanURL": "",
 			"baseURL": "",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"images",
-				"indie edtech data jam",
-				"my api stack",
-				"photo",
-				"photo api",
-				"social media"
+				"Indie EdTech Data Jam"
 			],
 			"properties": [
 				{
@@ -135,103 +93,103 @@
 	],
 	"x-common": [
 		{
-			"type": "X-application-manager",
+			"type": "x-application-manager",
 			"url": "https://instagram.com/accounts/manage_access/"
 		},
 		{
-			"type": "X-authentication-overview",
+			"type": "x-authentication-overview",
 			"url": "http://instagram.com/developer/authentication/"
 		},
 		{
-			"type": "X-base-url-for-api",
+			"type": "x-base-url-for-api",
 			"url": "https://api.instagram.com"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://developers.instagram.com/"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://blog.instagram.com/"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "http://developers.instagram.com/rss"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "http://blog.instagram.com/rss"
 		},
 		{
-			"type": "X-change-log",
+			"type": "x-change-log",
 			"url": "https://www.instagram.com/developer/changelog/"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "http://instagram.com/developer/"
 		},
 		{
-			"type": "X-consumer--developer-showcase",
+			"type": "x-consumer--developer-showcase",
 			"url": "http://instagram.com/developer/business/"
 		},
 		{
-			"type": "X-embeddable-page",
+			"type": "x-embeddable-page",
 			"url": "http://instagram.com/developer/embedding/"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/Instagram"
 		},
 		{
-			"type": "X-mobile-overview",
+			"type": "x-mobile-overview",
 			"url": "https://www.instagram.com/developer/mobile-sharing/"
 		},
 		{
-			"type": "X-privacy-policy-page",
+			"type": "x-privacy-policy-page",
 			"url": "https://instagram.com/about/legal/privacy/"
 		},
 		{
-			"type": "X-python",
+			"type": "x-python",
 			"url": "https://github.com/Instagram/python-instagram"
 		},
 		{
-			"type": "X-overview",
+			"type": "x-overview",
 			"url": "http://instagram.com/developer/limits/"
 		},
 		{
-			"type": "X-real-time-page",
+			"type": "x-real-time-page",
 			"url": "http://instagram.com/developer/realtime/"
 		},
 		{
-			"type": "X-ruby",
+			"type": "x-ruby",
 			"url": "https://github.com/Instagram/instagram-ruby-gem"
 		},
 		{
-			"type": "X-sandbox",
+			"type": "x-sandbox",
 			"url": "https://www.instagram.com/developer/sandbox/"
 		},
 		{
-			"type": "X-sandbox-invites",
+			"type": "x-sandbox-invites",
 			"url": "https://www.instagram.com/developer/clients/sandbox_invites/"
 		},
 		{
-			"type": "X-stack-overflow",
+			"type": "x-stack-overflow",
 			"url": "http://stackoverflow.com/questions/tagged/instagram/"
 		},
 		{
-			"type": "X-pubsubhubbub",
+			"type": "x-pubsubhubbub",
 			"url": "https://www.instagram.com/developer/subscriptions/"
 		},
 		{
-			"type": "X-support-overview-page",
+			"type": "x-support-overview-page",
 			"url": "https://www.instagram.com/developer/support/"
 		},
 		{
-			"type": "X-terms-of-service-page",
+			"type": "x-terms-of-service-page",
 			"url": "https://instagram.com/about/legal/terms/"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/instagram"
 		}
 	],
@@ -244,7 +202,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
