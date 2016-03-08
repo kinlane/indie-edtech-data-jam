@@ -47,7 +47,7 @@ navigation:
     padding: 0
     decorate: 0
   - label1: By Collection
-    link1: /indie-edtech-data-jam/apisjson/bycollection.html
+    link1: /indie-edtech-data-jam/apisjson/bycollection/
     size1: 80
     extend: 0
     label2:
@@ -56,7 +56,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: By Tag
-    link1: /indie-edtech-data-jam/apisjson/bycollection.html
+    link1: /indie-edtech-data-jam/apisjson/bytag/
     size1: 80
     extend: 0
     label2:
