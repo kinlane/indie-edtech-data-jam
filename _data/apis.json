@@ -10,6 +10,10 @@
 		"Indie EdTech Data Jam"
 	],
 	"include": [
+		{
+			"name": "Dropbox",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/dropbox/apis.json"
+		}
 	],
 	"maintainers": [
 		{
