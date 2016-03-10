@@ -1,0 +1,86 @@
+{
+	"name": "YouTube for Dev",
+	"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+	"x-open-ranking": "0",
+	"tags": [
+		"Indie EdTech Data Jam"
+	],
+	"created": "2016-03-10",
+	"modified": "2016-03-10",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube-for-dev/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "YouTube Data API",
+			"description": "<p>Youtube has an API that allows developers to seamless integration applications with the video sharing platform.&nbsp; YouTube goes even further providing widgets, players, and other tools for even the non-programmer to integrate and distribute their sites with the Youtube video platform.</p>",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "https://developers.google.com/youtube/v3/",
+			"baseURL": "https://developers.google.com/youtube/v3/",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube-for-dev/youtube-data-api-openapi-spec.json"
+				}
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "x-blog",
+			"url": "https://developers.google.com/youtube/articles/"
+		},
+		{
+			"type": "x-authentication-overview",
+			"url": "https://developers.google.com/youtube/v3/guides/authentication"
+		},
+		{
+			"type": "x-blog",
+			"url": "http://apiblog.youtube.com/"
+		},
+		{
+			"type": "x-blog-rss-feed",
+			"url": "http://apiblog.youtube.com/feeds/posts/default?alt=rss"
+		},
+		{
+			"type": "x-deprecation-policy",
+			"url": "https://developers.google.com/youtube/youtube-api-list"
+		},
+		{
+			"type": "x-portal",
+			"url": "https://developers.google.com/youtube/"
+		},
+		{
+			"type": "x-getting-started",
+			"url": "https://developers.google.com/youtube/v3/getting-started"
+		},
+		{
+			"type": "x-twitter",
+			"url": "https://twitter.com/youtubedev"
+		},
+		{
+			"type": "x-webinars",
+			"url": "https://www.youtube.com/"
+		},
+		{
+			"type": "x-widgets",
+			"url": "https://developers.google.com/youtube/youtube_upload_widget"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"x-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
