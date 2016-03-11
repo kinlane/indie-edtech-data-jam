@@ -67,16 +67,16 @@ function processAPIsJSON($apisjsonURL)
               $FullCount = $FullCount + 1;
 
               console.log($url);
-              var loadIt3 = $.getJSON($url, function($openapi spec) {
+              var loadIt3 = $.getJSON($url, function($openapispec) {
 
-                $paths = $openapi spec['paths'];
-                $title = $openapi spec['info']['title'];
+                $paths = $openapispec['paths'];
+                $title = $openapispec['info']['title'];
 
                 $apiSlug = $title.replace(/ /g,"-");
                 $apiSlug = $apiSlug.toLowerCase();
 
                 // show the unique host
-                $host = $openapi spec['host'];
+                $host = $openapispec['host'];
 
                 $.each($paths, function(pathKey, pathValue) {
 
