@@ -2,7 +2,7 @@
 	"name": "Pinboard",
 	"description": "Pinboard.In is a social bookmarking site that offers an easy import/ export in del.icio.us format, Nightly database backups to S3, Cached copies of all bookmarks, a &ldquo;to read&rdquo; status for later viewing, private bookmarks and private tags, and simplified bulk editing.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pinboard-icon.png",
-	"x-open-ranking": "0",
+	"x-open-ranking": "1",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
