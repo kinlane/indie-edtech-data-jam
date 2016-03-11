@@ -170,9 +170,6 @@ title: Indie EdTech Data Jam
                     <strong>{{ api.name }}</strong>
                   </td>
                   <td align="right">
-                    <a href="#" onclick="showme('methods-for-{{ pathname }}'); return false;" target="_blank" title="View Endpoint List">
-                      <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-endpoints.png" width="25" align="right" />
-                    </a>
                     {% if openapi_spec_url != null and openapi_spec_url != empty %}
                       <a href="{{ openapi_spec_url }}" target="_blank" title="OpenAPI Spec">
                         <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" align="right" />
@@ -188,6 +185,9 @@ title: Indie EdTech Data Jam
                         <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/building-blocks/x-postman.png" width="25" align="right" />
                       </a>
                     {% endif %}
+                    <a href="#" onclick="showme('methods-for-{{ pathname }}'); return false;" target="_blank" title="View Endpoint List">
+                      <img style="padding-top: 4px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-endpoints.png" width="25" align="right" />
+                    </a>
                   </td>
                 </tr>
                 <tr style="display: none;" id="methods-for-{{ pathname }}">
