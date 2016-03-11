@@ -10,129 +10,130 @@ var $FullCount = 0;
 
 
 function processAPIsJSON($apisjsonURL)
-  {
+{
 
-$apiHumanURL = "";
+  $apiHumanURL = "";
 
-$FullCount = $FullCount + 1;
+  $FullCount = $FullCount + 1;
 
-var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
+  var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
 
-  $masterName = apisJSON['name'];
+    $masterName = apisJSON['name'];
 
-  $masterDesc = apisJSON['description'];
-  $masterLogo = apisJSON['image'];
-  $masterURL = apisJSON['url'];
+    $masterDesc = apisJSON['description'];
+    $masterLogo = apisJSON['image'];
+    $masterURL = apisJSON['url'];
 
-  $masterTags = apisJSON['tags'];
-  $masterIncludes = apisJSON['include'];
+    $masterTags = apisJSON['tags'];
+    $masterIncludes = apisJSON['include'];
 
-     $.each($masterIncludes, function(masterKey, masterValue) {
+    $.each($masterIncludes, function(masterKey, masterValue) {
 
-       $includeName = masterValue['name'];
-       $includeRootUrl = masterValue['url'];
+      $includeName = masterValue['name'];
+      $includeRootUrl = masterValue['url'];
 
-       $FullCount = $FullCount + 1;
+      $FullCount = $FullCount + 1;
 
-     var loadIt2 = $.getJSON($includeRootUrl, function(apisJSON) {
+      var loadIt2 = $.getJSON($includeRootUrl, function(apisJSON) {
 
-      $singleName = apisJSON['name'];
+        $singleName = apisJSON['name'];
 
-      //console.log($singleName);
+        //console.log($singleName);
 
-      $singleDesc = apisJSON['description'];
-      $singleLogo = apisJSON['image'];
-      $singleURL = apisJSON['url'];
+        $singleDesc = apisJSON['description'];
+        $singleLogo = apisJSON['image'];
+        $singleURL = apisJSON['url'];
 
         $singleTags = apisJSON['tags'];
         $singleAPIs = apisJSON['apis'];
 
         $.each($singleAPIs, function(apiKey, apiVal) {
 
-        $apiName = apiVal['name'];
-        $apiDesc = apiVal['description'];
-        $apiLogo = apiVal['image'];
-        $apiHumanURL = apiVal['humanURL'];
-        $apiBaseURL = apiVal['baseURL'];
+          $apiName = apiVal['name'];
+          $apiDesc = apiVal['description'];
+          $apiLogo = apiVal['image'];
+          $apiHumanURL = apiVal['humanURL'];
+          $apiBaseURL = apiVal['baseURL'];
 
-        $apiProperties = apiVal['properties'];
+          $apiProperties = apiVal['properties'];
 
-            $.each($apiProperties, function(propertyKey, propertyValue) {
+          $.each($apiProperties, function(propertyKey, propertyValue) {
 
-                $type = propertyValue['type'];
-                $url = propertyValue['url'];
+            $type = propertyValue['type'];
+            $url = propertyValue['url'];
 
-                if($type=='x-openapi-spec')
-                  {
-            $FullCount = $FullCount + 1;
+            if($type=='x-openapi-spec')
+            {
+              $FullCount = $FullCount + 1;
 
-                  var loadIt3 = $.getJSON($url, function($openapi spec) {
+              console.log(url);
+              var loadIt3 = $.getJSON($url, function($openapi spec) {
 
-                    $paths = $openapi spec['paths'];
-                    $title = $openapi spec['info']['title'];
+                $paths = $openapi spec['paths'];
+                $title = $openapi spec['info']['title'];
 
-              $apiSlug = $title.replace(/ /g,"-");
-              $apiSlug = $apiSlug.toLowerCase();
+                $apiSlug = $title.replace(/ /g,"-");
+                $apiSlug = $apiSlug.toLowerCase();
 
-              // show the unique host
-              $host = $openapi spec['host'];
+                // show the unique host
+                $host = $openapi spec['host'];
 
-                    $.each($paths, function(pathKey, pathValue) {
+                $.each($paths, function(pathKey, pathValue) {
 
-                      $path_name = pathKey;
+                  $path_name = pathKey;
 
-                      $.each(pathValue, function(methodKey, methodValue) {
+                  $.each(pathValue, function(methodKey, methodValue) {
 
-                        $method = methodKey;
+                    $method = methodKey;
 
-                        $method_summary = methodValue['summary'];
-                        $tags = methodValue['tags'];
+                    $method_summary = methodValue['summary'];
+                    $tags = methodValue['tags'];
 
-                        $.each($tags, function($tagKey, $tagValue) {
+                    $.each($tags, function($tagKey, $tagValue) {
 
-                          $tag = $tagValue;
-                    $tagslug = $tag.replace(/ /g,"-");
-                    $tagslug = $tagslug.toLowerCase();
+                      $tag = $tagValue;
+                      $tagslug = $tag.replace(/ /g,"-");
+                      $tagslug = $tagslug.toLowerCase();
 
-                          if(!Array.isArray($Pallette[$tag]))
-                            {
-                      $Pallette[$tag] = [];
+                      if(!Array.isArray($Pallette[$tag]))
+                      {
+                        $Pallette[$tag] = [];
                       }
 
-                    $T = {};
-                    $T['summary'] = $method_summary;
-                    $T['method'] = $method.toUpperCase();
-                    $T['path'] = $path_name;
-                    $T['url'] = $url;
-                    $T['host'] = $host;
+                      $T = {};
+                      $T['summary'] = $method_summary;
+                      $T['method'] = $method.toUpperCase();
+                      $T['path'] = $path_name;
+                      $T['url'] = $url;
+                      $T['host'] = $host;
 
-                    $Pallette[$tag].push($T);
+                      $Pallette[$tag].push($T);
 
-                          });
-                        });
-                      });
                     });
-
-            loadIt3.complete(function() {
-
-              $FullCount = $FullCount - 1;
-                if($FullCount==0){
-                $viewer = JSON.stringify($Pallette, null, 4);
-                document.getElementById("jsonViewerDetails").value = $viewer;
-                sortPage();
-                  }
-
                   });
-                  }
+                });
               });
+
+              loadIt3.complete(function() {
+
+                $FullCount = $FullCount - 1;
+                if($FullCount==0){
+                  $viewer = JSON.stringify($Pallette, null, 4);
+                  document.getElementById("jsonViewerDetails").value = $viewer;
+                  sortPage();
+                }
+
+              });
+            }
+          });
         });
       });
 
-    loadIt2.complete(function() {
+      loadIt2.complete(function() {
 
-      $FullCount = $FullCount - 1;
+        $FullCount = $FullCount - 1;
 
-          });
+      });
 
     });
 
@@ -142,52 +143,52 @@ var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
 
     $FullCount = $FullCount - 1;
 
-        });
+  });
 
-  }
+}
 
 function sortPage()
 {
-$screenJSON = document.getElementById("jsonViewerDetails").value;
-var unordered = JSON.parse($screenJSON);
-const ordered = {};
-Object.keys(unordered).sort().forEach(function(key) {
-  ordered[key] = unordered[key];
-});
+  $screenJSON = document.getElementById("jsonViewerDetails").value;
+  var unordered = JSON.parse($screenJSON);
+  const ordered = {};
+  Object.keys(unordered).sort().forEach(function(key) {
+    ordered[key] = unordered[key];
+  });
 
-$.each(ordered, function(tagKey, tagValue) {
+  $.each(ordered, function(tagKey, tagValue) {
 
-  $thisvalue = tagValue;
+    $thisvalue = tagValue;
 
-  $thisvalue.sort(function(a, b){
+    $thisvalue.sort(function(a, b){
       if(a.summary < b.summary) return -1;
       if(a.summary > b.summary) return 1;
       return 0;
+    });
+
+    ordered[tagKey] = $thisvalue;
+
   });
 
-  ordered[tagKey] = $thisvalue;
+  $.each(ordered, function(tagKey, tagValue) {
 
-  });
+    $tag = tagKey;
+    $tagslug = $tag.replace(/ /g,"-");
+    $tagslug = $tagslug.toLowerCase();
 
-$.each(ordered, function(tagKey, tagValue) {
+    $html = '<p><strong>' + $tag + '</strong></p><ul id="' + $tagslug + '"></ul>';
+    $('#jsonBrowser').append($html);
 
-  $tag = tagKey;
-  $tagslug = $tag.replace(/ /g,"-");
-  $tagslug = $tagslug.toLowerCase();
+    $.each(tagValue, function(methodKey, methodValue) {
 
-  $html = '<p><strong>' + $tag + '</strong></p><ul id="' + $tagslug + '"></ul>';
-  $('#jsonBrowser').append($html);
+      $method_summary = methodValue['summary'];
+      $method = methodValue['method'];
+      $path_name = methodValue['path'];
+      $url = methodValue['url'];
+      $host = methodValue['host'];
 
-  $.each(tagValue, function(methodKey, methodValue) {
-
-    $method_summary = methodValue['summary'];
-    $method = methodValue['method'];
-    $path_name = methodValue['path'];
-    $url = methodValue['url'];
-    $host = methodValue['host'];
-
-    $li = '<li>' + $method_summary + ' - (<strong>' + $method + '</strong>) - <a href="#" title=' + $host + '>' + $path_name + '</a></li>';
-    $('#' + $tagslug).append($li);
+      $li = '<li>' + $method_summary + ' - (<strong>' + $method + '</strong>) - <a href="#" title=' + $host + '>' + $path_name + '</a></li>';
+      $('#' + $tagslug).append($li);
 
     });
   });
