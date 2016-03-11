@@ -3,6 +3,22 @@ layout: page
 title: Indie EdTech Data Jam
 ---
 
+<script type="text/javascript">
+
+  function showme($id)
+    {
+    if(document.getElementById($id).style.display=='none')
+      {
+      document.getElementById($id).style.display = '';
+      }
+    else
+      {
+      document.getElementById($id).style.display = 'none';
+      }
+    }
+
+</script>
+
 <h1>Indie EdTech Data Jam</h1>
 <p>To help me prepare for talks, discussions, and workshops at the Indie EdTech Data Jam at Davidson College this month, I wanted to pull together a collection of APIs, and should be APIs to help students better understand what is APIs, and why they are important.</p>
 <p>As I was talking with the rest of the event planning group, I jotted down a list of APIs that should be present. This was the initial list of APIs I am profiling, a list that I'm sure I will be adding to.</p>
@@ -154,6 +170,9 @@ title: Indie EdTech Data Jam
                     <strong>{{ api.name }}</strong>
                   </td>
                   <td align="right">
+                    <a href="#" onclick="showme('methods-for-{{ pathname }}'); return false;" target="_blank" title="View Endpoint List">
+                      <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-endpoints.png" width="25" align="right" />
+                    </a>
                     {% if openapi_spec_url != null and openapi_spec_url != empty %}
                       <a href="{{ openapi_spec_url }}" target="_blank" title="OpenAPI Spec">
                         <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" align="right" />
@@ -171,7 +190,7 @@ title: Indie EdTech Data Jam
                     {% endif %}
                   </td>
                 </tr>
-                <tr>
+                <tr style="display: none;" id="methods-for-{{ pathname }}">
                   <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
 
                     <ul>
