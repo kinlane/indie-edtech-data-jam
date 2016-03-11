@@ -67,8 +67,8 @@
 			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/yik-yak/apis.json"
 		},
 		{
-			"name": "YouTube for Dev",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube-for-dev/apis.json"
+			"name": "YouTube",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/apis.json"
 		}
 	],
 	"maintainers": [
