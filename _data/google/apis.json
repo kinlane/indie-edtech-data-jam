@@ -105,6 +105,10 @@
 				"Indie EdTech Data Jam"
 			],
 			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-maps-openapi-spec.json"
+				}
 			]
 		},
 		{
