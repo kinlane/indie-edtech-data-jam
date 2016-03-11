@@ -40,9 +40,9 @@ navigation:
   - label1: Home
     link1: /indie-edtech-data-jam/
     size1: 80
-    extend: 0
-    label2:
-    link2:
+    extend: 1
+    label2: JSON
+    link2: /apis.json
     size2: 0
     padding: 0
     decorate: 0
