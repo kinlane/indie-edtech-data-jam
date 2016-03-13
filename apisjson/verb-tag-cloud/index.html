@@ -186,7 +186,7 @@ function processAPIsJSON($apisjsonURL)
             				$tagcount = val['count'];
                     $tagpercentage = val['percentage'];
 
-                    console.log("count/perc: " + $tagcount + "/" + $tagpercentage);
+                  //  console.log("count/perc: " + $tagcount + "/" + $tagpercentage);
 
             				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagpercentage + ' times">' + $name + '</a> (' + $tagpercentage + ' times)</span>';
             				$('#stack-toc').append(html);
@@ -197,8 +197,8 @@ function processAPIsJSON($apisjsonURL)
 
             			$("#stack-cloud").awesomeCloud({
             				"size" : {
-            					"grid" : 12,
-            					"factor" : 1
+            					"grid" : 15,
+            					"factor" : 2
             				},
             				"options" : {
             					"color" : "random-dark",
