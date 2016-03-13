@@ -167,13 +167,6 @@ function processAPIsJSON($apisjsonURL)
                     $percentage = ($tagcount / $Max) * 100;
                     //$percentage = ($percentage / 10) * 100;
                     $percentage = Math.round($percentage);
-                    if($percentage==100){
-                      $percentage = 10;
-                      }
-                    else{
-                      //$percentage = $percentage.toString()[1];
-                      $percentage = ($percentage + "").charAt(0);
-                      }
 
                     $tagsforcloud['tags'][key]['percentage'] = $percentage;
             			});
@@ -198,7 +191,7 @@ function processAPIsJSON($apisjsonURL)
             			$("#stack-cloud").awesomeCloud({
             				"size" : {
             					"grid" : 7,
-            					"factor" : 4
+            					"factor" : 1
             				},
             				"options" : {
             					"color" : "random-dark",
