@@ -164,7 +164,7 @@ function processAPIsJSON($apisjsonURL)
                   $.each($tagsforcloud['tags'], function(key, val) {
             				$tagcount = val['count'];
                     //$percentage = (($tagcount - 1) / ($Max - 1));
-                    $percentage = ($tagcount / $Max) * 100;
+                    $percentage = ($tagcount / 10) * 100;
                     $tagsforcloud['tags'][key]['percentage'] = Math.round($percentage);
             			});
 
@@ -229,6 +229,7 @@ $apisjsonURL = "{{ site.url}}/apis.json";
 processAPIsJSON($apisjsonURL);
 
 </script>
+??what
 <div id="stack-cloud-wrapper" style="width 75%; border: 0px solid #000; margin-left: 0px; margin-right: 50px;">
   <div id="stack-toc" style="text-align: center; width=100%; border: 0px solid #000;"></div>
   <div id="stack-cloud" class="wordcloud" style="height: 350px;"></div>
