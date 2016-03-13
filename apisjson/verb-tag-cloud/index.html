@@ -160,11 +160,11 @@ function processAPIsJSON($apisjsonURL)
                     if($tagcount > $Max){ $Max = $tagcount; }
             			});
                   console.log("max: " + $Max);
-                  
+
                   // Set percentages
                   $.each($tagsforcloud['tags'], function(key, val) {
             				$tagcount = val['count'];
-                    $percentage = $tagcount * $Max/100;
+                    $percentage = $Max * $tagcount / 100;
                     $tagsforcloud['tags'][key]['percentage'] = $percentage;
             			});
 
