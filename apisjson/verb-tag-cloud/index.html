@@ -159,13 +159,12 @@ function processAPIsJSON($apisjsonURL)
             				$tagcount = val['count'];
                     if($tagcount > $Max){ $Max = $tagcount; }
             			});
-                  console.log("max: " + $Max);
-
                   // Set percentages
                   $.each($tagsforcloud['tags'], function(key, val) {
             				$tagcount = val['count'];
                     //$percentage = (($tagcount - 1) / ($Max - 1));
                     $percentage = ($tagcount / $Max) * 100;
+                    $percentage = $percentage.substring(1, 4);
                     $tagsforcloud['tags'][key]['percentage'] = $percentage;
             			});
 
@@ -176,8 +175,7 @@ function processAPIsJSON($apisjsonURL)
             				slug = val['slug'];
             				tagcount = val['count'];
                     tagpercentage = val['percentage'];
-                    console.log("count: " + tagcount);
-                    console.log("percentage: " + tagpercentage);
+                    console.log("count: " + tagcount . "/" . tagpercentage);
             				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + tagcount + ' times">' + name + '</a> (' + tagcount + ' times)</span>';
             				$('#stack-toc').append(html);
                     html = '<span data-weight="' + tagcount + '"><a href="#" title="used ' + tagcount + ' times">' + name + '</a></span>';
