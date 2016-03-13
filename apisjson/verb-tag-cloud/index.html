@@ -170,9 +170,6 @@ function processAPIsJSON($apisjsonURL)
                     if($percentage==100){
                       $percentage = 10;
                       }
-                    else if ($percentage>10){
-                      $percentage = 1;
-                      }
                     else{
                       //$percentage = $percentage.toString()[1];
                       $percentage = ($percentage + "").charAt(1)
