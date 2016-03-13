@@ -97,6 +97,7 @@ function processAPIsJSON($apisjsonURL)
                     $M['name'] = $method;
                     $M['slug'] = $methodslug;
                     $M['count'] = 1;
+                    $M['percentage'] = 0;
 
                     $VerbExist = 0;
                     $.each($tagsforcloud['tags'], function(key, value) {
@@ -152,13 +153,29 @@ function processAPIsJSON($apisjsonURL)
                   //$viewer = JSON.stringify($Pallette, null, 4);
                   //document.getElementById("jsonViewerDetails").value = $viewer;
 
+                  // Let's get largest
+                  $Max = 0;
+                  $.each($tagsforcloud['tags'], function(key, val) {
+            				$tagcount = val['count'];
+                    if($tagcount > $Max){ $Max = $tagcount; }
+            			});
+
+                  // Set percentages
+                  $.each($tagsforcloud['tags'], function(key, val) {
+            				$tagcount = val['count'];
+                    $percentage = tagcount * $Max/100;
+                    $tagsforcloud['tags'][key]['percentage'] = percentage;
+            			});
+
                   $.each($tagsforcloud['tags'], function(key, val) {
 
             				tag = val['tag'];
             				name = val['name'];
             				slug = val['slug'];
             				tagcount = val['count'];
-
+                    tagpercentage = val['percentage'];
+                    console.log("count: " + tagcount);
+                    console.log("percentage: " + tagpercentage);
             				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + tagcount + ' times">' + name + '</a> (' + tagcount + ' times)</span>';
             				$('#stack-toc').append(html);
                     html = '<span data-weight="' + tagcount + '"><a href="#" title="used ' + tagcount + ' times">' + name + '</a></span>';
@@ -168,7 +185,7 @@ function processAPIsJSON($apisjsonURL)
 
             			$("#stack-cloud").awesomeCloud({
             				"size" : {
-            					"grid" : 250,
+            					"grid" : 1000,
             					"factor" : 1
             				},
             				"options" : {
@@ -210,7 +227,7 @@ $apisjsonURL = "{{ site.url}}/apis.json";
 processAPIsJSON($apisjsonURL);
 
 </script>
-250-1
+1000-1
 <div id="stack-cloud-wrapper" style="width 75%; border: 0px solid #000; margin-left: 0px; margin-right: 50px;">
   <div id="stack-toc" style="text-align: center; width=100%; border: 0px solid #000;"></div>
   <div id="stack-cloud" class="wordcloud" style="height: 350px;"></div>
