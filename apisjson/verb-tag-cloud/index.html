@@ -181,7 +181,7 @@ function processAPIsJSON($apisjsonURL)
 
                     console.log("count/perc: " + $tagcount + "/" + $tagpercentage);
 
-            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagpercentage + ' times">' + $name + '</a> (' + $tagpercentage + ' times)</span>';
+            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagcount + ' times">' + $name + '</a> (' + $tagcount + ' times)</span>';
             				$('#stack-toc').append(html);
                     html = '<span data-weight="' + $tagpercentage + '"><a href="#" name="' + $name + '">' + $name + '</a></span>';
                     $('#stack-cloud').append(html);
