@@ -169,7 +169,7 @@ function processAPIsJSON($apisjsonURL)
             			$("#stack-cloud").awesomeCloud({
             				"size" : {
             					"grid" : 25,
-            					"factor" : 1
+            					"factor" : 5
             				},
             				"options" : {
             					"color" : "random-dark",
@@ -210,7 +210,7 @@ $apisjsonURL = "{{ site.url}}/apis.json";
 processAPIsJSON($apisjsonURL);
 
 </script>
-25
+25-5
 <div id="stack-cloud-wrapper" style="width 75%; border: 0px solid #000; margin-left: 0px; margin-right: 50px;">
   <div id="stack-toc" style="text-align: center; width=100%; border: 0px solid #000;"></div>
   <div id="stack-cloud" class="wordcloud" style="height: 350px;"></div>
