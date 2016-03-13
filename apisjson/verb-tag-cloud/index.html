@@ -1,0 +1,217 @@
+---
+layout: page
+title: 'Verb Tag Cloud'
+---
+<h1>API Resources Verb Tag Cloud</h1>
+<p>This is a listing of all of the verbs used across the APIs available in <a href="/apis.json">this projects APIs.json</a>. Their sized is based upon the count of each verbs usage. You can also view <a href="/apis/"><strong>All</strong></a>, <a href="/apisjson/bycollection/"><strong>By Collection</strong></a>, or by <a href="/apisjson/bytag/"><strong>By Tag</strong></a>.</p>
+<script type="text/jscript">
+
+var $apiurl = "";
+var $Pallette = {};
+var $FullCount = 0;
+var $tagsforcloud = {};
+$tagsforcloud['tags'] = [];
+
+function processAPIsJSON($apisjsonURL)
+{
+
+  $apiHumanURL = "";
+
+  $FullCount = $FullCount + 1;
+
+  var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
+
+    $masterName = apisJSON['name'];
+
+    $masterDesc = apisJSON['description'];
+    $masterLogo = apisJSON['image'];
+    $masterURL = apisJSON['url'];
+
+    $masterTags = apisJSON['tags'];
+    $masterIncludes = apisJSON['include'];
+
+    $.each($masterIncludes, function(masterKey, masterValue) {
+
+      $includeName = masterValue['name'];
+      $includeRootUrl = masterValue['url'];
+
+      $FullCount = $FullCount + 1;
+
+      var loadIt2 = $.getJSON($includeRootUrl, function(apisJSON) {
+
+        $singleName = apisJSON['name'];
+
+        //console.log($singleName);
+
+        $singleDesc = apisJSON['description'];
+        $singleLogo = apisJSON['image'];
+        $singleURL = apisJSON['url'];
+
+        $singleTags = apisJSON['tags'];
+        $singleAPIs = apisJSON['apis'];
+
+        $.each($singleAPIs, function(apiKey, apiVal) {
+
+          $apiName = apiVal['name'];
+          $apiDesc = apiVal['description'];
+          $apiLogo = apiVal['image'];
+          $apiHumanURL = apiVal['humanURL'];
+          $apiBaseURL = apiVal['baseURL'];
+
+          $apiProperties = apiVal['properties'];
+
+          $.each($apiProperties, function(propertyKey, propertyValue) {
+
+            $type = propertyValue['type'];
+            $url = propertyValue['url'];
+
+            if($type=='x-openapi-spec')
+            {
+
+              $FullCount = $FullCount + 1;
+
+              var loadIt3 = $.getJSON($url, function($openapispec) {
+
+                $paths = $openapispec['paths'];
+                $title = $openapispec['info']['title'];
+
+                $apiSlug = $title.replace(/ /g,"-");
+                $apiSlug = $apiSlug.toLowerCase();
+
+                // show the unique host
+                $host = $openapispec['host'];
+
+                $.each($paths, function(pathKey, pathValue) {
+
+                  $path_name = pathKey;
+
+                  $.each(pathValue, function(methodKey, methodValue) {
+
+                    $method = methodKey;
+                    $method = $method.toUpperCase();
+                    $methodslug = $method.replace(/ /g,"-");
+                    $methodslug = $methodslug.toLowerCase();
+
+                    $M = {};
+                    $M['tag'] = $method;
+                    $M['name'] = $method;
+                    $M['slug'] = $methodslug;
+                    $M['count'] = 1;
+
+                    $VerbExist = 0;
+                    $.each($tagsforcloud['tags'], function(key, value) {
+                      if(value['tag'] == $method)
+                        {
+                        $VerbExist = 1;
+                        $verbcount = $tagsforcloud['tags'][key]['count'];
+                        $verbcount = $verbcount + 1;
+                        $tagsforcloud['tags'][key]['count'] = $verbcount ;
+                        }
+                    });
+
+                    // Add It Because It Doesn't Exist
+                    if($VerbExist==0)
+                      {
+                      $tagsforcloud['tags'].push($M);
+                      }
+
+                    // Do Not Need Below, but wil keep
+                    $method_summary = methodValue['summary'];
+                    $tags = methodValue['tags'];
+
+                    $.each($tags, function($tagKey, $tagValue) {
+
+                      $tag = $tagValue;
+                      $tagslug = $tag.replace(/ /g,"-");
+                      $tagslug = $tagslug.toLowerCase();
+
+                      if(!Array.isArray($Pallette[$tag]))
+                        {
+                          $Pallette[$tag] = [];
+                        }
+
+                      $T = {};
+                      $T['summary'] = $method_summary;
+                      $T['method'] = $method;
+                      $T['path'] = $path_name;
+                      $T['url'] = $url;
+                      $T['host'] = $host;
+
+                      $Pallette[$tag].push($T);
+
+                    });
+                  });
+                });
+              });
+
+              loadIt3.complete(function() {
+
+                $FullCount = $FullCount - 1;
+                if($FullCount==0){
+
+                  //$viewer = JSON.stringify($Pallette, null, 4);
+                  //document.getElementById("jsonViewerDetails").value = $viewer;
+
+                  $.each($tagsforcloud['tags'], function(key, val) {
+
+            				tag = val['tag'];
+            				name = val['name'];
+            				slug = val['slug'];
+            				tagcount = val['count'];
+
+            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + tagcount + ' times">' + name + '</a> (' + tagcount + ' times)</span>';
+            				$('#stack-toc').append(html);
+                    html = '<span data-weight="' + tagcount + '"><a href="#" title="used ' + tagcount + ' times">' + name + '</a></span>';
+                    $('#stack-cloud').append(html);
+
+            			});
+
+            			$("#stack-cloud").awesomeCloud({
+            				"size" : {
+            					"grid" : 7,
+            					"factor" : 4
+            				},
+            				"options" : {
+            					"color" : "random-dark",
+            					"rotationRatio" : 0
+            				},
+            				"font" : "'Times New Roman', Times, serif",
+            				"shape" : "square"
+            			});
+
+                }
+
+              });
+            }
+          });
+        });
+      });
+
+      loadIt2.complete(function() {
+
+        $FullCount = $FullCount - 1;
+
+      });
+
+    });
+
+  });
+
+  loadIt.complete(function() {
+
+    $FullCount = $FullCount - 1;
+
+  });
+
+}
+
+$apisjsonURL = "{{ site.url}}/apis.json";
+//console.log("loading..." + $apisjsonURL);
+processAPIsJSON($apisjsonURL);
+
+</script>
+<div id="stack-cloud-wrapper" style="width 75%; border: 0px solid #000; margin-left: 0px; margin-right: 50px;">
+  <div id="stack-toc" style="text-align: center; width=100%; border: 0px solid #000;"></div>
+  <div id="stack-cloud" class="wordcloud" style="height: 250px;"></div>
+</div>
+<p>This is a simple example of how APIs.json can be used to better understand the often large surface area of the APIs we are increasingly depending on.</p>
