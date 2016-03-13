@@ -153,12 +153,13 @@ function processAPIsJSON($apisjsonURL)
                   //$viewer = JSON.stringify($Pallette, null, 4);
                   //document.getElementById("jsonViewerDetails").value = $viewer;
 
-                  // Let's get largest
+                  // Let's get max
                   $Max = 0;
                   $.each($tagsforcloud['tags'], function(key, val) {
             				$tagcount = val['count'];
                     if($tagcount > $Max){ $Max = $tagcount; }
             			});
+
                   // Set percentages
                   $.each($tagsforcloud['tags'], function(key, val) {
             				$tagcount = val['count'];
@@ -179,7 +180,7 @@ function processAPIsJSON($apisjsonURL)
 
             				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagcount + ' times">' + $name + '</a> (' + $tagpercentage + ' times)</span>';
             				$('#stack-toc').append(html);
-                    html = '<span data-weight="' + $tagcount + '"><a href="#" title="used ' + $tagcount + ' times">' + name + '</a></span>';
+                    html = '<span data-weight="' + $tagpercentage + '"><a href="#" title="used ' + $tagcount + ' times">' + name + '</a></span>';
                     $('#stack-cloud').append(html);
 
             			});
