@@ -176,8 +176,8 @@ function processAPIsJSON($apisjsonURL)
             				$tagcount = val['count'];
                     $tagpercentage = val['percentage'];
 
-                    console.log("count/perc: " + $tagcount . "/" . $tagpercentage);
-                    
+                    console.log("count/perc: " + $tagcount + "/" + $tagpercentage);
+
             				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagcount + ' times">' + $name + '</a> (' + $tagpercentage + ' times)</span>';
             				$('#stack-toc').append(html);
                     html = '<span data-weight="' + $tagcount + '"><a href="#" title="used ' + $tagcount + ' times">' + name + '</a></span>';
