@@ -170,15 +170,17 @@ function processAPIsJSON($apisjsonURL)
 
                   $.each($tagsforcloud['tags'], function(key, val) {
 
-            				tag = val['tag'];
-            				name = val['name'];
-            				slug = val['slug'];
-            				tagcount = val['count'];
-                    tagpercentage = val['percentage'];
-                    console.log("count: " + tagcount . "/" . tagpercentage);
-            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + tagcount + ' times">' + name + '</a> (' + tagcount + ' times)</span>';
+            				$tag = val['tag'];
+            				$name = val['name'];
+            				$slug = val['slug'];
+            				$tagcount = val['count'];
+                    $tagpercentage = val['percentage'];
+
+                    console.log("count/perc: " + $tagcount . "/" . $tagpercentage);
+                    
+            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagcount + ' times">' + $name + '</a> (' + $tagpercentage + ' times)</span>';
             				$('#stack-toc').append(html);
-                    html = '<span data-weight="' + tagcount + '"><a href="#" title="used ' + tagcount + ' times">' + name + '</a></span>';
+                    html = '<span data-weight="' + $tagcount + '"><a href="#" title="used ' + $tagcount + ' times">' + name + '</a></span>';
                     $('#stack-cloud').append(html);
 
             			});
