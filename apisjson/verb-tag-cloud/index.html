@@ -167,9 +167,9 @@ function processAPIsJSON($apisjsonURL)
                     $percentage = ($tagcount / $Max) * 100;
                     //$percentage = ($percentage / 10) * 100;
                     $percentage = Math.round($percentage);
-                    
 
-                    $tagsforcloud['tags'][key]['percentage'] = percentage;
+
+                    $tagsforcloud['tags'][key]['percentage'] = $percentage;
             			});
 
                   $.each($tagsforcloud['tags'], function(key, val) {
