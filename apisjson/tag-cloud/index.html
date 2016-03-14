@@ -119,7 +119,7 @@ function processAPIsJSON($apisjsonURL)
 
                       $TagExist = 0;
                       $.each($tagsforcloud['tags'], function(key, value) {
-                        if(value['tag'] == $method)
+                        if(value['tag'] == $tag)
                           {
                           $TagExist = 1;
                           $verbcount = $tagsforcloud['tags'][key]['count'];
@@ -175,8 +175,8 @@ function processAPIsJSON($apisjsonURL)
 
                     //console.log("count/perc: " + $tagcount + "/" + $tagpercentage);
 
-            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagcount + ' times">' + $name + '</a> (' + $tagcount + ' times)</span>';
-            				$('#stack-toc').append(html);
+            				//html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagcount + ' times">' + $name + '</a> (' + $tagcount + ' times)</span>';
+            				//$('#stack-toc').append(html);
                     html = '<span data-weight="' + $tagpercentage + '"><a href="#" name="' + $name + '">' + $name + ' (' + $tagcount + ')</a></span>';
                     $('#stack-cloud').append(html);
 
