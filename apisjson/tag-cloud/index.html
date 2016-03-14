@@ -173,7 +173,7 @@ function processAPIsJSON($apisjsonURL)
             				$tagcount = val['count'];
                     $tagpercentage = val['percentage'];
 
-                    console.log("count/perc: " + $tagcount + "/" + $tagpercentage);
+                  //  console.log("count/perc: " + $tagcount + "/" + $tagpercentage);
 
             				//html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagcount + ' times">' + $name + '</a> (' + $tagcount + ' times)</span>';
             				//$('#stack-toc').append(html);
@@ -221,60 +221,13 @@ function processAPIsJSON($apisjsonURL)
 
 }
 
-function sortPage()
-{
-  $screenJSON = document.getElementById("jsonViewerDetails").value;
-  var unordered = JSON.parse($screenJSON);
-  const ordered = {};
-  Object.keys(unordered).sort().forEach(function(key) {
-    ordered[key] = unordered[key];
-  });
-
-  $.each(ordered, function(tagKey, tagValue) {
-
-    $thisvalue = tagValue;
-
-    $thisvalue.sort(function(a, b){
-      if(a.summary < b.summary) return -1;
-      if(a.summary > b.summary) return 1;
-      return 0;
-    });
-
-    ordered[tagKey] = $thisvalue;
-
-  });
-
-  $.each(ordered, function(tagKey, tagValue) {
-
-    $tag = tagKey;
-    $tagslug = $tag.replace(/ /g,"-");
-    $tagslug = $tagslug.toLowerCase();
-
-    $html = '<p><strong>' + $tag + '</strong></p><ul id="' + $tagslug + '"></ul>';
-    $('#jsonBrowser').append($html);
-
-    $.each(tagValue, function(methodKey, methodValue) {
-
-      $method_summary = methodValue['summary'];
-      $method = methodValue['method'];
-      $path_name = methodValue['path'];
-      $url = methodValue['url'];
-      $host = methodValue['host'];
-
-      $li = '<li>' + $method_summary + ' - (<strong>' + $method + '</strong>) - <a href="#" title=' + $host + '>' + $path_name + '</a></li>';
-      $('#' + $tagslug).append($li);
-
-    });
-  });
-}
-
-
 $apisjsonURL = "{{ site.url}}/apis.json";
 //console.log("loading..." + $apisjsonURL);
 processAPIsJSON($apisjsonURL);
 
 </script>
 <p>This is a listing of API resources available in <a href="/apis.json">this projects APIs.json</a>, organized by tag.</p>
-<div id="jsonBrowser"></div>
-<!-- For Viewing-->
-<textarea rows="10" cols="100" id="jsonViewerDetails" style="display: none;"></textarea>
+<div id="stack-cloud-wrapper" style="width 75%; border: 0px solid #000; margin-left: 0px; margin-right: 150px;">
+  <div id="stack-toc" style="text-align: center; width=100%; border: 0px solid #000;"></div>
+  <div id="stack-cloud" class="wordcloud" style="height: 250px;"></div>
+</div>
