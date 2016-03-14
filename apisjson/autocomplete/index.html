@@ -1,0 +1,165 @@
+---
+layout: page
+title: 'By Tag'
+---
+
+<h1>APIs.json Autocomplete</h1>
+<p>This is an exmple of autocomplete done client side with <a href="/apis.json">this projects APIs.json</a>, providing access to the paths, verbs, and tags contained within an APIs.json collection.</p>
+<script type="text/jscript">
+
+var $apiurl = "";
+var $Pallette = {};
+var $FullCount = 0;
+var $pathArray = [];
+var $verbArray = [];
+var $tagArray = [];
+
+function processAPIsJSON($apisjsonURL)
+{
+
+  $apiHumanURL = "";
+
+  $FullCount = $FullCount + 1;
+
+  var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
+
+    $masterName = apisJSON['name'];
+
+    $masterDesc = apisJSON['description'];
+    $masterLogo = apisJSON['image'];
+    $masterURL = apisJSON['url'];
+
+    $masterTags = apisJSON['tags'];
+    $masterIncludes = apisJSON['include'];
+
+    $.each($masterIncludes, function(masterKey, masterValue) {
+
+      $includeName = masterValue['name'];
+      $includeRootUrl = masterValue['url'];
+
+      $FullCount = $FullCount + 1;
+
+      var loadIt2 = $.getJSON($includeRootUrl, function(apisJSON) {
+
+        $singleName = apisJSON['name'];
+
+        //console.log($singleName);
+
+        $singleDesc = apisJSON['description'];
+        $singleLogo = apisJSON['image'];
+        $singleURL = apisJSON['url'];
+
+        $singleTags = apisJSON['tags'];
+        $singleAPIs = apisJSON['apis'];
+
+        $.each($singleAPIs, function(apiKey, apiVal) {
+
+          $apiName = apiVal['name'];
+          $apiDesc = apiVal['description'];
+          $apiLogo = apiVal['image'];
+          $apiHumanURL = apiVal['humanURL'];
+          $apiBaseURL = apiVal['baseURL'];
+
+          $apiProperties = apiVal['properties'];
+
+          $.each($apiProperties, function(propertyKey, propertyValue) {
+
+            $type = propertyValue['type'];
+            $url = propertyValue['url'];
+
+            if($type=='x-openapi-spec')
+            {
+              $FullCount = $FullCount + 1;
+
+              var loadIt3 = $.getJSON($url, function($openapispec) {
+
+                $paths = $openapispec['paths'];
+                $title = $openapispec['info']['title'];
+
+                $apiSlug = $title.replace(/ /g,"-");
+                $apiSlug = $apiSlug.toLowerCase();
+
+                // show the unique host
+                $host = $openapispec['host'];
+
+                $.each($paths, function(pathKey, pathValue) {
+
+                  $path_name = pathKey;
+
+                  $pathexist = 0;
+                  $.each($verbArray, function(key, value) {if(value == $path_name){ $pathexist = 1; }});
+                  if($pathexist==0) {  $pathArray.push($path_name); }
+
+                  $.each(pathValue, function(methodKey, methodValue) {
+
+                    $method = methodKey;
+                    $method = $method.toUpperCase();
+
+                    $methodexist = 0;
+                    $.each($verbArray, function(key, value) { if(value == $method){ $methodexist = 1; }});
+                    if($methodexist==0) { $verbArray.push($method); }
+
+                    $method_summary = methodValue['summary'];
+                    $tags = methodValue['tags'];
+
+                    $.each($tags, function($tagKey, $tagValue) {
+
+                      $tag = $tagValue;
+                      $tag = $tag.trim();
+                      $tagslug = $tag.replace(/ /g,"-");
+                      $tagslug = $tagslug.toLowerCase();
+                      $tag = $tag.charAt(0).toUpperCase() + $tag.slice(1);
+
+                      $tagexists = 0;
+                      $.each($tagArray, function(key, value) { if(value == $tag){ $tagexists = 1; } });
+                      if($tagexists==0) { $tagArray.push($tag);  }
+
+                    });
+                  });
+                });
+              });
+
+              loadIt3.complete(function() {
+
+                $FullCount = $FullCount - 1;
+                if($FullCount==0){
+
+                  $pathArray.sort();
+                  $verbArray.sort();
+                  $tagArray.sort();
+
+                  // Load AutoComplete
+                  $(function() {
+                    $( "#paths" ).autocomplete({ source: $pathArray });
+                    $( "#verbs" ).autocomplete({ source: $verbArray });
+                    $( "#tags" ).autocomplete({ source: $tagArray });
+                  });
+                }
+              });
+            }
+          });
+        });
+      });
+
+      loadIt2.complete(function() {
+        $FullCount = $FullCount - 1;
+      });
+    });
+  });
+
+  loadIt.complete(function() {
+    $FullCount = $FullCount - 1;
+  });
+
+}
+
+$apisjsonURL = "/apis.json";
+processAPIsJSON($apisjsonURL);
+
+</script>
+
+<form action="#p" method="get">
+  <p><strong>Path:</strong> <input id="paths" type="text" style="width: 350px; font-size: 14px;" name="Paths" value="" /></p>
+  <p><strong>Verb:</strong> <input id="verbs" type="text" style="width: 50px; font-size: 14px;" name="Verbs" value="" /></p>
+  <p><strong>Tags:</strong> <input id="tags" type="text" style="width: 300px; font-size: 14px;" name="Tag" value="" /></p>
+</form>
