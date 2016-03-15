@@ -64,6 +64,15 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
+  - label1: ProgrammableWeb
+    link1: /indie-edtech-data-jam/programmable-web/
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 60
+    padding: 5
+    decorate: 0
   - label1: APIs
     link1: /indie-edtech-data-jam/apis/
     size1: 80
