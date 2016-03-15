@@ -37,12 +37,12 @@ project_summary: This is a research project to help me better understand exactly
 
 # Navigation
 navigation:
-  - label1: Home
+  - label1: Project Overview
     link1: /indie-edtech-data-jam/
     size1: 80
-    extend: 1
-    label2: JSON
-    link2: /apis.json
+    extend: 0
+    label2:
+    link2:
     size2: 0
     padding: 0
     decorate: 0
@@ -53,7 +53,7 @@ navigation:
     label2:
     link2:
     size2: 60
-    padding: 5
+    padding: 20
     decorate: 0
   - label1: What is an API?
     link1: /indie-edtech-data-jam/what-is-an-api/
@@ -125,7 +125,7 @@ navigation:
     label2:
     link2:
     size2: 10
-    padding: 12
+    padding: 20
     decorate: 1
 
 # Footer Navigation
