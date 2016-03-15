@@ -1,0 +1,33 @@
+---
+layout: page
+title: Indie EdTech Data Jam
+---
+
+<script type="text/javascript">
+
+function callpage($url,$contentType)
+    {
+
+    $url = 'http://website.apievangelist.com' + $url;
+    document.getElementById("loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+    $.ajax({
+      url: $url,
+      contentType: $contentType
+    })
+      .done(function( data ) {
+        document.getElementById("showresponse").value = data;
+      });
+    }
+
+</script>
+
+<h1>My Website (A Demo)</h1>
+<p>This is my public website, where I share information, and the products and services I offer.</p>
+<ul>
+    <li><a href="/blog/" style="font-size: 16px; font-weight: bold; color:#000; text-decoration: none;">Blog</a> (<a href="#" onclick="callpage('/blog/','text/html'); return false;">HTML</a>) (<a href="#" onclick="callpage('/blog/','application/json'); return false;">JSON</a>) (<a href="#" onclick="callpage('/blog/','application/xml'); return false;">XML</a>) (<a href="#" onclick="callpage('/blog/','application/rss+xml'); return false;">RSS</a>)</li>
+    <li><a href="/products/" style="font-size: 16px; font-weight: bold; color:#000; text-decoration: none;">Products</a> (<a href="#" onclick="callpage('/products/','text/html'); return false;">HTML</a>) (<a href="#" onclick="callpage('/products/','application/json'); return false;">JSON</a>) (<a href="#" onclick="callpage('/products/','application/xml'); return false;">XML</a>) (<a href="#" onclick="callpage('/products/','application/rss+xml'); return false;">RSS</a>)</li>
+    <li><a href="/services/" style="font-size: 16px; font-weight: bold; color:#000; text-decoration: none;">Services</a> (<a href="#" onclick="callpage('/services/','text/html'); return false;">HTML</a>) (<a href="#" onclick="callpage('/services/','application/json'); return false;">JSON</a>) (<a href="#" onclick="callpage('/services/','application/xml'); return false;">XML</a>) (<a href="#" onclick="callpage('/services/','application/rss+xml'); return false;">RSS</a>)</li>
+</ul>
+<p>This is meant to be a simple, demonstration in how the web, content negotiation, and APIs work.</p>
+<div id="loading" style="margin-bottom: 5px;"></div>
+<textarea cols="100" rows="40" id="showresponse"></textarea>
