@@ -31,12 +31,13 @@ function callpage($url,$contentType)
 
 <h1>Basic Website Content Demo</h1>
 <p>This is a working demo to help understand the evolution from web to API, showing website return HTML for humans, and RSS, XML, JSON, and other machine readable content is meant for other application, systems, computers, and mobile devices to use.</p>
+<p>Click on HTML, RSS, XML, or JSON, and it will call the page, and load below:</p>
 <ul>
     <li>
       <a href="http://website.apievangelist.com/blog/" target="_blank" style="font-size: 16px; font-weight: bold; color:#000; text-decoration: none;">Blog</a>
       (<a href="#" onclick="callpage('/blog/','text/html'); return false;">HTML</a>)
       (<a href="#" onclick="callpage('/blog/','application/rss+xml'); return false;">RSS</a>)
-      (<a href="#" onclick="callpage('/blog/','application/xml'); return false;">XML</a>) 
+      (<a href="#" onclick="callpage('/blog/','application/xml'); return false;">XML</a>)
       (<a href="#" onclick="callpage('/blog/','application/json'); return false;">JSON</a>)
     </li>
     <li>
