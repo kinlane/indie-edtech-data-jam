@@ -9,7 +9,15 @@ function callpage($url,$contentType)
     {
 
     $url = 'http://website.apievangelist.com' + $url;
-    document.getElementById("loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+    if(contentType=='text/html')
+      {
+      document.getElementById("loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+      }
+    else
+      {
+      document.getElementById("loading").innerHTML = '<strong>Loading:</strong> ' + $url + "....but sending with a header Content-Type: " + contentType;
+      }
+      
     $.ajax({
       url: $url,
       contentType: $contentType
