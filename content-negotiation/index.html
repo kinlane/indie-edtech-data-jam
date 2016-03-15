@@ -15,9 +15,9 @@ function callpage($url,$contentType)
       }
     else
       {
-      document.getElementById("loading").innerHTML = '<strong>Loading:</strong> ' + $url + "....but sending with a header Content-Type: " + contentType;
+      document.getElementById("loading").innerHTML = '<strong>Loading:</strong> ' + $url + "....but sending with a header Content-Type: " + $contentType;
       }
-      
+
     $.ajax({
       url: $url,
       contentType: $contentType
