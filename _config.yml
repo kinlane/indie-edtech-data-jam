@@ -46,8 +46,8 @@ navigation:
     size2: 0
     padding: 0
     decorate: 0
-  - label1: Websites
-    link1: /indie-edtech-data-jam/websites/
+  - label1: What is a website?
+    link1: /indie-edtech-data-jam/what-is-a-website/
     size1: 80
     extend: 0
     label2:
@@ -55,8 +55,8 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
-  - label1: Website Content
-    link1: /indie-edtech-data-jam/content-negotiation/
+  - label1: What is an API?
+    link1: /indie-edtech-data-jam/what-is-an-api/
     size1: 80
     extend: 0
     label2:
@@ -64,7 +64,16 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
-  - label1: ProgrammableWeb
+  - label1: The History of APIs
+    link1: /indie-edtech-data-jam/history-of-apis/
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 60
+    padding: 5
+    decorate: 0
+  - label1: The Programmable Web
     link1: /indie-edtech-data-jam/programmable-web/
     size1: 80
     extend: 0
@@ -73,7 +82,25 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
-  - label1: APIs
+  - label1: The University API
+    link1: /indie-edtech-data-jam/unversitiy-api/
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 60
+    padding: 5
+    decorate: 0
+  - label1: The Personal APIs
+    link1: /indie-edtech-data-jam/personal-apis/
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 60
+    padding: 5
+    decorate: 0
+  - label1: Some APIs In Your World
     link1: /indie-edtech-data-jam/apis/
     size1: 80
     extend: 0
