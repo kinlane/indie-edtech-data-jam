@@ -9,7 +9,7 @@ function callpage($url,$contentType)
     {
 
     $url = 'http://website.apievangelist.com' + $url;
-    if(contentType=='text/html')
+    if($contentType=='text/html')
       {
       document.getElementById("loading").innerHTML = '<strong>Loading:</strong> ' + $url;
       }
