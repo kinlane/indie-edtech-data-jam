@@ -53,7 +53,7 @@ navigation:
     label2:
     link2:
     size2: 60
-    padding: 20
+    padding: 25
     decorate: 0
   - label1: What is an API?
     link1: /indie-edtech-data-jam/what-is-an-api/
@@ -109,14 +109,14 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
-  - label1: Updates
+  - label1: Some Stories
     link1: /indie-edtech-data-jam/updates/
     size1: 80
     extend: 1
     label2: RSS
     link2: /indie-edtech-data-jam/updates.xml
     size2: 60
-    padding: 5
+    padding: 15
     decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
@@ -125,7 +125,7 @@ navigation:
     label2:
     link2:
     size2: 10
-    padding: 20
+    padding: 25
     decorate: 1
 
 # Footer Navigation
