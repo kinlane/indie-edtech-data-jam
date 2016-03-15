@@ -47,7 +47,7 @@ navigation:
     padding: 0
     decorate: 0
   - label1: Websites
-    link1: /websites/
+    link1: /indie-edtech-data-jam/websites/
     size1: 80
     extend: 0
     label2:
@@ -56,7 +56,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: Website Content
-    link1: /content-negotiation/
+    link1: /indie-edtech-data-jam/content-negotiation/
     size1: 80
     extend: 0
     label2:
@@ -65,7 +65,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: APIs
-    link1: /apis/
+    link1: /indie-edtech-data-jam/apis/
     size1: 80
     extend: 0
     label2:
