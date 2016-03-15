@@ -23,7 +23,7 @@ tags_path : /tags.html
 # Masthead title
 masthead_link: http://kinlane.github.io/indie-edtech-data-jam/
 masthead_font_size: 85
-masthead_title: '{"Data Jam"}'
+masthead_title: '{"APIs"}'
 
 # Feature
 feature_title: API Design Providers Guide
