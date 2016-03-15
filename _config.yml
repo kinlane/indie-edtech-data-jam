@@ -82,6 +82,15 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
+  - label1: Some APIs In Your World
+    link1: /indie-edtech-data-jam/apis/
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 60
+    padding: 5
+    decorate: 0    
   - label1: The University API
     link1: /indie-edtech-data-jam/unversitiy-api/
     size1: 80
@@ -93,15 +102,6 @@ navigation:
     decorate: 0
   - label1: The Personal APIs
     link1: /indie-edtech-data-jam/personal-apis/
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 60
-    padding: 5
-    decorate: 0
-  - label1: Some APIs In Your World
-    link1: /indie-edtech-data-jam/apis/
     size1: 80
     extend: 0
     label2:
