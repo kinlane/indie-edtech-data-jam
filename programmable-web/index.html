@@ -16,7 +16,7 @@ title: The Programmable Web
   function getAPI($url,$contentType)
       {
       $url = 'http://website.apievangelist.com' + $url;
-      document.getElementById("get_loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+      document.getElementById("get_loading").innerHTML = '<strong>/GET</strong> ' + $url;
       $.ajax({
         url: $url,
         contentType: $contentType
@@ -28,7 +28,7 @@ title: The Programmable Web
 </script>
 <table width="80%" style="padding-left: 25px;">
   <tr>
-    <td width="50%">
+    <td width="35%">
       <form action="#" name="GET">
       <input type="button" name="GETButton" value="GET" onclick="getAPI('/products/','application/json'); return false;">
       </form>
@@ -60,7 +60,7 @@ title: The Programmable Web
       $postData['price'] = document.getElementById('post_price').value;
       $JSONData = JSON.stringify($postData);
 
-      document.getElementById("post_loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+      document.getElementById("post_loading").innerHTML = '<strong>/POST</strong> ' + $url;
 
       $.ajax({
         url: $url,
@@ -75,7 +75,7 @@ title: The Programmable Web
 </script>
 <table width="100%" style="margin-left: 25px;">
   <tr>
-    <td width="50%">
+    <td width="35%">
       <form action="#" name="POST">
         <table>
           <tr>
@@ -130,7 +130,7 @@ title: The Programmable Web
       $putData['price'] = document.getElementById('put_price').value;
       $JSONData = JSON.stringify($putData);
 
-      document.getElementById("put_loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+      document.getElementById("put_loading").innerHTML = '<strong>/PUT</strong> ' + $url;
 
       $.ajax({
         url: $url,
@@ -145,7 +145,7 @@ title: The Programmable Web
 </script>
 <table width="100%" style="margin-left: 25px;">
   <tr>
-    <td width="50%">
+    <td width="35%">
       <form action="#" name="PUT">
         <table>
           <tr>
@@ -196,7 +196,7 @@ function deleteAPI($url,$contentType)
     $deleteData['secret'] = document.getElementById('delete_secret').value;
     $JSONData = JSON.stringify($deleteData);
 
-    document.getElementById("delete_loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+    document.getElementById("delete_loading").innerHTML = '<strong>/DELETE</strong> ' + $url;
 
     $.ajax({
       url: $url,
@@ -211,7 +211,7 @@ function deleteAPI($url,$contentType)
 </script>
 <table width="100%" style="margin-left: 25px;">
   <tr>
-    <td width="50%">
+    <td width="35%">
       <form action="#" name="DELETE">
         <table>
           <tr>
