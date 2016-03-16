@@ -73,29 +73,29 @@ title: The Programmable Web
         });
       }
 </script>
-<table width="80%" style="padding-left: 25px;">
+<table width="100%" style="margin-left: 25px;">
   <tr>
     <td width="50%">
       <form action="#" name="POST">
         <table>
           <tr>
-            <td><strong>secret:</strong></td>
+            <td align="right"><strong>secret:</strong></td>
             <td><input style="width: 100%;" type="text" id="post_secret" name="secret" value="" size="25" /></td>
           </tr>
           <tr>
-            <td><strong>number:</strong></td>
+            <td align="right"><strong>number:</strong></td>
             <td><input style="width: 100%;" type="text" id="post_number" name="name" value="" size="25" /></td>
           </tr>
           <tr>
-            <td><strong>name:</strong></td>
+            <td align="right"><strong>name:</strong></td>
             <td><input style="width: 100%;" type="text" id="post_name" name="name" value="" size="25" /></td>
           </tr>
           <tr>
-            <td><strong>desc:</strong></td>
+            <td align="right"><strong>desc:</strong></td>
             <td><textarea style="width: 100%;" rows="5" cols="25" id="post_description" name="description"></textarea></td>
           </tr>
           <tr>
-            <td><strong>price:</strong></td>
+            <td align="right"><strong>price:</strong></td>
             <td><input style="width: 100%;" type="text" id="post_price" name="price" value="" size="25" /></td>
           </tr>
           <tr>
@@ -143,16 +143,36 @@ title: The Programmable Web
         });
       }
 </script>
-<table width="80%" style="padding-left: 25px;">
+<table width="100%" style="margin-left: 25px;">
   <tr>
     <td width="50%">
       <form action="#" name="PUT">
-      secret: <input type="text" id="put_secret" name="secret" value="" size="25" /><br />
-      number: <input type="text" id="put_number" name="name" value="" size="25" /><br />
-      name: <input type="text" id="put_name" name="name" value="" size="25" /><br />
-      desc: <textarea rows="5" cols="25" id="put_description" name="description"></textarea><br />
-      price: <input type="text" id="put_price" name="price" value="" size="25" /><br />
-      <input type="button" name="PUTButton" value="PUT" onclick="putAPI('/products/','application/json'); return false;">
+        <table>
+          <tr>
+            <td align="right"><strong>secret:</strong></td>
+            <td><input style="width: 100%;" type="text" id="put_secret" name="secret" value="" size="25" /></td>
+          </tr>
+          <tr>
+            <td align="right"><strong>number:</strong></td>
+            <td><input style="width: 100%;" type="text" id="put_number" name="name" value="" size="25" /></td>
+          </tr>
+          <tr>
+            <td align="right"><strong>name:</strong></td>
+            <td><input style="width: 100%;" type="text" id="put_name" name="name" value="" size="25" /></td>
+          </tr>
+          <tr>
+            <td align="right"><strong>desc:</strong></td>
+            <td><textarea style="width: 100%;" rows="5" cols="25" id="put_description" name="description"></textarea></td>
+          </tr>
+          <tr>
+            <td align="right"><strong>price:</strong></td>
+            <td><input style="width: 100%;" type="text" id="put_price" name="price" value="" size="25" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="button" name="PUTButton" value="PUT" onclick="putAPI('/products/','application/json'); return false;"></td>
+          </tr>
+        </table>
       </form>
     </td>
     <td>
