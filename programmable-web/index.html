@@ -35,7 +35,7 @@ title: The Programmable Web
     </td>
     <td>
       <div id="get_loading" style="margin-bottom: 10px;"></div>
-      <textarea style="width:100%; height: 100%;" id="get_response"></textarea>
+      <textarea style="width:100%; height: 400px;" id="get_response"></textarea>
       <div id="get_footer" style="margin-top: 10px;"></div>
     </td>
   </tr>
@@ -77,17 +77,37 @@ title: The Programmable Web
   <tr>
     <td width="50%">
       <form action="#" name="POST">
-      secret: <input type="text" id="post_secret" name="secret" value="" size="25" /><br />
-      number: <input type="text" id="post_number" name="name" value="" size="25" /><br />
-      name: <input type="text" id="post_name" name="name" value="" size="25" /><br />
-      desc: <textarea rows="5" cols="25" id="post_description" name="description"></textarea><br />
-      price: <input type="text" id="post_price" name="price" value="" size="25" /><br />
-      <input type="button" name="POSTButton" value="POST" onclick="postAPI('/products/','application/json'); return false;">
+        <table>
+          <tr>
+            <td>secret:</td>
+            <td><input type="text" id="post_secret" name="secret" value="" size="25" /></td>
+          </tr>
+          <tr>
+            <td>number:</td>
+            <td><input type="text" id="post_number" name="name" value="" size="25" /></td>
+          </tr>
+          <tr>
+            <td>name:</td>
+            <td>name: <input type="text" id="post_name" name="name" value="" size="25" /></td>
+          </tr>
+          <tr>
+            <td>desc:</td>
+            <td><td>desc: <textarea rows="5" cols="25" id="post_description" name="description"></textarea></td>
+          </tr>
+          <tr>
+            <td>price:</td>
+            <td>price: <input type="text" id="post_price" name="price" value="" size="25" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="button" name="POSTButton" value="POST" onclick="postAPI('/products/','application/json'); return false;"></td>
+          </tr>
+        </table>
       </form>
     </td>
     <td>
       <div id="post_loading" style="margin-bottom: 10px;"></div>
-      <textarea style="width:100%; height: 100%;" id="post_response"></textarea>
+      <textarea style="width:100%; height: 400px;" id="post_response"></textarea>
       <div id="post_footer" style="margin-top: 10px;"></div>
     </td>
   </tr>
@@ -137,7 +157,7 @@ title: The Programmable Web
     </td>
     <td>
       <div id="put_loading" style="margin-bottom: 10px;"></div>
-      <textarea style="width:100%; height: 100%;" id="put_response"></textarea>
+      <textarea style="width:100%; height: 400px;" id="put_response"></textarea>
       <div id="put_footer" style="margin-top: 10px;"></div>
     </td>
   </tr>
@@ -179,7 +199,7 @@ function deleteAPI($url,$contentType)
     </td>
     <td>
       <div id="delete_loading" style="margin-bottom: 10px;"></div>
-      <textarea style="width:100%; height: 100%;" id="delete_response"></textarea>
+      <textarea style="width:100%; height: 400px;" id="delete_response"></textarea>
       <div id="delete_footer" style="margin-top: 10px;"></div>
     </td>
   </tr>
