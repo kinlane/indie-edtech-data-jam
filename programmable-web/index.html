@@ -11,19 +11,223 @@ title: The Programmable Web
 <p>One portion of the HTTP specification that API designers take advantage of is what is the HTTP verbs (or methods) POST, GET, PUT, PATCH, and DELETE, which when used, make the web interactive, not just an online TV, where you consume informaiton.</p>
 <p><strong>/GET (read)</strong></p>
 <p>Every web page you request in your browsers makes a /GET request, and many APIs mimick this behavior, allowing users to request any content, data, or resource made available via a platform. Here is a basic example of making a /GET request to a sample website or API:</p>
-<p>[GET Example]</p>
+
+<script type="text/javascript">
+  function getAPI($url,$contentType)
+      {
+      $url = 'http://website.apievangelist.com' + $url;
+      document.getElementById("get_loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+      $.ajax({
+        url: $url,
+        contentType: $contentType
+      })
+        .done(function( data ) {
+          document.getElementById("get_response").value = data;
+        });
+      }
+</script>
+<table width="80%" style="padding-left: 25px;">
+  <tr>
+    <td width="30%">
+      <form action="#" name="GET">
+      <input type="button" name="GETButton" value="GET" onclick="getAPI('/products/','application/json'); return false;">
+      </form>
+    </td>
+    <td>
+      <div id="get_loading" style="margin-bottom: 10px;"></div>
+      <textarea style="width:100%;" id="get_response"></textarea>
+      <div id="get_footer" style="margin-top: 10px;"></div>
+    </td>
+  </tr>
+</table>
+
 <p><strong>Secure Access Via The Open Web</strong></p>
 <p>A large part of the web is open and public, which allows you to /GET HTML documents, images, videos, and other content via your web or mobile browsers. Many sites generate revenue by dispaying ads against this traffic. Other parts of the web are private, requiring users to register, and authenticate themselves, before you can actually add, update, or delete any content, data, or other resources available via a platform--once logged in, other HTTP verbs are opened up to these authenticated users.</p>
 <p><strong>/POST (add)</strong> - Requires knowing secret pass code to work.</p>
 <p>The POST HTTP verb is most often used for adding of new data, content, and other object via HTTP websites, and APIs. While this is popular opinion, it is not true with all APIs, and some providers leverage POST for many different types of API interactions, so keep an eye out for variations. Here is a basic /POST example for updating data available in the demo.</p>
-<p>[POST Example]</p>
+
+<script type="text/javascript">
+  function postAPI($url,$contentType)
+      {
+
+      $url = 'http://website.apievangelist.com' + $url;
+
+      $postData = {};
+      $postData['secret'] = document.getElementById('post_secret').value;
+      $postData['number'] = document.getElementById('post_number').value;
+      $postData['name'] = document.getElementById('post_name').value;
+      $postData['description'] = document.getElementById('post_description').value;
+      $postData['price'] = document.getElementById('post_price').value;
+      $JSONData = JSON.stringify($postData);
+
+      document.getElementById("post_loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+
+      $.ajax({
+        url: $url,
+        method: 'POST',
+        data: $JSONData,
+        contentType: $contentType
+      })
+        .done(function( data ) {
+          document.getElementById("post_response").value = data;
+        });
+      }
+</script>
+<table width="80%" style="padding-left: 25px;">
+  <tr>
+    <td width="30%">
+      <form action="#" name="POST">
+      secret: <input type="text" id="post_secret" name="secret" value="" size="25" /><br />
+      number: <input type="text" id="post_number" name="name" value="" size="25" /><br />
+      name: <input type="text" id="post_name" name="name" value="" size="25" /><br />
+      desc: <textarea rows="5" cols="25" id="post_description" name="description"></textarea><br />
+      price: <input type="text" id="post_price" name="price" value="" size="25" /><br />
+      <input type="button" name="POSTButton" value="POST" onclick="postAPI('/products/','application/json'); return false;">
+      </form>
+    </td>
+    <td>
+      <div id="post_loading" style="margin-bottom: 10px;"></div>
+      <textarea style="width:100%;" id="post_response"></textarea>
+      <div id="post_footer" style="margin-top: 10px;"></div>
+    </td>
+  </tr>
+</table>
+
 <p><strong>/PUT (update)</strong> - Requires knowing secret pass code to work.</p>
 <p>Complimenting POST, and the ability to add to the system, PUT allows for the updating of any resources that is made available via an API. PUTS requiring passing in of a unique identifier of the resource to be changed. Normally PUT involves updating the entire object, which includes all fields, but again, there are variations to this, with many API practioners employing a separate HTTP verb PATCH to handle partial updates. Here is a basic /PUT example for updating data available in the demo.</p>
-<p>[PUT Example]</p>
+
+<script type="text/javascript">
+  function putAPI($url,$contentType)
+      {
+
+      $url = 'http://website.apievangelist.com' + $url + document.getElementById('put_number').value + "/";
+
+      $putData = {};
+      $putData['secret'] = document.getElementById('put_secret').value;
+      $putData['number'] = document.getElementById('put_number').value;
+      $putData['name'] = document.getElementById('put_name').value;
+      $putData['description'] = document.getElementById('put_description').value;
+      $putData['price'] = document.getElementById('put_price').value;
+      $JSONData = JSON.stringify($putData);
+
+      document.getElementById("put_loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+
+      $.ajax({
+        url: $url,
+        method: 'PUT',
+        data: $JSONData,
+        contentType: $contentType
+      })
+        .done(function( data ) {
+          document.getElementById("put_response").value = data;
+        });
+      }
+</script>
+<table width="80%" style="padding-left: 25px;">
+  <tr>
+    <td width="30%">
+      <form action="#" name="PUT">
+      secret: <input type="text" id="put_secret" name="secret" value="" size="25" /><br />
+      number: <input type="text" id="put_number" name="name" value="" size="25" /><br />
+      name: <input type="text" id="put_name" name="name" value="" size="25" /><br />
+      desc: <textarea rows="5" cols="25" id="put_description" name="description"></textarea><br />
+      price: <input type="text" id="put_price" name="price" value="" size="25" /><br />
+      <input type="button" name="PUTButton" value="PUT" onclick="putAPI('/products/','application/json'); return false;">
+      </form>
+    </td>
+    <td>
+      <div id="put_loading" style="margin-bottom: 10px;"></div>
+      <textarea style="width:100%;" id="put_response"></textarea>
+      <div id="put_footer" style="margin-top: 10px;"></div>
+    </td>
+  </tr>
+</table>
+
 <p><strong>/DELETE (remove)</strong> - Requires knowing secret pass code to work.</p>
 <p>Rounding off the set of verbs, there is a DELETE option allowing for the removal of anything stored within an API. DELETE is actually one of least used HTTP verbs, because most systems just update the status of any object, never actually deleting any resources from the system.  Here is a basic /DELETE example for updating data available in the demo.</p>
+
+<script type="text/javascript">
+function deleteAPI($url,$contentType)
+    {
+
+    $url = 'http://website.apievangelist.com' + $url + document.getElementById('delete_number').value + "/";
+
+    $deleteData = {};
+    $deleteData['secret'] = document.getElementById('delete_secret').value;
+    $JSONData = JSON.stringify($deleteData);
+
+    document.getElementById("delete_loading").innerHTML = '<strong>Loading:</strong> ' + $url;
+
+    $.ajax({
+      url: $url,
+      method: 'DELETE',
+      data: $JSONData,
+      contentType: $contentType
+    })
+      .done(function( data ) {
+        document.getElementById("delete_response").value = data;
+      });
+    }
+</script>
+<table width="80%" style="padding-left: 25px;">
+  <tr>
+    <td width="30%">
+      <form action="#" name="DELETE">
+      secret: <input type="text" id="delete_secret" name="secret" value="" size="25" /><br />
+      <input type="button" name="DELETEButton" value="DELETE" onclick="deleteAPI('/products/','application/json'); return false;">
+      </form>
+    </td>
+    <td>
+      <div id="delete_loading" style="margin-bottom: 10px;"></div>
+      <textarea style="width:100%;" id="delete_response"></textarea>
+      <div id="delete_footer" style="margin-top: 10px;"></div>
+    </td>
+  </tr>
+</table>
+
 <p>There are other HTTP verbs avaiable, further rounding off the stack, but these are the most commonly focuse don set, providing create, read, update, and delete (CRUD) capabilities which accomodates 95% of the scenarios that web APIs are put to use around.</p>
 <p><strong>You Create The Web</strong></p>
 <p>These HTTP verbs make the web programmable. While there are numerous other ways for making websites, and mobile applications interactive, HTTP, and web technologies helps make sure it is low cost, standardized, and potentially scalable to web scope.</p>
 <p>There are two types of web users, those that consume, and those that create. Web APIs are the preferred tool of those that are creating the web, and delivering the tools, services, apps, and integrations which the masses are putting to use on the web, and via our ubiquitous mobile phones.</p>
 <p>The programmable web...</p>
+
+<script type="text/javascript">
+
+var $default_number = "";
+var $default_name = "";
+var $default_description = "";
+var $default_price = "";
+
+$url = 'http://website.apievangelist.com/products/';
+
+$contentType = 'application/json';
+$.ajax({
+  url: $url,
+  contentType: $contentType
+})
+  .done(function( data ) {
+
+     var product = JSON.parse(data);
+
+    $.each(product, function(key, value) {
+
+        $default_number = value['number'];
+        $default_name = value['name'];
+        $default_description = value['description'];
+        $default_price = value['price'];
+
+        document.getElementById('post_number').value = $default_number;
+        document.getElementById('post_name').value = $default_name;
+        document.getElementById('post_description').value = $default_description;
+        document.getElementById('post_price').value = $default_price;
+
+        document.getElementById('put_number').value = $default_number;
+        document.getElementById('put_name').value = $default_name;
+        document.getElementById('put_description').value = $default_description;
+        document.getElementById('put_price').value = $default_price;
+
+        document.getElementById('delete_number').value = $default_number;
+
+    });
+  });
+</script>
