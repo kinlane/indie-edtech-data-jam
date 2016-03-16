@@ -44,22 +44,6 @@
 			]
 		},
 		{
-			"name": "YouTube Data API",
-			"description": "<p>Youtube has an API that allows developers to seamless integration applications with the video sharing platform.&nbsp; YouTube goes even further providing widgets, players, and other tools for even the non-programmer to integrate and distribute their sites with the Youtube video platform.</p>",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
-			"humanURL": "https://developers.google.com/youtube/v3/",
-			"baseURL": "https://developers.google.com/youtube/v3/",
-			"tags": [
-				"Indie EdTech Data Jam"
-			],
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-data-api-openapi-spec.json"
-				}
-			]
-		},
-		{
 			"name": "YouTube Playlist API",
 			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
 			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
