@@ -118,15 +118,6 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
-  - label1: Some Stories
-    link1: /indie-edtech-data-jam/updates/
-    size1: 80
-    extend: 1
-    label2: RSS
-    link2: /indie-edtech-data-jam/updates.xml
-    size2: 60
-    padding: 15
-    decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
     size1: 80
