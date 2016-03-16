@@ -6,13 +6,29 @@
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-10",
-	"modified": "2016-03-10",
+	"created": "2016-03-15",
+	"modified": "2016-03-15",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Pinboard API",
+			"name": "Pinboard Posts API",
+			"description": "Pinboard.In is a social bookmarking site that offers an easy import/ export in del.icio.us format, Nightly database backups to S3, Cached copies of all bookmarks, a &ldquo;to read&rdquo; status for later viewing, private bookmarks and private tags, and simplified bulk editing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pinboard-icon.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/pinboard-posts-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Pinboard Tag API",
 			"description": "<p><span>The Pinboard API is a way to interact programatically with your bookmarks, notes and other Pinboard data.</span></p>",
 			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pinboard-icon.png",
 			"humanURL": "https://pinboard.in/api/",
@@ -23,7 +39,23 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/pinboard-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/pinboard-tag-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Pinboard User API",
+			"description": "Pinboard.In is a social bookmarking site that offers an easy import/ export in del.icio.us format, Nightly database backups to S3, Cached copies of all bookmarks, a &ldquo;to read&rdquo; status for later viewing, private bookmarks and private tags, and simplified bulk editing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pinboard-icon.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/pinboard-user-api-openapi-spec.json"
 				}
 			]
 		}
