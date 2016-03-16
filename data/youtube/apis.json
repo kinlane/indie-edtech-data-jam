@@ -12,6 +12,38 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
+			"name": "YouTube Activities API",
+			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-activities-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "YouTube Channel API",
+			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-channel-api-openapi-spec.json"
+				}
+			]
+		},
+		{
 			"name": "YouTube Data API",
 			"description": "<p>Youtube has an API that allows developers to seamless integration applications with the video sharing platform.&nbsp; YouTube goes even further providing widgets, players, and other tools for even the non-programmer to integrate and distribute their sites with the Youtube video platform.</p>",
 			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
@@ -24,6 +56,102 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-data-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "YouTube Playlist API",
+			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-playlist-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "YouTube Search API",
+			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-search-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "YouTube Subscription API",
+			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-subscription-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "YouTube Thumbnail API",
+			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-thumbnail-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "YouTube Video API",
+			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-video-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "YouTube Waterkmark API",
+			"description": "YouTube allows billions of people to discover, watch and share originally-created videos. YouTube provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"Indie EdTech Data Jam"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-waterkmark-api-openapi-spec.json"
 				}
 			]
 		}
