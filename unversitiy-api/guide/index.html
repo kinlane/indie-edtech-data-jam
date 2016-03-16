@@ -3,458 +3,516 @@ layout: page
 title: The University API Guide
 ---
 
-<h1>The University API Guide</h1>
-<!-- Why Am I Looking At Universities And APIs -->		
-<p><p><span>I spend a great deal of time looking at new APIs from companies, institutions, and government agencies during my weekly monitoring of the API space, and over the last couple years, I've come across an increasing number of APIs tht are out of higher educational institutions around the world. It began with a centralized developer area at the University of Washington (UW), and then I saw the same from UC Berkeley, with more recently noticing the impressive conversion of 250+ services from a traditional Service Oriented Architecture (SOA), to a more modern web API approach, at Brigham Young University (BYU).&nbsp;</span><br /> <br /> <span>Along the way I began seeing that APIs at higher education institutions were going to be an important piece of the overall API puzzle, and as I do with any research area, I setup a Github repository (university.apievangelist.com), and began tracking on universities who were doing anything interesting with APIs, no matter how small. I now track on twelve separate higher education institutions that have active API efforts, and I have been engaging in active conversations with two of the institutions, regarding their strategy, working to understand how I can provide any guidance, but also learn from each team about the unique challenges higher education institutions face when designing, deploying, manage, and even evangelize their APIs--this white paper is a result of that ongoing research\</span></p></p>
-
-<!-- Something Happening Beyond Campus Information Services -->
-
-<h2>Something Happening Beyond Campus Information Services</h2>
-<p><p><span>As I was looking through APIs from different universities, I began to notice that campus information technology (IT) were beginning to get organized in how they approached the deployment and management of their APIs, but what really caught my attention was the usage by students as well. While some very progressive IT folks are beginning to understand the benefit of using APIs, and the access and interoperability it can introduce into campus operations, students are also increasingly tech savvy, and are scraping data and content to develop their own API to suppor the apps they build, while also putting pressure on IT to provide more services they can put to use.</span><br /> <br /> <span>All of the activity I was seeing, at a handful of schools, convinced me that I needed to pay closer attention to what universities were up to. I was pleased to also find that half of the universities who were deploying APIs, also had a centralized developer area for their APIs, while the rest of the deployments were singular API efforts, for a specific purpose. I consider the six that have a centralized developer and API strategy, as the leaders when it comes to APIs in higher ed.</span></p></p>
-
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>
-
-<!-- The Leaders When It Comes To APIs In Higher Education -->
-
-<h2>The Leaders When It Comes To APIs In Higher Education</h2>
-<p><p><span>When visiting an API developer area, as soon as the page loads,&nbsp;you can tell if its an organized effort, or something that was thrown up by a single project or team. Half of the institutions I track on as part of my university API monitoring have a centralized developer area for their APIs, as well as what appears to be an organized approach behind the designing, deploying, managing or evangelizing their APIs.&nbsp;</span><br /> <br /> <span>I&rsquo;ve talked with both&nbsp;University of California Berkeley and Brigham Young Universities about their API strategies, while only having light communication with University of Washington and Michigan. I feel there are some interesting lessons to be had when taking a look at these six leading universities.</span></p></p>
-
-<!-- Begin List Leading Universities--->
-<p><hr /></p>
-<table cellpadding="1" align="left" width="100%" border="0">
-
-</table><br style="clear: both;"/>
-<p><hr /></p>
-<!-- End List Leading Universities--->
-
-<!-- The Leaders When It Comes To APIs In Higher Education - 2 -->
-
-<p><span>There are some unique aspects to delivering an API program within a higher educational institution, but I&rsquo;d say 75% is very similar to what occurs in other business sectors. As we do with other industries, as well as the overall API space, we need to showcase these university API pioneers, and model what they are up to, and work to share the stories of success, and even failure, with other institutions. Once the word spreads to other schools, regarding what these six institutions are up to, other schools will being to emulate the patterns, benefiting not just any single school, but also the overall higher education system, and ultimatey the students.</span></p>
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>
-<!-- Building Blocks Used By The Leading Universities -->
-
-<h2>Building Blocks Used By The Leading Universities</h2>
-<p><p><span>I track on what I consider to be the common building blocks for API design, deployment, management, evangelism, and integration, that can be used in all business, organizational, and government sectors. When it comes to higher education, I&rsquo;m going to be tracking on a different set of building blocks, showcasing not just the approach, tools, and services used to deploy APIs, I want to focus on which components of campus operations are having APIs applied to them.</span><br /> <br /> <span>While the 250+ APIs at Brigham Young University gave me a huge head start on building this list, I looked across all of the university API leaders, as well as the smaller implementations out there. After aggregating into a single list, I smoothed out some of the rough edges, merged a few of the areas, and organized into this list of common building blocks across university API implementations, as of July 2014.</span></p>
-<p style="text-align: center;"><em>(I will add descriptions for each of these in the next edition)</em></p></p>
-
-
-
-<h3>Student</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-users-male-female.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Accounts</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-graduation-cap.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Alumni</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-billing.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Billing</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-conversation-bubbles.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Counseling</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-directory.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Directory</strong></span></div></div><br style="clear:both;" />
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>																																														<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-health.jpeg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Health</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-invoice.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Invoices</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-lockers.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Lockers</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-dollar-sign.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Payments</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-refund.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>refunds</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-tuition.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Tuition</strong></span></div></div><br style="clear:both;" />
-
-<h3>Academic</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-classroom.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Classes</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pencile-ruler.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Credits</strong></span></div></div><br style="clear:both;" />
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>																																					<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-exam.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Exams</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-grades.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Grades</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-folder.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Records</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-registration.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Registration</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-suitcase.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Study Abroad</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-calendar.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Terms</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-transfer.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Transfers</strong></span></div></div><br style="clear:both;" />
-
-<h3>Faculty</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-directory.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Directory</strong></span></div></div><br style="clear:both;" />
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>																												<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-research.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Research</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-tenure.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Tenure</strong></span></div></div><br style="clear:both;" />
-
-<h3>Courseware</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-bullhorn-advertising.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Announcements</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-homework.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Assignents</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-classroom.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Courses</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-curriculum.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Curriculum</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-book-stack.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Syllabus</strong></span></div></div><br style="clear:both;" />
-
-<h3>Benefits</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-calendar.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Leave</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-retirement.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Retirement</strong></span></div></div><br style="clear:both;" />
-
-<h3>Events / Calendaring</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-calendar.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Calendars</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hazard.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Incidents</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-clock.jpeg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Time Away</strong></span></div></div><br style="clear:both;" />
-
-<h3>Communications</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-comment-bubbles.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Comments</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-email.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Email</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-messaging-system.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Messaging</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-notification.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Push Notifications</strong></span></div></div><br style="clear:both;" />
-
-<h3>File Management</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-file-upload.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Locations</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-photo.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Photos</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-file-storage.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Services</strong></span></div></div><br style="clear:both;" />
-
-<h3>Assets / Inventory</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-servers.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Compute</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-trash.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Dispolsals</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-desk.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Items</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-building.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Space</strong></span></div></div><br style="clear:both;" />
-
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>								<h3>Libraries</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-library.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Locations</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-meta.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Metadata</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-magnifying-glass.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Search</strong></span></div></div><br style="clear:both;" />
-
-<h3>Collections</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-corporate.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Corporate</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-government.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Institution</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-notebook.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Journals</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-museum.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Museum</strong></span></div></div><br style="clear:both;" />
-
-<h3>Organizations</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-church.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Churches</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-forum.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Forums</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-people.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Groups</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-programs.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Programs</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-transfer.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Transfer Institutions</strong></span></div></div><br style="clear:both;" />
-
-<h3>Financial Aid</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-form.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Application</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-conversation-bubbles.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Counseling</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-grants.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Grants</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-loan.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Loans</strong></span></div></div><br style="clear:both;" />
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>																			<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-users-male-female.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Student Information</strong></span></div></div><br style="clear:both;" />
-
-<h3>Human Resources</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-job.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Career Plans</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-directory.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Contacts</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-people.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Employees</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-check.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Endorsements</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hiring.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Hiring</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-job-position.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Positions</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-classroom.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Training</strong></span></div></div><br style="clear:both;" />
-
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>															<h3>Identity</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-key.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Access</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-organization.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Organization</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-man-woman.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Person</strong></span></div></div><br style="clear:both;" />
-
-<h3>Internship</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-form.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Applications</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-people.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Providers</strong></span></div></div><br style="clear:both;" />
-
-<h3>Payroll</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-refund.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Deductions</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-refund.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Earnings</strong></span></div></div><br style="clear:both;" />
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>										<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-dollar-sign.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Payments</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-timer.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Time Reporting</strong></span></div></div><br style="clear:both;" />
-
-<h3>Purchasing</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-change.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Change Orders</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-invoice.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Purchase Orders</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-refund.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Request for Quotes</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-return-to-vendor.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Return to Vendors</strong></span></div></div><br style="clear:both;" />
-
-<h3>Scholarships</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-question-mark.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Consideration</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-directory.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Directory</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-tuition.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Disbursement</strong></span></div></div><br style="clear:both;" />
-
-<h3>Services</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-directory.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Director</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-service-request.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Request</strong></span></div></div><br style="clear:both;" />
-
-<h3>Vendors</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-directory.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Directory</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-dollar-sign.jpg" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Payments</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-ticket-system.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Vouchers</strong></span></div></div><br style="clear:both;" />
-
-<h3>Other</h3>
-
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-dictionary.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Glossary</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-news-icon.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>News</strong></span></div></div><br style="clear:both;" />
-<div style="display: inline-block; padding-left: 50px; float:left; height: 115px;" width="100"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-survey.png" width="75" align="left" style="padding: 5px;" /></div>
-<div style="display: inline-block; float: left; top: -15px;height: 115px; line-height; 115px;"><div style="padding-top:30px;"><span><strong>Surveys</strong></span></div></div><br style="clear:both;" />
-
-<!-- Building Blocks Used By The Leading Universities - 2 -->
-
-<p><span>These building blocks are meant to be components, that other institutions can consider when planning, deploying and managing their own API efforts. It is not meant to be complete or definitive list, it is meant to act as a guide, allowing IT or even student organizers to better understand how APIs can help universities better deploy web, mobile and single page applications that support campus operations, or possibly be integrated into the classroom.</span><br /> <br /> <span>This list of building blocks will continue to evolve and change as I monitor APIs in higher education, talk to folks who play an active role in these campus API efforts, and learn more about how they view the API design, deployment, and management life cycle. Currently I&rsquo;m seeing a wide range of motivations for deploying APIs on campus&mdash;hopefully with some more work I can better understand these motivations, and share more stories about the problems they solve, to help convince other institutions to follow the lead.</span></p>
-<!-- Making Library Collections Available Via APIs As A Motivation -->
-
-<h2>Making Library Collections Available Via APIs As A Motivation</h2>
-<p><p><span>Beyond the API leaders who have been successful in kicking off a centralized API experience, there are a handful of schools that are only deploying publicly available web APIs as part of their library network. With existing digital catalog, linked data, and other library technology efforts, it make sense that APIs would take root in the university library, within three institutions I&rsquo;m tracking on.</span></p></p>
-
-<!-- Begin List Library Universities--->
-<p><hr /></p>
-<table cellpadding="1" align="left" width="100%" border="0">
-
-</table><br style="clear: both;"/>
-<p><hr /></p>
-
-<!-- Making Library Collections Available Via APIs As A Motivation - 2 -->
-
-<p><span>I&rsquo;m hopeful for libraries, on and off campus, playing a leading role in the world of APIs. The core values that make an API initiative successful reflect the same values that come from the library sciences profession and its evolution over the last couple centuries. When it comes to establishing healthy patterns for API usage, I think we will be looking to libraries more and more in the coming years, as some parts of the tech sector appear have less than honorable intentions when it comes to APIs.</span></p>
-<!-- Other Motivations For Providing Public APIs -->
-
-<h2>Other Motivations For Providing Public APIs</h2>
-<p><p><span>There are three other examples of institutions who have deployed APIs, ranging from providing access to student union membership, ePayment, and student information systems. The primary reason that these types of implementations exist is usually because an existing IT system provides some sort of an API that comes bundles with the application.</span></p></p>
-
-<!-- Begin List Other Universities--->
-<p><hr /></p>
-<table cellpadding="1" align="left" width="100%" border="0">
-
-</table><br style="clear: both;"/>
-<p><hr /></p>
-<!-- End List Other Universities--->
-
-<!-- Other Motivations For Providing Public APIs - 2 -->
-
-<p><span>I would confidently say that most universities already have existing services running, and with minimal effort tey could be made available in a way that is consistent with modern web API management practices. There are numerous ways to educate IT staff that existing systems have APIs, and the importance of making them available to not just internal IT operations, but also to faculty, students, and outside vendors. I&rsquo;ll talk later about ways to encourage access to existing APIs either through top down leadership, or in a more organic way, from the students and faculty.</span></p>
-
-<!-- Central Developer Program -->
-
-<h2>Central Developer Program</h2>
-<p><p><span>A single place to find all of an institutions API and developer resources, usually at developer.example.edu, or within a specific folder at example.edu/developer, is essential to a heightened viability of any campus API effort. A single portal for secure, machine readable access to all of an institutions digital assets, provides a consistent place for anyone to find what they need, anytime.</span><br /> <br /> <span>Employing a central registry for all digital services is a good idea when viewed from a campus IT perspective. Also investing in this registry not being just a technical portal, where only seasoned IT professionals and developers go, but also any average user, is essential to injecting consistency, and cultivating an essential human tone to any IT operations. In the last decade, various mini-evolutions in technology like Web 2.0, Cloud Computing, and APIs have slowly pulled IT out of the shadows, and into the public space, and campus IT needs to get on board with the latest API evolution or risk falling behind.</span><br /> <br /> <span>Faculty and administrators should all know they can visit the centralized campus developer area and find not just open data, and API resources, but also tools and services they can put to use in their daily work. An API developer area is not just for programmers, there are many buttons, badges, widgets, connectors, spreadsheet integrators, and other tools that allow for non-developers to put APis to work for them&mdash;any modern campus developer program should provide a robust buffet of services any faculty member can take advantage of, with very little guidance, in a self-service way.</span><br /> <br /> <span>An increasing number of college students are coming to school, equipped with an awareness that APIs exist, from their exposure to popular technology platforms like Twitter, Facebook, and Instagram. All of these leading technology providers have centralized developer areas, and often provide direct integration with the Software as a Service (SaaS) accounts of student-users. This type of pollination between software users, and modern web API programs have taught users that they can find their own buttons, badges, widgets and put other API driven services like If This Then That, and Zapier to use when managing their digital identity.&nbsp;</span><br /> <br /> <span>Higher education institutions will need to look beyond the classic definition of what a web service or API is, and realize that they provide increasing value to not just internal IT, but also the faculty, administrators, and students across an institution. &nbsp;Providing a single, common place to find digital assets is quickly becoming the norm, not just in leading tech companies, but within federal, state and city governments, nonprofit organizations, and eventually across higher education institutions.&nbsp;</span></p></p>
-
-<!-- Providing The Resources API Consumers Depend On -->
-
-<h2>Providing The Resources API Consumers Depend On</h2>
-<p><p><span>The current web API movement has been building for almost 14 years, started by API pioneers like SalesForce and Amazon, resulting in some pretty proven models for what types of resources API consumers need for a successful integration. When you look at the central developer areas for <span>SalesForce</span> and Amazon, but also for new players like Twilio and SendGrid, you see some consistent resources present between all of them, ensuring API consumers have what they need for building web, mobile, and single page applications, and increasingly to connect to physical devices in our every day world.</span><br /> <br /> <span>The minimum viable resources you need to support a central API developer program are:</span></p>
+<br /><br />
+
+<!-- APIs In The University -->
+<p style="text-align: center; font-size: 22px; font-weight: bold;"><strong>The University of API</strong></p>
+<p style="text-align: center;"><a style="font-weight: bold; font-size: 16px;" href="http://bit.ly/1kn8uhX">(<strong>Download as PDF</strong>)</a></p>
+<p style="text-align: center;"><strong>Prepared By Kin Lane</strong></p>
+<p style="text-align: center;"><strong>August 2015</strong></p>
+<p align="center"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/priorities/university-of-api.png" alt="" width="400" align="center" /></p>
+<p>&nbsp;</p>
+<table cellspacing="5" cellpadding="5" width="75%" align="center">
+<tbody>
+<tr>
+<td align="left">
+<p style="text-align: center;"><strong>Table of Contents</strong></p>
+<ul class="mainlist" style="margin-left: 60px;">
+<li>Why Am I Looking At Universities And APIs</li>
+<li>Something Happening Beyond Campus Information Services</li>
+<li>The Leaders When It Comes To APIs In Higher Education</li>
+<li>Making Library Collections Available Via APIs As A Motivation</li>
+<li>Science As The Driver</li>
+<li>Bringing Change Through Outside Organizations</li>
+<li>Other Examples in University APIs in Wild</li>
+<li>Building Blocks Used By The Leading Universities</li>
+<li>Central Developer Program</li>
+<li>Providing The Resources API Consumers Depend On</li>
+<li>Migration From A SOA To An API Way Of Life</li>
+<li>Providing Robust Internal IT Access To APIs</li>
+<li>Providing Faculty Access To Campus APIs</li>
+<li>Providing Student Access To Campus APIs</li>
+<li>Putting Public APIs to Use On Campus</li>
+<li>Explore Using APIs Within The Classroom</li>
+<li>Investing In Hackathon, Data and Process Jams </li>
+<li>External Vendor Access To Services</li>
+<li>Implementing A Top Down API Strategy</li>
+<li>Resorting To A Bottom Up API Strategy</li>
+<li>Higher Education Is Front Line For Web Literacy</li>
+<li>Providing A Blueprint For Other University To Follow</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+				<h1>Why Am I Looking At Universities And APIs</h1>
+						<p><span>I spend a great deal of time looking at new APIs from companies, institutions, and government agencies during my weekly monitoring of the API space, and over the last couple years, I've come across an increasing number of APIs that are out of higher educational institutions around the world. It began with a centralized developer area at the University of Washington (UW), and then I saw the same from UC Berkeley, with more recently noticing the impressive conversion of 250+ services from a traditional Service Oriented Architecture (SOA), to a more modern web API approach, at Brigham Young University (BYU).&nbsp;</span><br /><br /><span>Along the way I began seeing that APIs at higher education institutions were going to be an important piece of the overall API puzzle, and as I do with any research area, I setup a Github repository (university.apievangelist.com), and began tracking on universities who were doing anything interesting with APIs, no matter how small. With the latest update,&nbsp;</span>I now track on 48 separate higher education institutions that have active API efforts, and I have been engaging in active conversations with many of the institutions, regarding their strategy, working to understand how I can provide any guidance, but also learn from each team about the unique challenges higher education institutions face when designing, deploying, manage, and even evangelize their APIs.</p>
+<p>Each person I've talked to along the way about APIs in higher education, have a different view of what this could mean. Some immediately think of campus IT, others thinking of using public APIs in the classroom, while some immediately think of API design and development as part of CS curriculum. This is one of the reasons I am working ot keep a regular eye on the space, because there are many different lenses to look at this, and with the quick pace of change I have to be on my toes. In the last year I've doubled the number of Universities I am monitoring, a rate of growth I think will continue in the next couple years--much like cities are adoption open data and API portals, higher educational institutions will begin to better understand this latest API-driven evolution of the web.</p>
+				<h1>Something Happening Beyond Campus Information Services</h1>
+						<p><span>As I was looking through APIs from different universities, I began to notice that campus information technology (IT) were beginning to get organized in how they approached the deployment and management of their APIs, but what really caught my attention was the usage by students as well. While some very progressive IT folks are beginning to understand the benefit of using APIs, and the access and interoperability it can introduce into campus operations, students are also increasingly tech savvy, and are scraping data and content to develop their own API to support the apps they build, while also putting pressure on IT to provide more services they can put to use.</span><br /><br /><span>All of the activity I was seeing, at a handful of schools, convinced me that I needed to pay closer attention to what universities were up to. I have been please to find that a number of the universities who were deploying APIs, also had a centralized developer area for their APIs, while the rest of the deployments were singular API efforts, for a specific purpose. I put eight of the universities in a group that is ahead of the pack when it comes to their efforts, because of the number of APIs, the quality of them, how coherent and organized the efforts is--something a central developer portal goes a long way in delivering.</span></p>
+<p><span>What makes me even happier is that many of these efforts take root outside of traditional IT efforts, in student led groups, and increasingly outside tech organizations that are sanctioned by the university, but are not classic IT. There is not a one-size fits all for doing API on campus, but having a strong student and teacher led contingent is extremely important, as well as the buy-in of campus and IT leaders when possible.</span></p>
+				<h1>The Leaders When It Comes To APIs In Higher Education</h1>
+						<p><span>When visiting an API developer area, as soon as the page loads,&nbsp;you can tell if its an organized effort, or something that was thrown up by a single project or team. These institutions I track on as part of my university API monitoring have a centralized developer area for their APIs, as well as what appears to be an organized approach behind the designing, deploying, managing or evangelizing their APIs between various working groups on campus.</span><br /><br />After you have looked at as many API efforts as I have, it becomes easy to spot organized efforts. I realize how much work it can be to get this efforts off the ground, let alone keep them active and growing. This is why I do this research, to bring things into focus, and see where we need to go next. These are the eight leaders I'm tracking on in the space, who are leading the conversation around APIs in higher education. As I find other universities who are getting their strategy more organized I will add to this, with the addition of four new ones in the latest review.</p>					<ul>
+
+			<li>
+				<strong>Brigham Young University</strong> - Brigham Young University has the most APIs I've come across with any of my university research. While many are still SOAP services, they are actively working to evolve them. BYU is also leading the conversation when it comes to university API design, and holding university API conferences, bringing together other institutions together to share API knowledge.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://developer.byu.edu</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Northwestern University</strong> - Northwestern has a very nice set of APIs covering the core functions of university operations like terms, schools, subjects, courses, instructors, buildings and rooms. Everything is organized in a nice, centralized portal for easy access.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.northwestern.edu</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>UC Berkeley</strong> - The UC Berkeley API was the first API effort out of a school that had a simple, dedicated portal, despite being a very much bottom, often student led effort. They are still working to find there footing across all groups, but APIs keep being added, with the awareness growing.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://api-central.berkeley.edu/</li>
+																<li><strong>Twitter:</strong> https://twitter.com/ucberkeley</li>
+																			</ul>
+			</li>
+
+			<li>
+				<strong>University of Michigan</strong> - The University of Michigan offers up a core set of course schedule, events, and buildings, along with other mobile, and development resources. The centralized developer portal is dedicated to mobile app development.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://umich.edu/</li>
+
+						<li><strong>Github:</strong> https://github.com/openmichigan</li>
+									</ul>
+			</li>
+
+			<li>
+				<strong>University of Warsaw</strong> - The University of Warsaw API is a very robust model for APIs in higher education. The platform is about being reused at multiple organization, and provides an interesting blueprint to compare with others.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://apps.usos.edu.pl/developers/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Washington</strong> - The University of Washington was one of the earliest higher education institutions I started tracking on with my API research. While it hasn't changed in the last couple years, it has seemed to grow in inventory of APIs. The effort is still a very IT led, web services effort, but I think it has a lot of promise.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://webservices.washington.edu/</li>
+
+						<li><strong>Github:</strong> https://github.com/uw-edu</li>
+									</ul>
+			</li>
+
+			<li>
+				<strong>University of Waterloo</strong> - The YouWaterloo Public Data API allows anyone to build their own programs and applications using data extracted from the University of Waterloo websites. The API features more than 25 methods of accessing various data across the University of Waterloo network.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://api.uwaterloo.ca/</li>
+
+						<li><strong>Blog:</strong> https://uwaterloo.ca/open-data/news</li>
+
+						<li><strong>Github:</strong> https://github.com/uwaterloo</li>
+									</ul>
+			</li>
+
+			<li>
+				<strong>Yale University</strong> - Yale offers numerous web APIs, organized in a single developer portal. The portal provides many of the common resources you'd find in a public API portal, including document, tools, and other resources. API range from meta data, to messaging, and videos, providing a nice snapshot of campus operations.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://yale.edu</li>
+																<li><strong>Twitter:</strong> https://twitter.com/yaleits</li>
+																			</ul>
+			</li>
+					</ul>
+								<p><span>There are some unique aspects to delivering an API program within a higher educational institution, but I&rsquo;d say 75% is very similar to what occurs in other business sectors. As we do with other industries, as well as the overall API space, we need to showcase these university API pioneers, and model what they are up to, and work to share the stories of success, and even failure, with other institutions. Once the word spreads to other schools, regarding what these six institutions are up to, other schools will being to emulate the patterns, benefiting not just any single school, but also the overall higher education system, and ultimately the students.</span></p>
+<p><span>The word of mouth around my research, through stories on API evangelist, this research guide, and the work of partners like the CIO team at BYU, is how I am looking to push this conversation forward. After doing this research for almost three years now, with an elevated push this last year, I'm beginning to see the momentum pick up, similar to other areas I've worked in like government, messaging, and payments. I predict by 2020, my list of leaders in the space includes all of the top universities.</span></p>
+				<h1>Making Library Collections Available Via APIs As A Motivation</h1>
+						<p><span>Beyond the API leaders who have been successful in kicking off a centralized API experience, there are a handful of schools that are only deploying publicly available web APIs as part of their library network. With existing digital catalog, linked data, and other library technology efforts, it make sense that APIs would take root in the university library, within three institutions I&rsquo;m tracking on.</span></p>					<ul>
+
+			<li>
+				<strong>Cambridge</strong> - This Cambridge University Library  provides access to the APIs (or Web Services) provided by Cambridge University Library, and information systems. I've also lumped Cambridge University Press APIs as well. At some point I may break them out, but for now I'll keep together.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1kjfani</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>George Washington University</strong> - George Washington University has an API out of the library, it is crude and simple, but allows for searching. There is also a rogue course API done by a student, which is always good to see. This is how many early API efforts look like at institutions in my experience.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.gwu.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Harvard</strong> - You really see a diverse range of APIs coming out of Harvard. You see the core operational ones to run the school, APIs out of library, and sciences. The only thing lacking with Harvard is a central developer portal for people to find APIs, and get resources and support.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1j56kmm</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Massachusetts Institute of Technology</strong> - MIT provides a nice subset of campus operations via public APIs. There are still many missing that other school have, but I think what you see here represents much of the core. While you find the APIs across two separate pages, with overlap, you don't really have a single portal for accessing everything.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://web.mit.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>North Carolina State University</strong> - I only found the library API, and the dining API. I could tell there was more APIs somewhere, but will need to dig deeper. Another one to add to the list of library born programs, but dining represents the needs of students as well.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://www.ncsu.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of North Texas</strong> - The University of North Texas only has an API for their library collection which I notice they use in several places. I will have to keep looking to see if there are more APIs on campus, beyond the library.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.unt.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>York University</strong> - You can tell the library is the primary API effort at York University, but there is an open data and API effort which doesn't have all the APIs they list, but they do have some common ones for courses and people. Its a start, but still needs a lot more work.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1j56kms</li>
+																									</ul>
+			</li>
+					</ul>
+								<p><span>I&rsquo;m hopeful for libraries, on and off campus, playing a leading role in the world of APIs. The core values that make an API initiative successful reflect the same values that come from the library sciences profession and its evolution over the last couple centuries. When it comes to establishing healthy patterns for API usage, I think we will be looking to libraries more and more in the coming years, as some parts of the tech sector appear have less than honorable intentions when it comes to APIs.</span></p>
+<div><span><br /></span></div>
+				<h1>Science As The Driver</h1>
+						<p>A new trend I am adding with this latest release of my university API research, is the focus on APIs being born out of university research, primarily in the sciences. I have long said that some of the most valuable APIs I've come across, but are often some of the worst implementations, come from scientists. In the last couple years I've seen a growth in the usage of Python programming language amongst scientists, with APIs in tow, both because of the value they bring to the table for scientists.&nbsp;</p>
+<p>This trend is important, because the API way of life can do significant things for university research, and is something I'd like to see get more organized among university researchers. Sharing, and capturing the exhaust around research, being able to conduct further analysis, and visualization on this, across internal and external stakeholders is critical to the success of research.&nbsp;</p>
+<p>Here are the handful of universities I'm monitoring, that I've put in the University API science bucket:</p>					<ul>
+
+			<li>
+				<strong>Cornell University</strong> - Cornell University has a pretty interesting eBird API. I do not see much else of APIs out of the institution, but will be keeping an eye out. Starting to aggregate universities where APIs are born out of science.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.cornell.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Florida State University</strong> - I just found the one arctic research API at Florida State University, but it is a sign there is more, and now they are on my radar. I think that Florida State University reflects another trend I'm seeing with APIs being born out of university research.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.fsu.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Harvard</strong> - You really see a diverse range of APIs coming out of Harvard. You see the core operational ones to run the school, APIs out of library, and sciences. The only thing lacking with Harvard is a central developer portal for people to find APIs, and get resources and support.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1j56kmm</li>
+																									</ul>
+			</li>
+					</ul>
+								<p>I'm guessing that if I went to the top 50 universities websites, and used their internal search tools, I could find many more APIs that are serving researching needs. Cornell, Florida State, and Harvard are just the tip of the iceberg.&nbsp;</p>
+<p>Who knows, maybe some day soon I will be showcasing the leading universities in just the area of science APIs, beyond the general group of leaders. This is an area I want to see strengthen across higher educational institutions, reflecting what I'm seeing in federal government circles...something tells me the health of the two sectors will be closely linked in the near future.</p>
+				<h1>Bringing Change Through Outside Organizations</h1>
+						<p>Speaking of parallels with what I am seeing around APIs in higher education, and in the federal government, I am beginning to see alternative organizations similar to 18F emerge, to help move tech forward at universities. I identified five separate organizations during my last review of the space, who have their hands in developing and managing APIs around university resources.</p>
+<p>These organizations seem to come together in different ways. A couple are sanctioned by the university, with close links to campus IT, but others seem more rogue, and even student led efforts. This is definitely a model I'd like to see evolve, and spread like wildfire across organizations. For API efforts to work in large institutions you need champions, who can be more agile and nimble when it comes to technology.&nbsp;</p>
+<p>These are the five organizations I'm putting into this new university group bucket:</p>					<ul>
+
+			<li>
+				<strong>Columbia University</strong> - These API's are provided by, and maintained by the Application Development Initiative at Columbia University. They have started by providing simple authentication, courses and housing for students, in a single developer portal.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://adicu.com</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Penn Labs</strong> - There are only two basic APIs available here, but it is interesting that these were done by a university sanctioned organization, dedicated to delivering technology solution in support of the institution. Will keep an eye on what they are producing as well as other APIs to come out of the institution.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://pennlabs.org/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Scotty Labs</strong> - ScottyLabs is a technical club at Carnegie Mellon University. We organize educational events to help people learn how to make things, host workshops to give students the opportunity to work on projects outside of class, and develop applications and services for the campus community.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://scottylabs.org/</li>
+																<li><strong>Twitter:</strong> https://twitter.com/scottylabs</li>
+																			</ul>
+			</li>
+
+			<li>
+				<strong>University of Maryland</strong> - The University of Maryland is interesting because it has another, almost central API developer portal that is adjacent to regular IT operations. The simply call it UMD.io, and provide basic course, bus, mapping APIs. They also have a really interesting music composition API that needs more investigation.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.umd.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Warwick</strong> - The Warwick Studentsu0080u0099 Union is a non profit, self run student support organization for students at the University of Warwick. The API they created for membership is the only API I can find for the campus, but is definitely notable because it is done by a student group, and also hopefully will lead to more APIs.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1j56hqo</li>
+																									</ul>
+			</li>
+					</ul>
+								<p>This is a trend I would like to see continue, and I think there is an opportunity to mimic what 18F has done in our federal government, and replicate at the higher educational level. It wouldn't take much to establish a common set of blueprints that students, teachers, and other faculty could follow when looking to establish an organization to champion API efforts across campus.</p>
+<p>I can see an independent organization on campus being a positive thing, as it is outside the normal IT workflows and politics, and potentially free from other beuracractic constraints. I will have to study the movement further, to better understand if this group is better off more on campus, or better accomplished from the outside-in.</p>
+				<h1>Other Examples in Wild</h1>
+						<p><span>There are three other examples of institutions who have deployed APIs, ranging from providing access to student union membership, ePayment, and student information systems. The primary reason that these types of implementations exist is usually because an existing IT system provides some sort of an API that comes bundles with the application.</span></p>					<ul>
+
+			<li>
+				<strong>Brown University</strong> - Hey there! Brown APIs is a set of web APIs for getting useful information about Brown. In general, to form a request, pick a method from below and look at some of the sample queries to get a feel for how the API works. Also, join the Brown APIs group on Facebook for FAQs and community support!				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.brown.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Columbia University</strong> - These API's are provided by, and maintained by the Application Development Initiative at Columbia University. They have started by providing simple authentication, courses and housing for students, in a single developer portal.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://adicu.com</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>George Washington University</strong> - George Washington University has an API out of the library, it is crude and simple, but allows for searching. There is also a rogue course API done by a student, which is always good to see. This is how many early API efforts look like at institutions in my experience.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.gwu.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Georgia Tech</strong> - I came across the Georgia Tech API at a gathering of Universities to talk about another project, but learned they had a pretty robust API defined used Swagger. Looks like it is still a work in progress, but a great model to look at.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://oae.gatech.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Harvard</strong> - You really see a diverse range of APIs coming out of Harvard. You see the core operational ones to run the school, APIs out of library, and sciences. The only thing lacking with Harvard is a central developer portal for people to find APIs, and get resources and support.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1j56kmm</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Johns Hopkins University</strong> - Johns Hopkins University provides a Hub API, opening up API access to several campus resources including articles, events, galleries, issues, divisions, locations, tags, and topics as simple API endpoints with documentation. Not much else is provide via the portal.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://www.jhu.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Massachusetts Institute of Technology</strong> - MIT provides a nice subset of campus operations via public APIs. There are still many missing that other school have, but I think what you see here represents much of the core. While you find the APIs across two separate pages, with overlap, you don't really have a single portal for accessing everything.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://web.mit.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>North Carolina State University</strong> - I only found the library API, and the dining API. I could tell there was more APIs somewhere, but will need to dig deeper. Another one to add to the list of library born programs, but dining represents the needs of students as well.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://www.ncsu.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Purdue University</strong> - Purdue has APIs, but it looks like they have a very resource based one in their banner API, and another attempt at making it more accessible with modern approaches using Purdue.io. I also found another student API for food court dining--these are always cool to see.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.purdue.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Rensselaer Polytechnic Institute</strong> - Rensselaer Polytechnic Institute just has an API coming out of the student union. I found evidence of other possible APIs, but nothing that student out like this student led one.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://rpi.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Rutgers University</strong> - Rutgers University has a nice central portal, with a sensible list of API resources that are common across university API approaches, but it is still missing much before I'd consider a viable central portal for the institution. Good start, but a definite work in progress.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.rutgers.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Scotty Labs</strong> - ScottyLabs is a technical club at Carnegie Mellon University. We organize educational events to help people learn how to make things, host workshops to give students the opportunity to work on projects outside of class, and develop applications and services for the campus community.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://scottylabs.org/</li>
+																<li><strong>Twitter:</strong> https://twitter.com/scottylabs</li>
+																			</ul>
+			</li>
+
+			<li>
+				<strong>Syracuse University</strong> - Syracuse University has the APIs, but just not exposed. They have a single page talking about, without much other detail. Work to be done.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://syr.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>Texas A&M University</strong> - Texas A&M University only has a set of geocoding, address, and mapping APIs, but they are a real nice set of services. It puts Texas A&M on my map, and I'm sure I will find more.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://www.tamu.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>The Ohio State University</strong> - The Ohio State University has a number of APIs, but they are really fragmented and all over the place. You can get at some as part of library services, and some as part of an data API, and there is another transportation related ones. Lots of API profiling work to be done, and pull out all the detail, and organizing it.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> https://www.osu.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>The University of Iowa</strong> - There are a number of housing, and science APIs available at The University of Iowa, but there is not central portal for access them.  I could probably find more looking through their search. Definitely a work in progress effort.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.uiowa.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>The University of Minnesota</strong> - The University of Minnesota has a really nice, central developer area for their APIs complete with Twitter account, but without access I can't really see what APIs are available. I did find another utility API for grouping and comparing of individuals on campus.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://twin-cities.umn.edu/</li>
+																<li><strong>Twitter:</strong> https://twitter.com/umnapihq</li>
+																			</ul>
+			</li>
+
+			<li>
+				<strong>Universitat Oberta de Catalunya (UOC)</strong> - The University allows for the building of applications on the university infrastructure using their set of APIs. There are just a handful of core APIs available currently for integration.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://open-api.uoc.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of British Columbia</strong> - The University of British Columbia ePayment API is the only current API I could find. It is obvious it comes out of existing system. I found other SOAP services, but no more modern web APIs I wanted to list.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1soxdda</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of California Los Angeles (UCLA)</strong> - UCLA only has one API that I can find, a URL shortener API. The whole system is pretty well done though. I know there are other UCLA APIs I have come across, I just cannot find currently. Will keep looking.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.ucla.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of California Santa Barbara (UCSB)</strong> - University of California Santa Barbara (UCSB) is doing some pretty interesting work around APIs and governance using Swagger. The work is being done as part of campus CS, and the RaceLab. They don't have any APIs available, but are doing some real interesting work.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.ucsb.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of California, Davis</strong> - University of California, Davis provides a wealth of APIs as part of their IT operations. There is a complete identity and set of APIs for many aspects of campus operations, but still reflect a very IT driven operation, over a modern API movement.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://ucdavis.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Maryland</strong> - The University of Maryland is interesting because it has another, almost central API developer portal that is adjacent to regular IT operations. The simply call it UMD.io, and provide basic course, bus, mapping APIs. They also have a really interesting music composition API that needs more investigation.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.umd.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Missouri</strong> - There was only one API at the University of Missouri, but I thought it was an interesting topic, showing the computer site usage around campus. It wasn't something I see a lot of, and I am using it as a doorway to keeping a closer eye on University of Missouri.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://missouri.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of North Texas</strong> - The University of North Texas only has an API for their library collection which I notice they use in several places. I will have to keep looking to see if there are more APIs on campus, beyond the library.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.unt.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Notre Dame</strong> - University of Notre Dame has a central developers portal with a handful of APIs to begin with, including calendar and campus map. The portal provides an area for projects, resources, style guides. It is another great start to a centralized effort on campus.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.nd.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Southern California</strong> - University of Southern California has an interesting set of APIs, with their schedule of classes, events, and mapping. Their webcam API is a kind of interesting, yet scary concept to think about. The types of aPIs I found make me think there has to be more slightly below the surface.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://web-app.usc.edu/ws/webcams/api/help</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Texas Austin</strong> - University of Texas, Austin has an events calendar API, and I can find evidence of access to their IT ApIs, but nothing publicly available for students or partners to use. It is a start. Will be keeping a closer eye on.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://www.utexas.edu/</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Toronto</strong> - I only found the official web services page for the University of Toronto. It doesn't have any modern APIs available, but I can tell the potential is there. It is also interesting that there is a classic set of rogue APIs for core functions like courses that are kept up to date by scraping--it shows the current state.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1ugvd1g</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Virginia School of Medicine</strong> - The University of Virginia School of Medicine only has the one research faculty directory API, but is enough of a start that I think it is worthy of recording. I will keep looking for other APIs that emerge at the school, and see if it expands beyond just this one API.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> www.med.virginia.edu</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>University of Warwick</strong> - The Warwick Studentsu0080u0099 Union is a non profit, self run student support organization for students at the University of Warwick. The API they created for membership is the only API I can find for the campus, but is definitely notable because it is done by a student group, and also hopefully will lead to more APIs.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1j56hqo</li>
+																									</ul>
+			</li>
+
+			<li>
+				<strong>York University</strong> - You can tell the library is the primary API effort at York University, but there is an open data and API effort which doesn't have all the APIs they list, but they do have some common ones for courses and people. Its a start, but still needs a lot more work.				<ul style="margin-top: 10px;">
+											<li><strong>Website:</strong> http://bit.ly/1j56kms</li>
+																									</ul>
+			</li>
+					</ul>
+								<p>I am sure once I dig deeper into these schools, use their internal search tools, I will find more APIs. I will keep monitoring, and as I see patterns emerge, I will break into new groups, and add to my list of building blocks. Trying to understand the various motivations at play can be difficult, as well as finding a person to talk with who is familiar with work going on at each school.&nbsp;</p>									<p><span>I track on what I consider to be the common building blocks for API design, deployment, management, evangelism, and integration, that can be used in all business, organizational, and government sectors. When it comes to higher education, I&rsquo;m going to be tracking on a different set of building blocks, showcasing not just the approach, tools, and services used to deploy APIs, I want to focus on which components of campus operations are having APIs applied to them.</span><br /><br /><span>While the 250+ APIs at Brigham Young University gave me a huge head start on building this list, I looked across all of the university API leaders, as well as the smaller implementations out there. After aggregating into a single list, I smoothed out some of the rough edges, merged a few of the areas, and organized into this list of common building blocks across university API implementations, as of July 2014.</span></p>					<ul>
+				</ul>
+								<p><span>These building blocks are meant to be components, that other institutions can consider when planning, deploying and managing their own API efforts. It is not meant to be complete or definitive list, it is meant to act as a guide, allowing IT or even student organizers to better understand how APIs can help universities better deploy web, mobile and single page applications that support campus operations, or possibly be integrated into the classroom.</span><br /><br /><span>This list of building blocks will continue to evolve and change as I monitor APIs in higher education, talk to folks who play an active role in these campus API efforts, and learn more about how they view the API design, deployment, and management life cycle. Currently I&rsquo;m seeing a wide range of motivations for deploying APIs on campus&mdash;hopefully with some more work I can better understand these motivations, and share more stories about the problems they solve, to help convince other institutions to follow the lead.</span></p>
+				<h1>Central Developer Program</h1>
+						<p><span>A single place to find all of an institutions API and developer resources, usually at developer.example.edu, or within a specific folder at example.edu/developer, is essential to a heightened viability of any campus API effort. A single portal for secure, machine readable access to all of an institutions digital assets, provides a consistent place for anyone to find what they need, anytime.</span><br /><br /><span>Employing a central registry for all digital services is a good idea when viewed from a campus IT perspective. Also investing in this registry not being just a technical portal, where only seasoned IT professionals and developers go, but also any average user, is essential to injecting consistency, and cultivating an essential human tone to any IT operations. In the last decade, various mini-evolutions in technology like Web 2.0, Cloud Computing, and APIs have slowly pulled IT out of the shadows, and into the public space, and campus IT needs to get on board with the latest API evolution or risk falling behind.</span><br /><br /><span>Faculty and administrators should all know they can visit the centralized campus developer area and find not just open data, and API resources, but also tools and services they can put to use in their daily work. An API developer area is not just for programmers, there are many buttons, badges, widgets, connectors, spreadsheet integrators, and other tools that allow for non-developers to put APIs to work for them&mdash;any modern campus developer program should provide a robust buffet of services any faculty member can take advantage of, with very little guidance, in a self-service way.</span><br /><br /><span>An increasing number of college students are coming to school, equipped with an awareness that APIs exist, from their exposure to popular technology platforms like Twitter, Facebook, and Instagram. All of these leading technology providers have centralized developer areas, and often provide direct integration with the Software as a Service (SaaS) accounts of student-users. This type of pollination between software users, and modern web API programs have taught users that they can find their own buttons, badges, widgets and put other API driven services like If This Then That, and Zapier to use when managing their digital identity.&nbsp;</span><br /><br /><span>Higher education institutions will need to look beyond the classic definition of what a web service or API is, and realize that they provide increasing value to not just internal IT, but also the faculty, administrators, and students across an institution. &nbsp;Providing a single, common place to find digital assets is quickly becoming the norm, not just in leading tech companies, but within federal, state and city governments, nonprofit organizations, and eventually across higher education institutions.&nbsp;</span></p>
+				<h1>Providing The Resources API Consumers Depend On</h1>
+						<p><span>The current web API movement has been building for almost 14 years, started by API pioneers like SalesForce and Amazon, resulting in some pretty proven models for what types of resources API consumers need for a successful integration. When you look at the central developer areas for&nbsp;<span>SalesForce</span>&nbsp;and Amazon, but also for new players like Twilio and SendGrid, you see some consistent resources present between all of them, ensuring API consumers have what they need for building web, mobile, and single page applications, and increasingly to connect to physical devices in our every day world.</span><br /><br /><span>The minimum viable resources you need to support a central API developer program are:</span></p>
 <ul>
-  <li><strong>Overview</strong> - A simple, clear, and concise description of what a developer program is intended to do, with introduction to the API resources that are available within a developer program.</li>
-  <li><strong>Getting Started -</strong> Easy to follow, step by step instructions on how to get started using an API, and to take an application from idea to production with as little friction as possible.</li>
-  <li><strong>Self Service Registration - </strong>Even if developers need further approval to get full access, some sort of self-service, 24/7 access to a developer area is the standard protocol for most API platforms--requiring developers to register, but can get at least limited access to APIs at any time.</li>
-  <li><strong>API Reference / Documentation -</strong> Intuitive, simple, and up to date documentation of all API endpoints, and the authentication process is standard procedure, with many APIs providing also delivering some sort of interactive documentation using formats like Swagger or API Blueprint.</li>
-  <li><strong>Code Samples &amp; SDKs - </strong>An suite of code samples, libraries, and SDKs should be made available in top programming languages like PHP, Python, Ruby, JavaScript, Java, C#, and possibly leading languages like Go, for developers to put to use in their integrations.</li>
-  <li><strong>Blog -</strong> An active blog, with RSS, provides a single communication channel that API consumers can depend on to receive updates about API and its parent companies operation.</li>
-  <li><strong>Forum - </strong>Forums, either self-hosted by the API provider, or taking advantage of existing public forums like Stack Exchange, provide an indirect channel for developers to obtain support from the API provider, or from their community of peers.</li>
-  <li><strong>Access Levels &amp; Pricing &nbsp;- </strong>Providing a transparent summary of API access levels, alongside any pricing that applies to the levels of API access available, provides clear information for API consumers to consider as they plan their integrations.</li>
-  <li><strong>Terms and Conditions - </strong>Covering the legal aspects of API operations in a way that protects the API providers interests, as well as allowing API consumers enough room to build and operate businesses around their API integrations, is a standard practice within all API developer programs.</li>
+<li><strong>Overview</strong>&nbsp;- A simple, clear, and concise description of what a developer program is intended to do, with introduction to the API resources that are available within a developer program.</li>
+<li><strong>Getting Started -</strong>&nbsp;Easy to follow, step by step instructions on how to get started using an API, and to take an application from idea to production with as little friction as possible.</li>
+<li><strong>Self Service Registration -&nbsp;</strong>Even if developers need further approval to get full access, some sort of self-service, 24/7 access to a developer area is the standard protocol for most API platforms--requiring developers to register, but can get at least limited access to APIs at any time.</li>
+<li><strong>API Reference / Documentation -</strong>&nbsp;Intuitive, simple, and up to date documentation of all API endpoints, and the authentication process is standard procedure, with many APIs providing also delivering some sort of interactive documentation using formats like Swagger or API Blueprint.</li>
+<li><strong>Code Samples &amp; SDKs -&nbsp;</strong>An suite of code samples, libraries, and SDKs should be made available in top programming languages like PHP, Python, Ruby, JavaScript, Java, C#, and possibly leading languages like Go, for developers to put to use in their integrations.</li>
+<li><strong>Blog -</strong>&nbsp;An active blog, with RSS, provides a single communication channel that API consumers can depend on to receive updates about API and its parent companies operation.</li>
+<li><strong>Forum -&nbsp;</strong>Forums, either self-hosted by the API provider, or taking advantage of existing public forums like Stack Exchange, provide an indirect channel for developers to obtain support from the API provider, or from their community of peers.</li>
+<li><strong>Access Levels &amp; Pricing &nbsp;-&nbsp;</strong>Providing a transparent summary of API access levels, alongside any pricing that applies to the levels of API access available, provides clear information for API consumers to consider as they plan their integrations.</li>
+<li><strong>Terms and Conditions -&nbsp;</strong>Covering the legal aspects of API operations in a way that protects the API providers interests, as well as allowing API consumers enough room to build and operate businesses around their API integrations, is a standard practice within all API developer programs.</li>
 </ul>
-<p><span>There are other bells and whistles you can add in, like a Twitter account or putting Github to work, but API pioneers like <span>SalesForce</span>, Flickr, Twitter and Google have established a common set of essential API building blocks through trial and error over the last decade&mdash;leaving this simple checklists that thousands of other API providers follow, making it a default for all APIs.</span><br /> <br /> <span>Internal, student, or external vendors will look to a centralized developer program, containing a consistent number of resources, delivered in a way that matches what people have grown accustom to, when integrating with APIs across the public and private sector over the last decade.&nbsp;</span></p></p>
-
-<!-- Migration From A SOA To An API Way Of Life -->
-
-<h2>Migration From A SOA To An API Way Of Life</h2>
-<p><p>The modern web API movement was born out of the enterprise service oriented architecture methodology, also known as SOA. This earlier, and still very relevant methodology, is a way to deploy web services, in a very technical, top down, IT governance kind of way. Around 2000 what we know as the modern web API began to take a different direction with a series of API deployments from like <span>SalesForce</span>, Amazon and EBay--something that was further evolved by social emdia platforms like Twitter, Facebook, and tech giants like Google, then again by Amazon, resulting what is now known as cloud computing.<br /><br />As I mentioned before, most institutions use web services as part of regular systems and IT operations, but very few actually understand the benefits of breaking free from this very silo-ed, and technical way of operating, and see the benefits a web API approach. It is very likely that most IT campus operations have a registry of web services, existing software systems that have APIs which are not being put to use, and most importantly lack a centralized, organized vision for making services available outside of internal IT operations.&nbsp;<br /><br />It takes a forward thinking IT group, that is aware of what has been happening across the tech landscape over the last 14 years, with APIs. This type of transition in thinking can be seen playing out at Brigham Young University with their over 250+ APIs, which once you scratch the surface you realize that the majority are older SOAP services, part of a legacy SOA strategy, with only a handful of them being redesigned to reflect modern web APIs. Even with this awareness, BYU is still just beginning to get a handle on what a centralized developer area will look like, let alone an organized and consistent approach to designing, deploying and managing APIs.<br /><br />The enterprise has begun waking up to the benefits of an API strategy over a purely SOA driven strategy, and I&rsquo;d say that city, state, and federal government have started doing the same in the last two years, which is something I predict higher education institutions will be doing over the next five years. Evolving from a very internally focused IT vision of web services, to an externally focused API vision, one that includes not just IT, but administrators, faculty, students, and outside vendors and third party developers will not be easy for many schools, but it will be required to stay relevant in coming years.</p></p>
-
-<!-- Providing Robust Internal IT Access To APIs -->
-
-<h2>Providing Robust Internal IT Access To APIs</h2>
-<p><p><span>Using web services to deliver digital services across campus should be nothing new to seasoned IT personnel. However there will be a learning curve when it comes to the nuances around making the same assets and resources available via web APIs. Traditional IT approaches to deliver web services, and even some web APis are often very technically driven by the view from the IT or developer staff. One of the hallmarks of most leading web APIs, is that they focus delivering digital resources in a way that is closer to what the end-user will actually need, making what is often a very technical resource, much more accessible to a wider audience.</span><br /> <br /> <span>Self-service, secured access for IT staff to all services, across all systems enables a much more flexible, agile, and resilient environment, that eliminates redundancy, and encourages consistency. Modern web APIs use the same infrastructure as websites, so it should not require too much retooling to switch to designing, deploying and managing web APIs from a legacy SOA infrastructure.</span><br /> <br /> <span>In an ideal university API effort, campus IT will take the lead on all aspects of the API program, but IT groups should also be aware, as with other examples of shadow IT, where faculty, administrators and students look to external software services, to meet their needs&mdash;the same can happen with your API program, leaving you with less control than if campus IT took the lead.</span></p></p>
-
-<!-- Providing Faculty Access To Campus APIs -->
-
-<h2>Providing Faculty Access To Campus APIs</h2>
-<p><p><span>University faculty and administrators are increasingly depending on technology to do their job. As institutions continue to require staff to use common systems like the Learning Management System (LMS), and the Student Information System (SIS), contact, content, document, media, and a variety of other systems, they need to also understand the importance ensuring that all systems enable feature, setting, content and data portability that can be introduced by using APIs.</span><br /> <br /> <span>APIs could be as simple as allowing a teacher to custom pull a student roster for a course in a different way than the student information system will allow, or using APIs could be part of a larger research project, allowing a distributed group of researchers to work on a single document or even database via APIs. APIs are often right below the surface on many of the systems faculty and administrators are already depending on for their job, and it would not take much to make these existing APIs available in a way that allows staff to use across multiple channels including the web, mobile, single page applications, spreadsheets, as well as across external data analysis and visualization tools.</span></p></p>
-
-<!-- Providing Student Access To Campus APIs -->
-
-<h2>Providing Student Access To Campus APIs</h2>
-<p><p><span>The thought of providing direct access to campus digital resources for students will seem like an insane idea to many IT leaders, but in 2014, it is a new generation of delivering information technology and services, and with all entering freshman being born and raised on the Internet, we can know longer exclude them from the flow of campus digital information.</span><br /> <br /> <span>Many students are aware that APIs exist in the platforms they use like Twitter and Instagram, and posses a unique digital literacy that many campus IT staff, and teachers will not have. The energy of each wave of students that pass through an institution needs to be captured, and making campus resources and services available through simple, secure APIs can go a long way to provide the access students will need to find workarounds to frustrating IT systems, and even innovate when building applications and tools that schools do not have the time or resources to do themselves.</span><br /> <br /> <span>Providing access to campus resources for students is a new idea, but one that makes sense in the Internet age, where schools are being required to do more with less, making it unacceptable to not capture the energy of the young, technically savvy students making their way through our universities. in coming years, making APIs available to students will not just be necessary to streamline campus operations, it will be an essential part of preparing students for the workplace they are about to enter, and assert their role in the digital economy, in a way that makes them aware and confident of their digital presence.&nbsp;</span></p></p>
-
-<!-- Putting Public APIs to Use On Campus -->
-
-<h2>Putting Public APIs to Use On Campus</h2>
-<p><p><span>APIs within the university are not just about providing access to campus resources, it can be about consuming public APIs like Flickr, Twitter, Tumblr and WordPress in the classroom, or during administrative operations. APIs are designed to be part of the open web, allowing for the development of web, mobile, and single page applications that can span both campus, and public API resources in a single blog post, mobile application, or internal Student Information System(SIS).</span><br /> <br /> <span>The line between internal and external services has blurred with the growth of the Internet, and the websites, web applications, and mobile applications that are used on campus reflect this reality&mdash;there is no reason APIs will be any different. Every outside cloud service that is used on campus should have an accompanying API, allowing for integration with existing systems, as well as feature and data portability for students, faculty, administrators and IT.</span><br /> <br /> <span>It is likely that campus IT has already started organizing outside software and services into a central place for faculty, administrators and students to find, providing a sanctioned list of outside services that can be put to use. IT needs to do the same with the APIs that these services offer--especially if they are not campus owned. APIs are everywhere, whether or not an institution acknowledges them, and it is better to not just take a pro-active stance and make them part of regular activity, or better yet, maybe take a lead and make sure students are not just prepared, but fully equipped for their role in our increasingly digital world.</span></p></p>
-
-<!-- Explore Using APIs Within The Classroom -->
-
-<h2>Explore Using APIs In The Classroom</h2>
-<p><p><span>Whether its external, publicly available APIs like Twitter and Flickr, or internal resources like the campus events calendar or student directory, there are opportunities for incorporating APIs into the classroom. Blogs, equipped with RSS have been accepted for some time on campus, and APIs are just the next logical evolution from RSS for aggregating not just content, but data, and other valuable programmatic resources or audio, and media services.</span><br /> <br /> <span>I recently worked with the University of Arlington, in Texas (UTA), and edX, the online education partnership between Harvard and MIT, and other institutions like UTA, on how APIs can be applied in an online data &amp; analytic course. In this scenario, students could be introduced to valuable data resources like US census data, corporate records using OpenCorporates, creative commons pictures from Flickr, or maybe just Twitter data--in a single, online class experience.</span><br /> <br /> <span>There are some interesting opportunities to incorporate both public, and campus API resources into the classroom experience, adding an entirely new dimension to the university API discussion. The skills students will learn by using APIs in the classroom can help increase overall web literacy, and their proficiency in finding what they need to get their homework done, and some day give them an advantage in the workplace as well.</span></p></p>
-
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>
-<!-- Investing In Hackathon, Data and Process Jams  -->
-
-<h2>Investing In Hackathon, Data and Process Jams </h2>
-<p><p><span>Universities are following the lead of the tech sectors and employing hackathons to provide a rich, competitive environment for students to learn about pubic, and campus APIs, build websites, web and mobile applications that help them in their classes, support a project, or solve a problem they face in their everyday campus life.&nbsp;</span><br /> <br /> <span>University of California Berkeley is experimenting with integrating hackathons into courses, as well as campus life. Instructors are playing with the best way to ensure that the intellectual exhaust from each hackathon is captured, and any ideas, code, and other projects have the opportunity to live on as part of the classroom or campus experience. Imagine a world where students help build, and improve on the applications they use to interact with their schools. UC Berkeley has acquired applications from students, setting an interesting new precedent for how campus IT services are delivered, and moving us closer to this vision.</span><br /> <br /> <span>Hackathons are also being employed in an intercollegiate way, allowing schools to compete with each other when it comes to developing applications, much like sports, and other campus activities. Hackathons are a simple format, that is attractive to young students, and can be done very cost effectively, a regular basis, using existing classroom space, and campus catering services.&nbsp;</span><br /> <br /> <span>Hackathons are also being employed beyond the startup community, and being executed at the industry level in education, healthcare, and energy, as well as within government from city to the federal government. Hacking events provide a great networking opportunity for students, an excellent way to introduce them to new technology, while also potentially developing code, applications, and new process that can improve campus operations, and enrich the education experience</span></p></p>
-
-<!-- External Vendor Access To Services  -->
-
-<h2>External Vendor Access To Services</h2>
-<p><p><span>Beyond internal IT, faculty and administrators, and even the students, APIs can securely open up access to valuable campus resources, in a way that allows campus IT to monitor, and shut off access to prevent abuse. While information about university APIs can be public, the APIs are most often secured using &ldquo;API keys&rdquo;, or employs oAuth when personally identifiable information (PII) is being accessed, allowing for students and faculty to have a say in who has acces to their personal information.&nbsp;</span><br /> <br /> <span>Modern web API management infrastructure allows for the securing, and metering of web APis, which requires any external vendor to first register for access, obtain API keys, before they can access any campus resources. This type of access allows campus IT to easily open up access to outside vendors, while protecting the privacy and security of campus operations&mdash;striking a balance when it comes to building website, web and mobile applications around campus resources.</span><br /> <br /> <span>Take a look at UC Berkeley&rsquo;s developer area to get an idea of what a centralized developer area, with a modern API management platform looks like. UC Berkeley now has a single location to hang any campus API, as well as a single point of entry for internal and external access to campus API resources, with different levels of access if you are student, faculty, or an external vendor being given access to API to build an application, or accomplish a specific systems integration.</span></p></p>
-
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>
-<!-- Implementing A Top Down API Strategy -->
-
-<h2>Implementing A Top Down API Strategy</h2>
-<p><p><span>After reviewing the approach of the six universities who are deploying centralized API strategies, there is one approach that stands out as what I&rsquo;d call a top down approach, which you can see playing out in the BYU API program--where you have an effort, being led by the CIO office, with buy-in from executive level leaders.&nbsp;</span><br /> <br /> <span>This top down approach at BYU is definitely an ideal situation for deploying APIs at a university because you have direct access to all IT resources, and can go big, like they have at BYU, making almost every part of campus operations accessible through the over 250+ APIs they have available. </span></p>
-<p><span>Even with this level of access, there is still a lot of work to do, bringing together the BYU developer area, delivering the supporting resources that API consumer will need, and maintaining top level buy in, but overall it is a pretty impressive start, compared to other institutions&mdash;providing a pretty good example of why a top down API strategy for universities can be the way to go.</span></p></p>
-
-<!-- Resorting To A Bottom Up API Strategy -->
-
-<h2>Resorting To A Bottom Up API Strategy</h2>
-<p><p><span>In contrast to the top down approach at BYU, you can see a more bottom up, organic approach playing out at UC Berkeley. While there is buy-in for a centralized developer area, and API management platform, the original effort has been led by a small group of faculty, administrators, and students. After building momentum and aggregating a handful of valuable campus APIs, the program has managed to gain momentum, through slowly educating, and including other individuals, programs, and administrators across the UC system.&nbsp;</span><br /> <br /> <span>A bottom up approach at UC Berkeley is definitely not ideal, but in reality, will probably be how most APIs are introduced on many campuses around the world. It isn&rsquo;t just higher education institutions that are target of this type of bottom up pressure to open up access to digital resources--large companies are feeling industry pressure, and government has been responding to civic pressure for government to be more open and transparent the last couple years.</span><br /> <br /><span>My dream implementation at a university would be both top down, and bottom up. The grassroots evangelism that occurs bottom up is really necessary to get the buy in across a large institution.&nbsp;</span>In our federal government the president mandated that agencies open up their data and resources, but it is taking a grassroots army of evangelists, data stewards, and passionate developers to actually make it a reality on the ground&mdash;this same story will play out across universities over the next couple of years.</p></p>
-
-<!-- Higher Education Is Front Line For Web Literacy -->
-
-<h2>Higher Education Is Front Line For Web Literacy</h2>
-<p><p><span>A large part of our worlds have moved online. Whether it is entertainment at home, education in the classroom, or out and about on our mobile devices, we are living more of our lives online&mdash;increasing the imperative that we are empowering every student with at least a minimum amount of web literacy. Think of web literacy, like understanding your personal finances, every single adult must have a certain level of awareness of how our financial system operates. You don't need to understand the inner workings of banking and global markets, but you need to know how to setup a bank account, apply for credit or debit cards, balance your checkbook and pay your taxes. As our lives move online and our digital footprint expands, our data is fast becoming the online currency of Internet platforms like Facebook, Twitter and Pinterest, increasing the need for us to understand the mechanisms at play in this new digital economy, and empower each student to take back some control.</span><br /> <br /> <span>Web literacy goes beyond just what you will need to know in your job and career, it is what you will need to be a literate citizen, and use government services, conduct business, and even interact with your friends and community around you. Just as higher education has played a significant role in preparing our youth for the real world in the past, it will have to take the lead in providing them with the basic web literacy skills they will need to engage online in everyday scenarios, as well as the specialty career trajectories. API is a layer of web literacy, one that allows the tech savvy individual to peel back how the Internet works, and configure, tweak, and make the Internet work for them--not the other way around.</span></p></p>
-
-<!-- Providing A Blueprint For Other University To Follow -->
-
-<h2>Providing A Blueprint For Other University To Follow</h2>
-<p><p><span>My goal with this white paper is to create a static snapshot of the current state of APIs in higher education, share some of what I learned looking through the leading universities in the space, and also apply some of my wider knowledge from the API industry beyond the university campus--in hopes university leaders are listenging.</span><br /> <br /> <span>I want this paper to be a blueprint that any university CIO or CTO, student or energetic professor can pick up, and get an idea of what is going on across other universities when it comes to APIs. I&rsquo;m fascinated by what I&rsquo;m seeing out of BYU, UW, UC Berkeley, and UM, and as I do with the rest of the space, I&rsquo;m looking forward to monitoring their progress, and having more conversations about how we can make university API efforts more successful.</span><br /> <br /> <span>I will continue to update this white paper as I find more examples of institutions putting to APIs to work. While much of this research is rooted in what I'm seeing across these 12 higher education institutions, there is still much that is speculation based on my experience, and as I find more concrete examples in the wild I'll expand and add to this paper.</span></p>
+<p><span>There are other bells and whistles you can add in, like a Twitter account or putting Github to work, but API pioneers like&nbsp;<span>SalesForce</span>, Flickr, Twitter and Google have established a common set of essential API building blocks through trial and error over the last decade&mdash;leaving this simple checklists that thousands of other API providers follow, making it a default for all APIs.</span><br /><br /><span>Internal, student, or external vendors will look to a centralized developer program, containing a consistent number of resources, delivered in a way that matches what people have grown accustom to, when integrating with APIs across the public and private sector over the last decade.&nbsp;</span></p>
+				<h1>Migration From A SOA To An API Way Of Life</h1>
+						<p><span>The modern web API movement was born out of the enterprise service oriented architecture methodology, also known as SOA. This earlier, and still very relevant methodology, is a way to deploy web services, in a very technical, top down, IT governance kind of way. Around 2000 what we know as the modern web API began to take a different direction with a series of API deployments from like&nbsp;</span><span>SalesForce</span><span>, Amazon and EBay--something that was further evolved by social emdia platforms like Twitter, Facebook, and tech giants like Google, then again by Amazon, resulting what is now known as cloud computing.</span><br /><br /><span>As I mentioned before, most institutions use web services as part of regular systems and IT operations, but very few actually understand the benefits of breaking free from this very silo-ed, and technical way of operating, and see the benefits a web API approach. It is very likely that most IT campus operations have a registry of web services, existing software systems that have APIs which are not being put to use, and most importantly lack a centralized, organized vision for making services available outside of internal IT operations.&nbsp;</span><br /><br /><span>It takes a forward thinking IT group, that is aware of what has been happening across the tech landscape over the last 14 years, with APIs. This type of transition in thinking can be seen playing out at Brigham Young University with their over 250+ APIs, which once you scratch the surface you realize that the majority are older SOAP services, part of a legacy SOA strategy, with only a handful of them being redesigned to reflect modern web APIs. Even with this awareness, BYU is still just beginning to get a handle on what a centralized developer area will look like, let alone an organized and consistent approach to designing, deploying and managing APIs.</span><br /><br /><span>The enterprise has begun waking up to the benefits of an API strategy over a purely SOA driven strategy, and I&rsquo;d say that city, state, and federal government have started doing the same in the last two years, which is something I predict higher education institutions will be doing over the next five years. Evolving from a very internally focused IT vision of web services, to an externally focused API vision, one that includes not just IT, but administrators, faculty, students, and outside vendors and third party developers will not be easy for many schools, but it will be required to stay relevant in coming years.</span></p>
+				<h1>Providing Robust Internal IT Access To APIs</h1>
+						<p><span>Using web services to deliver digital services across campus should be nothing new to seasoned IT personnel. However there will be a learning curve when it comes to the nuances around making the same assets and resources available via web APIs. Traditional IT approaches to deliver web services, and even some web APis are often very technically driven by the view from the IT or developer staff. One of the hallmarks of most leading web APIs, is that they focus delivering digital resources in a way that is closer to what the end-user will actually need, making what is often a very technical resource, much more accessible to a wider audience.</span><br /><br /><span>Self-service, secured access for IT staff to all services, across all systems enables a much more flexible, agile, and resilient environment, that eliminates redundancy, and encourages consistency. Modern web APIs use the same infrastructure as websites, so it should not require too much retooling to switch to designing, deploying and managing web APIs from a legacy SOA infrastructure.</span><br /><br /><span>In an ideal university API effort, campus IT will take the lead on all aspects of the API program, but IT groups should also be aware, as with other examples of shadow IT, where faculty, administrators and students look to external software services, to meet their needs&mdash;the same can happen with your API program, leaving you with less control than if campus IT took the lead.</span></p>
+				<h1>Providing Faculty Access To Campus APIs</h1>
+						<p><span>University faculty and administrators are increasingly depending on technology to do their job. As institutions continue to require staff to use common systems like the Learning Management System (LMS), and the Student Information System (SIS), contact, content, document, media, and a variety of other systems, they need to also understand the importance ensuring that all systems enable feature, setting, content and data portability that can be introduced by using APIs.</span><br /><br /><span>APIs could be as simple as allowing a teacher to custom pull a student roster for a course in a different way than the student information system will allow, or using APIs could be part of a larger research project, allowing a distributed group of researchers to work on a single document or even database via APIs. APIs are often right below the surface on many of the systems faculty and administrators are already depending on for their job, and it would not take much to make these existing APIs available in a way that allows staff to use across multiple channels including the web, mobile, single page applications, spreadsheets, as well as across external data analysis and visualization tools.</span></p>
+				<h1>Providing Student Access To Campus APIs</h1>
+						<p><span>The thought of providing direct access to campus digital resources for students will seem like an insane idea to many IT leaders, but in 2014, it is a new generation of delivering information technology and services, and with all entering freshman being born and raised on the Internet, we can know longer exclude them from the flow of campus digital information.</span><br /><br /><span>Many students are aware that APIs exist in the platforms they use like Twitter and Instagram, and posses a unique digital literacy that many campus IT staff, and teachers will not have. The energy of each wave of students that pass through an institution needs to be captured, and making campus resources and services available through simple, secure APIs can go a long way to provide the access students will need to find workarounds to frustrating IT systems, and even innovate when building applications and tools that schools do not have the time or resources to do themselves.</span><br /><br /><span>Providing access to campus resources for students is a new idea, but one that makes sense in the Internet age, where schools are being required to do more with less, making it unacceptable to not capture the energy of the young, technically savvy students making their way through our universities. in coming years, making APIs available to students will not just be necessary to streamline campus operations, it will be an essential part of preparing students for the workplace they are about to enter, and assert their role in the digital economy, in a way that makes them aware and confident of their digital presence.&nbsp;</span></p>
+				<h1>Putting Public APIs to Use On Campus</h1>
+						<p><span>APIs within the university are not just about providing access to campus resources, it can be about consuming public APIs like Flickr, Twitter, Tumblr and WordPress in the classroom, or during administrative operations. APIs are designed to be part of the open web, allowing for the development of web, mobile, and single page applications that can span both campus, and public API resources in a single blog post, mobile application, or internal Student Information System(SIS).</span><br /><br /><span>The line between internal and external services has blurred with the growth of the Internet, and the websites, web applications, and mobile applications that are used on campus reflect this reality&mdash;there is no reason APIs will be any different. Every outside cloud service that is used on campus should have an accompanying API, allowing for integration with existing systems, as well as feature and data portability for students, faculty, administrators and IT.</span><br /><br /><span>It is likely that campus IT has already started organizing outside software and services into a central place for faculty, administrators and students to find, providing a sanctioned list of outside services that can be put to use. IT needs to do the same with the APIs that these services offer--especially if they are not campus owned. APIs are everywhere, whether or not an institution acknowledges them, and it is better to not just take a pro-active stance and make them part of regular activity, or better yet, maybe take a lead and make sure students are not just prepared, but fully equipped for their role in our increasingly digital world.</span></p>
+				<h1>Explore Using APIs In The Classroom</h1>
+						<p><span>Whether its external, publicly available APIs like Twitter and Flickr, or internal resources like the campus events calendar or student directory, there are opportunities for incorporating APIs into the classroom. Blogs, equipped with RSS have been accepted for some time on campus, and APIs are just the next logical evolution from RSS for aggregating not just content, but data, and other valuable programmatic resources or audio, and media services.</span><br /><br /><span>I recently worked with the University of Arlington, in Texas (UTA), and edX, the online education partnership between Harvard and MIT, and other institutions like UTA, on how APIs can be applied in an online data &amp; analytic course. In this scenario, students could be introduced to valuable data resources like US census data, corporate records using OpenCorporates, creative commons pictures from Flickr, or maybe just Twitter data--in a single, online class experience.</span><br /><br /><span>There are some interesting opportunities to incorporate both public, and campus API resources into the classroom experience, adding an entirely new dimension to the university API discussion. The skills students will learn by using APIs in the classroom can help increase overall web literacy, and their proficiency in finding what they need to get their homework done, and some day give them an advantage in the workplace as well.</span></p>
+				<h1>Investing In Hackathon, Data and Process Jams</h1>
+						<p><span>Universities are following the lead of the tech sectors and employing hackathons to provide a rich, competitive environment for students to learn about pubic, and campus APIs, build websites, web and mobile applications that help them in their classes, support a project, or solve a problem they face in their everyday campus life.&nbsp;</span><br /><br /><span>University of California Berkeley is experimenting with integrating hackathons into courses, as well as campus life. Instructors are playing with the best way to ensure that the intellectual exhaust from each hackathon is captured, and any ideas, code, and other projects have the opportunity to live on as part of the classroom or campus experience. Imagine a world where students help build, and improve on the applications they use to interact with their schools. UC Berkeley has acquired applications from students, setting an interesting new precedent for how campus IT services are delivered, and moving us closer to this vision.</span><br /><br /><span>Hackathons are also being employed in an intercollegiate way, allowing schools to compete with each other when it comes to developing applications, much like sports, and other campus activities. Hackathons are a simple format, that is attractive to young students, and can be done very cost effectively, a regular basis, using existing classroom space, and campus catering services.&nbsp;</span><br /><br /><span>Hackathons are also being employed beyond the startup community, and being executed at the industry level in education, healthcare, and energy, as well as within government from city to the federal government. Hacking events provide a great networking opportunity for students, an excellent way to introduce them to new technology, while also potentially developing code, applications, and new process that can improve campus operations, and enrich the education experience.</span></p>
+				<h1>External Vendor Access To Services</h1>
+						<p><span>Beyond internal IT, faculty and administrators, and even the students, APIs can securely open up access to valuable campus resources, in a way that allows campus IT to monitor, and shut off access to prevent abuse. While information about university APIs can be public, the APIs are most often secured using &ldquo;API keys&rdquo;, or employs oAuth when personally identifiable information (PII) is being accessed, allowing for students and faculty to have a say in who has acces to their personal information.&nbsp;</span><br /><br /><span>Modern web API management infrastructure allows for the securing, and metering of web APis, which requires any external vendor to first register for access, obtain API keys, before they can access any campus resources. This type of access allows campus IT to easily open up access to outside vendors, while protecting the privacy and security of campus operations&mdash;striking a balance when it comes to building website, web and mobile applications around campus resources.</span><br /><br /><span>Take a look at UC Berkeley&rsquo;s developer area to get an idea of what a centralized developer area, with a modern API management platform looks like. UC Berkeley now has a single location to hang any campus API, as well as a single point of entry for internal and external access to campus API resources, with different levels of access if you are student, faculty, or an external vendor being given access to API to build an application, or accomplish a specific systems integration.</span></p>
+				<h1>Implementing A Top Down API Strategy</h1>
+						<p><span>After reviewing the approach of the six universities who are deploying centralized API strategies, there is one approach that stands out as what I&rsquo;d call a top down approach, which you can see playing out in the BYU API program--where you have an effort, being led by the CIO office, with buy-in from executive level leaders.&nbsp;</span><br /><br /><span>This top down approach at BYU is definitely an ideal situation for deploying APIs at a university because you have direct access to all IT resources, and can go big, like they have at BYU, making almost every part of campus operations accessible through the over 250+ APIs they have available.</span></p>
+<p><span>Even with this level of access, there is still a lot of work to do, bringing together the BYU developer area, delivering the supporting resources that API consumer will need, and maintaining top level buy in, but overall it is a pretty impressive start, compared to other institutions&mdash;providing a pretty good example of why a top down API strategy for universities can be the way to go.</span></p>
+				<h1>Resorting To A Bottom Up API Strategy</h1>
+						<p><span>In contrast to the top down approach at BYU, you can see a more bottom up, organic approach playing out at UC Berkeley. While there is buy-in for a centralized developer area, and API management platform, the original effort has been led by a small group of faculty, administrators, and students. After building momentum and aggregating a handful of valuable campus APIs, the program has managed to gain momentum, through slowly educating, and including other individuals, programs, and administrators across the UC system.&nbsp;</span><br /><br /><span>A bottom up approach at UC Berkeley is definitely not ideal, but in reality, will probably be how most APIs are introduced on many campuses around the world. It isn&rsquo;t just higher education institutions that are target of this type of bottom up pressure to open up access to digital resources--large companies are feeling industry pressure, and government has been responding to civic pressure for government to be more open and transparent the last couple years.</span><br /><br /><span>My dream implementation at a university would be both top down, and bottom up. The grassroots evangelism that occurs bottom up is really necessary to get the buy in across a large institution.&nbsp;</span><span>In our federal government the president mandated that agencies open up their data and resources, but it is taking a grassroots army of evangelists, data stewards, and passionate developers to actually make it a reality on the ground&mdash;this same story will play out across universities over the next couple of years.</span></p>
+				<h1>Higher Education Is Front Line For Web Literacy</h1>
+						<p><span>A large part of our worlds have moved online. Whether it is entertainment at home, education in the classroom, or out and about on our mobile devices, we are living more of our lives online&mdash;increasing the imperative that we are empowering every student with at least a minimum amount of web literacy. Think of web literacy, like understanding your personal finances, every single adult must have a certain level of awareness of how our financial system operates. You don't need to understand the inner workings of banking and global markets, but you need to know how to setup a bank account, apply for credit or debit cards, balance your checkbook and pay your taxes. As our lives move online and our digital footprint expands, our data is fast becoming the online currency of Internet platforms like Facebook, Twitter and Pinterest, increasing the need for us to understand the mechanisms at play in this new digital economy, and empower each student to take back some control.</span><br /><br /><span>Web literacy goes beyond just what you will need to know in your job and career, it is what you will need to be a literate citizen, and use government services, conduct business, and even interact with your friends and community around you. Just as higher education has played a significant role in preparing our youth for the real world in the past, it will have to take the lead in providing them with the basic web literacy skills they will need to engage online in everyday scenarios, as well as the specialty career trajectories. API is a layer of web literacy, one that allows the tech savvy individual to peel back how the Internet works, and configure, tweak, and make the Internet work for them--not the other way around.</span></p>
+				<h1>Providing A Blueprint For Other University To Follow</h1>
+						<p><span>My goal with this white paper is to create a static snapshot of the current state of APIs in higher education, share some of what I learned looking through the leading universities in the space, and also apply some of my wider knowledge from the API industry beyond the university campus--in hopes university leaders are listenging.</span><br /><br /><span>I want this paper to be a blueprint that any university CIO or CTO, student or energetic professor can pick up, and get an idea of what is going on across other universities when it comes to APIs. I&rsquo;m fascinated by what I&rsquo;m seeing out of BYU, UW, UC Berkeley, and UM, and as I do with the rest of the space, I&rsquo;m looking forward to monitoring their progress, and having more conversations about how we can make university API efforts more successful.</span><br /><br /><span>I will continue to update this white paper as I find more examples of institutions putting to APIs to work. While much of this research is rooted in what I'm seeing across these 12 higher education institutions, there is still much that is speculation based on my experience, and as I find more concrete examples in the wild I'll expand and add to this paper.</span></p>
 <p>I can't emphasize enough, the important role that higher education will play in not just equipping the next generation with the web literacy skills they will need to be successful, but also help take the lead in defining the underlying pipes that will drive our increasingly digital economy. APIs are not good by default, they can be used is some very bad ways, but I'm confident that if higher education takes a lead in the space, the patterns that can be established will provide a healthier path forward than if we let Silicon Valley continue to exclusively lead.</p>
-<p><br style="line-height: 25px;" /></p>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-classroom-api.png" alt="" width="300" /></p></p>
+<p>&nbsp;</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-classroom-api.png" alt="" width="300" /></p>
+				<h1>Some Of The Conversation I Have Tuned Into Around APIs In Higher Education</h1>
+						<p>These are some of the news articles I'm tuning into when it comes to the conversation going on around APIs across universities. I'm hoping more groups launch blogs and Twitter accounts showcasing what they do, so I do not have to be the only storyteller in the space. ;-)</p>					<ul>
 
-<p style="text-align: center; page-break-after: always;">&nbsp;</p>
+			<li><a href="http://api-university.com/blog/what-should-an-api-methodology-deliver/"><strong>What should an API Methodology deliver?</strong></a> (06-08-2015 on api-university.com) - <a href="http://api-university.com/blog/what-should-an-api-methodology-deliver/">http://api-university.com/blog/what-should-an-api-methodology-deliver/</a></li>
 
-<h2>Appendix A: Curated News and Resources</h2>
+			<li><a href="http://api-university.com/blog/why-do-we-need-an-api-architecture/"><strong>Why do we need an API Architecture?</strong></a> (06-01-2015 on api-university.com) - <a href="http://api-university.com/blog/why-do-we-need-an-api-architecture/">http://api-university.com/blog/why-do-we-need-an-api-architecture/</a></li>
 
-<ul class="mainlist">
-  <li><a href="http://bavatuesdays.com/the-academic-commons-in-service-to-cunys-mission-as-a-public-university/" target="_blank"><strong>In service to CUNY’s mission as a public university</strong></a> from <a href="bavatuesdays.com" target="_blank">bavatuesdays.com</a> on 2/19/2016), full resource available at <a href="http://bavatuesdays.com/the-academic-commons-in-service-to-cunys-mission-as-a-public-university/" target="_blank">http://bavatuesdays.com/the-academic-commons-in-service-to-cunys-mission-as-a-public-university/</a></li>
-  <li><a href="http://zepheira.com/2016/02/university-of-manitoba-chooses-zepheira-to-convert-catalogue-collections-to-linked-data/" target="_blank"><strong>University of Manitoba Chooses Zepheira to Convert Catalogue, Collections to Linked Data</strong></a> from <a href="zepheira.com" target="_blank">zepheira.com</a> on 2/17/2016), full resource available at <a href="http://zepheira.com/2016/02/university-of-manitoba-chooses-zepheira-to-convert-catalogue-collections-to-linked-data/" target="_blank">http://zepheira.com/2016/02/university-of-manitoba-chooses-zepheira-to-convert-catalogue-collections-to-linked-data/</a></li>
-  <li><a href="http://blog.orgsync.com/2015/northeastern-university-using-the-power-of-the-api-to-enhance-student-engagement" target="_blank"><strong>Northeastern University: Using the Power of the API to Enhance Student Engagement</strong></a> from <a href="blog.orgsync.com" target="_blank">blog.orgsync.com</a> on 11/6/2015), full resource available at <a href="http://blog.orgsync.com/2015/northeastern-university-using-the-power-of-the-api-to-enhance-student-engagement" target="_blank">http://blog.orgsync.com/2015/northeastern-university-using-the-power-of-the-api-to-enhance-student-engagement</a></li>
-  <li><a href="https://blogs.dropbox.com/dropbox/2015/10/university-insights-creatives-and-developers/" target="_blank"><strong>University Insights: Creatives and developers</strong></a> from <a href="blogs.dropbox.com" target="_blank">blogs.dropbox.com</a> on 10/21/2015), full resource available at <a href="https://blogs.dropbox.com/dropbox/2015/10/university-insights-creatives-and-developers/" target="_blank">https://blogs.dropbox.com/dropbox/2015/10/university-insights-creatives-and-developers/</a></li>
-  <li><a href="http://www.baselinemag.com/infrastructure/college-of-music-orchestrates-success-with-apis.html#sthash.O9gpNn75.uxfs&st_refDomain=&st_refQuery=" target="_blank"><strong>College of Music Orchestrates Success With APIs</strong></a> from <a href="www.baselinemag.com" target="_blank">www.baselinemag.com</a> on 8/29/2015), full resource available at <a href="http://www.baselinemag.com/infrastructure/college-of-music-orchestrates-success-with-apis.html#sthash.O9gpNn75.uxfs&st_refDomain=&st_refQuery=" target="_blank">http://www.baselinemag.com/infrastructure/college-of-music-orchestrates-success-with-apis.html#sthash.O9gpNn75.uxfs&st_refDomain=&st_refQuery=</a></li>
-  <li><a href="http://cs.illinois.edu/news/illinois-funded-google-innovative-mobile-first-open-web-things-initiatives" target="_blank"><strong>Illinois Funded by Google on Innovative Mobile-First, Open Web of Things Initiatives | Department of Computer Science at Illinois</strong></a> from <a href="cs.illinois.edu" target="_blank">cs.illinois.edu</a> on 8/27/2015), full resource available at <a href="http://cs.illinois.edu/news/illinois-funded-google-innovative-mobile-first-open-web-things-initiatives" target="_blank">http://cs.illinois.edu/news/illinois-funded-google-innovative-mobile-first-open-web-things-initiatives</a></li>
-  <li><a href="http://www.edtechmagazine.com/higher/article/2015/05/campuses-deploy-software-defined-storage" target="_blank"><strong>Campuses Deploy Software-Defined Storage</strong></a> from <a href="www.edtechmagazine.com" target="_blank">www.edtechmagazine.com</a> on 8/22/2015), full resource available at <a href="http://www.edtechmagazine.com/higher/article/2015/05/campuses-deploy-software-defined-storage" target="_blank">http://www.edtechmagazine.com/higher/article/2015/05/campuses-deploy-software-defined-storage</a></li>
-  <li><a href="http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon/" target="_blank"><strong>API Usability Course at Carnegie Mellon ·</strong></a> from <a href="apievangelist.com" target="_blank">apievangelist.com</a> on 8/11/2015), full resource available at <a href="http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon/" target="_blank">http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon/</a></li>
-  <li><a href="http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon" target="_blank"><strong>API Usability Course at Carnegie Mellon ·</strong></a> from <a href="apievangelist.com" target="_blank">apievangelist.com</a> on 8/11/2015), full resource available at <a href="http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon" target="_blank">http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon</a></li>
-  <li><a href="http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon/" target="_blank"><strong>API Usability Course at Carnegie Mellon</strong></a> from <a href="apievangelist.com" target="_blank">apievangelist.com</a> on 8/10/2015), full resource available at <a href="http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon/" target="_blank">http://apievangelist.com/2015/08/11/api-usability-course-at-carnegie-mellon/</a></li>
-  <li><a href="http://bavatuesdays.com/dukes-website-has-gone-docker/" target="_blank"><strong>Duke’s Website has Gone Docker</strong></a> from <a href="bavatuesdays.com" target="_blank">bavatuesdays.com</a> on 7/4/2015), full resource available at <a href="http://bavatuesdays.com/dukes-website-has-gone-docker/" target="_blank">http://bavatuesdays.com/dukes-website-has-gone-docker/</a></li>
-  <li><a href="http://blog.bittitan.com/2015/06/16/bittitan-eliminates-barriers-to-microsoft-office-365-adoption-for-universities/" target="_blank"><strong>BitTitan Eliminates Barriers to Microsoft Office 365 Adoption for Universities</strong></a> from <a href="blog.bittitan.com" target="_blank">blog.bittitan.com</a> on 6/16/2015), full resource available at <a href="http://blog.bittitan.com/2015/06/16/bittitan-eliminates-barriers-to-microsoft-office-365-adoption-for-universities/" target="_blank">http://blog.bittitan.com/2015/06/16/bittitan-eliminates-barriers-to-microsoft-office-365-adoption-for-universities/</a></li>
-  <li><a href="http://api-university.com/blog/what-should-an-api-methodology-deliver/" target="_blank"><strong>What should an API Methodology deliver?</strong></a> from <a href="api-university.com" target="_blank">api-university.com</a> on 6/8/2015), full resource available at <a href="http://api-university.com/blog/what-should-an-api-methodology-deliver/" target="_blank">http://api-university.com/blog/what-should-an-api-methodology-deliver/</a></li>
-  <li><a href="http://bavatuesdays.com/the-university-api-an-unconference/" target="_blank"><strong>The University API: an (un)conference</strong></a> from <a href="bavatuesdays.com" target="_blank">bavatuesdays.com</a> on 6/4/2015), full resource available at <a href="http://bavatuesdays.com/the-university-api-an-unconference/" target="_blank">http://bavatuesdays.com/the-university-api-an-unconference/</a></li>
-  <li><a href="http://api-university.com/blog/how-to-put-api-architecture-into-practice/" target="_blank"><strong>How to put API Architecture into Practice?</strong></a> from <a href="api-university.com" target="_blank">api-university.com</a> on 6/2/2015), full resource available at <a href="http://api-university.com/blog/how-to-put-api-architecture-into-practice/" target="_blank">http://api-university.com/blog/how-to-put-api-architecture-into-practice/</a></li>
-  <li><a href="http://api-university.com/blog/why-do-we-need-an-api-architecture/" target="_blank"><strong>Why do we need an API Architecture?</strong></a> from <a href="api-university.com" target="_blank">api-university.com</a> on 6/1/2015), full resource available at <a href="http://api-university.com/blog/why-do-we-need-an-api-architecture/" target="_blank">http://api-university.com/blog/why-do-we-need-an-api-architecture/</a></li>
-  <li><a href="http://api-university.com/blog/what-is-api-architecture/" target="_blank"><strong>What is API Architecture?</strong></a> from <a href="api-university.com" target="_blank">api-university.com</a> on 5/28/2015), full resource available at <a href="http://api-university.com/blog/what-is-api-architecture/" target="_blank">http://api-university.com/blog/what-is-api-architecture/</a></li>
-  <li><a href="http://apievangelist.com/2015/05/14/usage-of-swagger-for-the-apis-at-the-uc-santa-barbara-lab-for-research-on-adaptive-computing-environments/" target="_blank"><strong>Usage Of Swagger For The APIs At The UC Santa Barbara Lab for Research on Adaptive Computing Environments ·</strong></a> from <a href="apievangelist.com" target="_blank">apievangelist.com</a> on 5/14/2015), full resource available at <a href="http://apievangelist.com/2015/05/14/usage-of-swagger-for-the-apis-at-the-uc-santa-barbara-lab-for-research-on-adaptive-computing-environments/" target="_blank">http://apievangelist.com/2015/05/14/usage-of-swagger-for-the-apis-at-the-uc-santa-barbara-lab-for-research-on-adaptive-computing-environments/</a></li>
-  <li><a href="https://github.com/Harvard-Open-Data-Project/droid" target="_blank"><strong>Harvard-Open-Data-Project/droid · GitHub</strong></a> from <a href="github.com" target="_blank">github.com</a> on 5/4/2015), full resource available at <a href="https://github.com/Harvard-Open-Data-Project/droid" target="_blank">https://github.com/Harvard-Open-Data-Project/droid</a></li>
-  <li><a href="http://www.windley.com//archives/2015/04/university_api_and_domains_workshop.shtml" target="_blank"><strong>University API and Domains Workshop</strong></a> from <a href="www.windley.com" target="_blank">www.windley.com</a> on 4/24/2015), full resource available at <a href="http://www.windley.com//archives/2015/04/university_api_and_domains_workshop.shtml" target="_blank">http://www.windley.com//archives/2015/04/university_api_and_domains_workshop.shtml</a></li>
-  <li><a href="http://www.programmableweb.com/news/bluelight-chooses-bandwidth-api-platform-added-campus-safety/press-release/2015/04/23" target="_blank"><strong>BlueLight Chooses Bandwidth API Platform for Added Campus Safety</strong></a> from <a href="www.programmableweb.com" target="_blank">www.programmableweb.com</a> on 4/23/2015), full resource available at <a href="http://www.programmableweb.com/news/bluelight-chooses-bandwidth-api-platform-added-campus-safety/press-release/2015/04/23" target="_blank">http://www.programmableweb.com/news/bluelight-chooses-bandwidth-api-platform-added-campus-safety/press-release/2015/04/23</a></li>
-  <li><a href="http://www.eventbrite.com/e/university-api-domains-uad-workshop-tickets-16185181313/aff=estw" target="_blank"><strong>University API & Domains (UAD) Workshop- Eventbrite</strong></a> from <a href="www.eventbrite.com" target="_blank">www.eventbrite.com</a> on 4/15/2015), full resource available at <a href="http://www.eventbrite.com/e/university-api-domains-uad-workshop-tickets-16185181313/aff=estw" target="_blank">http://www.eventbrite.com/e/university-api-domains-uad-workshop-tickets-16185181313/aff=estw</a></li>
-  <li><a href="https://jakevdp.github.io/blog/2014/08/22/hacking-academia/" target="_blank"><strong>Hacking Academia: Data Science and the University</strong></a> from <a href="jakevdp.github.io" target="_blank">jakevdp.github.io</a> on 4/11/2015), full resource available at <a href="https://jakevdp.github.io/blog/2014/08/22/hacking-academia/" target="_blank">https://jakevdp.github.io/blog/2014/08/22/hacking-academia/</a></li>
-  <li><a href="http://dp.la/info/2015/04/09/dpla-education-findings-recommendation-whiting-study/" target="_blank"><strong>DPLA and Education: Findings and Recommendations from our Whiting Study</strong></a> from <a href="dp.la" target="_blank">dp.la</a> on 4/9/2015), full resource available at <a href="http://dp.la/info/2015/04/09/dpla-education-findings-recommendation-whiting-study/" target="_blank">http://dp.la/info/2015/04/09/dpla-education-findings-recommendation-whiting-study/</a></li>
-  <li><a href="http://bavatuesdays.com/api-domains-summit/" target="_blank"><strong>API & Domains Summit</strong></a> from <a href="bavatuesdays.com" target="_blank">bavatuesdays.com</a> on 4/8/2015), full resource available at <a href="http://bavatuesdays.com/api-domains-summit/" target="_blank">http://bavatuesdays.com/api-domains-summit/</a></li>
-  <li><a href="http://www.opendatasoft.com/2015/04/07/ministry-of-higher-education-and-research-public-open-data/" target="_blank"><strong>Ministry of Higher Education and Research: public open data</strong></a> from <a href="www.opendatasoft.com" target="_blank">www.opendatasoft.com</a> on 4/7/2015), full resource available at <a href="http://www.opendatasoft.com/2015/04/07/ministry-of-higher-education-and-research-public-open-data/" target="_blank">http://www.opendatasoft.com/2015/04/07/ministry-of-higher-education-and-research-public-open-data/</a></li>
-  <li><a href="http://campustechnology.com/articles/2015/01/28/opencloudmesh-connects-private-research-clouds-to-facilitate-collaboration.aspx" target="_blank"><strong>Opencloudmesh Project Connects Private Research Clouds To Facilitate C...</strong></a> from <a href="campustechnology.com" target="_blank">campustechnology.com</a> on 1/28/2015), full resource available at <a href="http://campustechnology.com/articles/2015/01/28/opencloudmesh-connects-private-research-clouds-to-facilitate-collaboration.aspx" target="_blank">http://campustechnology.com/articles/2015/01/28/opencloudmesh-connects-private-research-clouds-to-facilitate-collaboration.aspx</a></li>
-  <li><a href="http://www.windley.com//archives/2014/12/the_core_of_your_api.shtml" target="_blank"><strong>The Core of Your API</strong></a> from <a href="www.windley.com" target="_blank">www.windley.com</a> on 12/23/2014), full resource available at <a href="http://www.windley.com//archives/2014/12/the_core_of_your_api.shtml" target="_blank">http://www.windley.com//archives/2014/12/the_core_of_your_api.shtml</a></li>
-  <li><a href="http://www.betaboston.com/news/2014/09/17/hackreduce-partners-with-state-universities-for-big-data-ambassador-program/" target="_blank"><strong>Hack/Reduce partners with state, universities for big-data ambassador program | BetaBoston</strong></a> from <a href="www.betaboston.com" target="_blank">www.betaboston.com</a> on 9/27/2014), full resource available at <a href="http://www.betaboston.com/news/2014/09/17/hackreduce-partners-with-state-universities-for-big-data-ambassador-program/" target="_blank">http://www.betaboston.com/news/2014/09/17/hackreduce-partners-with-state-universities-for-big-data-ambassador-program/</a></li>
-  <li><a href="http://www.jisc.ac.uk/blog/should-universities-care-about-apis-15-jan-2013" target="_blank"><strong>Should universities care about APIs? | Jisc</strong></a> from <a href="www.jisc.ac.uk" target="_blank">www.jisc.ac.uk</a> on 3/3/2014), full resource available at <a href="http://www.jisc.ac.uk/blog/should-universities-care-about-apis-15-jan-2013" target="_blank">http://www.jisc.ac.uk/blog/should-universities-care-about-apis-15-jan-2013</a></li>
-  <li><a href="http://blog.mashape.com/list-of-15-university-apis/" target="_blank"><strong>List of 15+ University APIs</strong></a> from <a href="blog.mashape.com" target="_blank">blog.mashape.com</a> on 12/17/2013), full resource available at <a href="http://blog.mashape.com/list-of-15-university-apis/" target="_blank">http://blog.mashape.com/list-of-15-university-apis/</a></li>
-  <li><a href="http://blogs.splunk.com/2013/11/19/syracuse-universitys-ischool-it-girls-want-to-change-the-world-with-data/" target="_blank"><strong>Syracuse University’s iSchool IT Girls want to change the world with data</strong></a> from <a href="blogs.splunk.com" target="_blank">blogs.splunk.com</a> on 11/19/2013), full resource available at <a href="http://blogs.splunk.com/2013/11/19/syracuse-universitys-ischool-it-girls-want-to-change-the-world-with-data/" target="_blank">http://blogs.splunk.com/2013/11/19/syracuse-universitys-ischool-it-girls-want-to-change-the-world-with-data/</a></li>
-  <li><a href="http://osc.universityofcalifornia.edu/open-access-policy/" target="_blank"><strong>Reshaping Scholarly Communication: UC Open Access Policy</strong></a> from <a href="osc.universityofcalifornia.edu" target="_blank">osc.universityofcalifornia.edu</a> on 8/2/2013), full resource available at <a href="http://osc.universityofcalifornia.edu/open-access-policy/" target="_blank">http://osc.universityofcalifornia.edu/open-access-policy/</a></li>
-  <li><a href="https://www.duosecurity.com/blog/free-webinar-evolving-strong-authentication-at-the-university-of-arizona" target="_blank"><strong>Free Webinar: Evolving Strong Authentication at the University of Arizona</strong></a> from <a href="www.duosecurity.com" target="_blank">www.duosecurity.com</a> on 6/21/2013), full resource available at <a href="https://www.duosecurity.com/blog/free-webinar-evolving-strong-authentication-at-the-university-of-arizona" target="_blank">https://www.duosecurity.com/blog/free-webinar-evolving-strong-authentication-at-the-university-of-arizona</a></li>
-  <li><a href="http://community.openspending.org/2013/06/universities-on-the-spending-map/" target="_blank"><strong>Budget transparency for an open university</strong></a> from <a href="community.openspending.org" target="_blank">community.openspending.org</a> on 6/16/2013), full resource available at <a href="http://community.openspending.org/2013/06/universities-on-the-spending-map/" target="_blank">http://community.openspending.org/2013/06/universities-on-the-spending-map/</a></li>
-  <li><a href="http://www.theguardian.com/news/datablog/2013/jun/04/university-guide-2014-table-rankings" target="_blank"><strong>University guide 2014: download the Guardian tables and see how the rankings have changed</strong></a> from <a href="www.theguardian.com" target="_blank">www.theguardian.com</a> on 6/4/2013), full resource available at <a href="http://www.theguardian.com/news/datablog/2013/jun/04/university-guide-2014-table-rankings" target="_blank">http://www.theguardian.com/news/datablog/2013/jun/04/university-guide-2014-table-rankings</a></li>
-  <li><a href="http://blog.orgsync.com/2013/how-we-built-user-conference-statistics-page" target="_blank"><strong>Dogfooding the OrgSync API: How We Built the User Conference Statistics Page</strong></a> from <a href="blog.orgsync.com" target="_blank">blog.orgsync.com</a> on 6/2/2013), full resource available at <a href="http://blog.orgsync.com/2013/how-we-built-user-conference-statistics-page" target="_blank">http://blog.orgsync.com/2013/how-we-built-user-conference-statistics-page</a></li>
-  <li><a href="http://www.huddle.com/blog/association-of-commonwealth-universities/" target="_blank"><strong>Association of Commonwealth Universities selects Huddle to manage the Chevening Scholarships programme</strong></a> from <a href="www.huddle.com" target="_blank">www.huddle.com</a> on 5/15/2013), full resource available at <a href="http://www.huddle.com/blog/association-of-commonwealth-universities/" target="_blank">http://www.huddle.com/blog/association-of-commonwealth-universities/</a></li>
-  <li><a href="http://blog.dwolla.com/decisiondesk-pays-out-colleges-via-dwolla/" target="_blank"><strong>DecisionDesk pays out colleges via Dwolla</strong></a> from <a href="blog.dwolla.com" target="_blank">blog.dwolla.com</a> on 3/12/2013), full resource available at <a href="http://blog.dwolla.com/decisiondesk-pays-out-colleges-via-dwolla/" target="_blank">http://blog.dwolla.com/decisiondesk-pays-out-colleges-via-dwolla/</a></li>
-  <li><a href="http://api.uwaterloo.ca/" target="_blank"><strong>University of Waterloo Open Data API</strong></a> from <a href="api.uwaterloo.ca" target="_blank">api.uwaterloo.ca</a> on 6/5/2012), full resource available at <a href="http://api.uwaterloo.ca/" target="_blank">http://api.uwaterloo.ca/</a></li>
-</ul>
+			<li><a href="http://api-university.com/blog/what-is-api-architecture/"><strong>What is API Architecture?</strong></a> (05-28-2015 on api-university.com) - <a href="http://api-university.com/blog/what-is-api-architecture/">http://api-university.com/blog/what-is-api-architecture/</a></li>
+
+			<li><a href="https://github.com/harvard-open-data-project/droid"><strong>Harvard-Open-Data-Project/droid · GitHub</strong></a> (05-04-2015 on github.com) - <a href="https://github.com/harvard-open-data-project/droid">https://github.com/harvard-open-data-project/droid</a></li>
+
+			<li><a href="http://www.windley.com//archives/2015/04/university_api_and_domains_workshop.shtml"><strong>University API and Domains Workshop</strong></a> (04-24-2015 on www.windley.com) - <a href="http://www.windley.com//archives/2015/04/university_api_and_domains_workshop.shtml">http://www.windley.com//archives/2015/04/university_api_and_domains_workshop.shtml</a></li>
+
+			<li><a href="http://www.programmableweb.com/news/bluelight-chooses-bandwidth-api-platform-added-campus-safety/press-release/2015/04/23"><strong>BlueLight Chooses Bandwidth API Platform for Added Campus Safety</strong></a> (04-23-2015 on www.programmableweb.com) - <a href="http://www.programmableweb.com/news/bluelight-chooses-bandwidth-api-platform-added-campus-safety/press-release/2015/04/23">http://www.programmableweb.com/news/bluelight-chooses-bandwidth-api-platform-added-campus-safety/press-release/2015/04/23</a></li>
+
+			<li><a href="https://jakevdp.github.io/blog/2014/08/22/hacking-academia/"><strong>Hacking Academia: Data Science and the University</strong></a> (04-11-2015 on jakevdp.github.io) - <a href="https://jakevdp.github.io/blog/2014/08/22/hacking-academia/">https://jakevdp.github.io/blog/2014/08/22/hacking-academia/</a></li>
+
+			<li><a href="http://dp.la/info/2015/04/09/dpla-education-findings-recommendation-whiting-study/"><strong>DPLA and Education: Findings and Recommendations from our Whiting Study</strong></a> (04-09-2015 on dp.la) - <a href="http://dp.la/info/2015/04/09/dpla-education-findings-recommendation-whiting-study/">http://dp.la/info/2015/04/09/dpla-education-findings-recommendation-whiting-study/</a></li>
+
+			<li><a href="http://bavatuesdays.com/api-domains-summit/"><strong>API & Domains Summit</strong></a> (04-08-2015 on bavatuesdays.com) - <a href="http://bavatuesdays.com/api-domains-summit/">http://bavatuesdays.com/api-domains-summit/</a></li>
+
+			<li><a href="http://www.opendatasoft.com/2015/04/07/ministry-of-higher-education-and-research-public-open-data/"><strong>Ministry of Higher Education and Research: public open data</strong></a> (04-07-2015 on www.opendatasoft.com) - <a href="http://www.opendatasoft.com/2015/04/07/ministry-of-higher-education-and-research-public-open-data/">http://www.opendatasoft.com/2015/04/07/ministry-of-higher-education-and-research-public-open-data/</a></li>
+
+			<li><a href="http://www.windley.com//archives/2014/12/the_core_of_your_api.shtml"><strong>The Core of Your API</strong></a> (12-23-2014 on www.windley.com) - <a href="http://www.windley.com//archives/2014/12/the_core_of_your_api.shtml">http://www.windley.com//archives/2014/12/the_core_of_your_api.shtml</a></li>
+
+			<li><a href="http://www.jisc.ac.uk/blog/should-universities-care-about-apis-15-jan-2013"><strong>Should universities care about APIs? | Jisc</strong></a> (03-03-2014 on www.jisc.ac.uk) - <a href="http://www.jisc.ac.uk/blog/should-universities-care-about-apis-15-jan-2013">http://www.jisc.ac.uk/blog/should-universities-care-about-apis-15-jan-2013</a></li>
+
+			<li><a href="https://www.duosecurity.com/blog/free-webinar-evolving-strong-authentication-at-the-university-of-arizona"><strong>Free Webinar: Evolving Strong Authentication at the University of Arizona</strong></a> (06-21-2013 on www.duosecurity.com) - <a href="https://www.duosecurity.com/blog/free-webinar-evolving-strong-authentication-at-the-university-of-arizona">https://www.duosecurity.com/blog/free-webinar-evolving-strong-authentication-at-the-university-of-arizona</a></li>
+
+			<li><a href="http://community.openspending.org/2013/06/universities-on-the-spending-map/"><strong>Budget transparency for an open university</strong></a> (06-16-2013 on community.openspending.org) - <a href="http://community.openspending.org/2013/06/universities-on-the-spending-map/">http://community.openspending.org/2013/06/universities-on-the-spending-map/</a></li>
+
+			<li><a href="http://blog.orgsync.com/2013/how-we-built-user-conference-statistics-page"><strong>Dogfooding the OrgSync API: How We Built the User Conference Statistics Page</strong></a> (06-02-2013 on blog.orgsync.com) - <a href="http://blog.orgsync.com/2013/how-we-built-user-conference-statistics-page">http://blog.orgsync.com/2013/how-we-built-user-conference-statistics-page</a></li>
+
+			<li><a href="http://www.huddle.com/blog/association-of-commonwealth-universities/"><strong>Association of Commonwealth Universities selects Huddle to manage the Chevening Scholarships programme</strong></a> (05-15-2013 on www.huddle.com) - <a href="http://www.huddle.com/blog/association-of-commonwealth-universities/">http://www.huddle.com/blog/association-of-commonwealth-universities/</a></li>
+
+			<li><a href="http://blog.dwolla.com/decisiondesk-pays-out-colleges-via-dwolla/"><strong>DecisionDesk pays out colleges via Dwolla</strong></a> (03-12-2013 on blog.dwolla.com) - <a href="http://blog.dwolla.com/decisiondesk-pays-out-colleges-via-dwolla/">http://blog.dwolla.com/decisiondesk-pays-out-colleges-via-dwolla/</a></li>
+
+			<li><a href="http://api.uwaterloo.ca/"><strong>University of Waterloo Open Data API</strong></a> (06-05-2012 on api.uwaterloo.ca) - <a href="http://api.uwaterloo.ca/">http://api.uwaterloo.ca/</a></li>
+					</ul>
+								<p style="text-align: center; font-size: 20px;">Thanks for Tuning Into My Research!</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center; font-size: 14px;">Remember -- You Can Find All Of This On <a href="https://github.com/kinlane/api-design/">Github</a> (<a href="https://github.com/kinlane/university">https://github.com/kinlane/university</a>), If You Want To Get Involved!</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center; font-size: 24px;"><strong>{"logo":"API Evangelist"}</strong></p>
+<p style="text-align: center; font-size: 24px;">@kinlane</p>
+<p style="text-align: center; font-size: 24px;">@apievangelist</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center; font-size: 16px;">Make Sure And Share Your Public API Designs At The API Stack--Otherwise All Of This Won't Work!</p>
