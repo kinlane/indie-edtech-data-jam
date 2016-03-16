@@ -39,6 +39,10 @@
 			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/apis.json"
 		},
 		{
+			"name": "PayPal",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/apis.json"
+		},
+		{
 			"name": "Pinboard",
 			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/apis.json"
 		},
