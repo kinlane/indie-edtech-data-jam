@@ -28,14 +28,14 @@ title: The Programmable Web
 </script>
 <table width="80%" style="padding-left: 25px;">
   <tr>
-    <td width="30%">
+    <td width="50%">
       <form action="#" name="GET">
       <input type="button" name="GETButton" value="GET" onclick="getAPI('/products/','application/json'); return false;">
       </form>
     </td>
     <td>
       <div id="get_loading" style="margin-bottom: 10px;"></div>
-      <textarea style="width:100%;" id="get_response"></textarea>
+      <textarea style="width:100%; height: 100%;" id="get_response"></textarea>
       <div id="get_footer" style="margin-top: 10px;"></div>
     </td>
   </tr>
@@ -75,7 +75,7 @@ title: The Programmable Web
 </script>
 <table width="80%" style="padding-left: 25px;">
   <tr>
-    <td width="30%">
+    <td width="50%">
       <form action="#" name="POST">
       secret: <input type="text" id="post_secret" name="secret" value="" size="25" /><br />
       number: <input type="text" id="post_number" name="name" value="" size="25" /><br />
@@ -87,7 +87,7 @@ title: The Programmable Web
     </td>
     <td>
       <div id="post_loading" style="margin-bottom: 10px;"></div>
-      <textarea style="width:100%;" id="post_response"></textarea>
+      <textarea style="width:100%; height: 100%;" id="post_response"></textarea>
       <div id="post_footer" style="margin-top: 10px;"></div>
     </td>
   </tr>
@@ -125,7 +125,7 @@ title: The Programmable Web
 </script>
 <table width="80%" style="padding-left: 25px;">
   <tr>
-    <td width="30%">
+    <td width="50%">
       <form action="#" name="PUT">
       secret: <input type="text" id="put_secret" name="secret" value="" size="25" /><br />
       number: <input type="text" id="put_number" name="name" value="" size="25" /><br />
@@ -137,7 +137,7 @@ title: The Programmable Web
     </td>
     <td>
       <div id="put_loading" style="margin-bottom: 10px;"></div>
-      <textarea style="width:100%;" id="put_response"></textarea>
+      <textarea style="width:100%; height: 100%;" id="put_response"></textarea>
       <div id="put_footer" style="margin-top: 10px;"></div>
     </td>
   </tr>
@@ -171,7 +171,7 @@ function deleteAPI($url,$contentType)
 </script>
 <table width="80%" style="padding-left: 25px;">
   <tr>
-    <td width="30%">
+    <td width="50%">
       <form action="#" name="DELETE">
       secret: <input type="text" id="delete_secret" name="secret" value="" size="25" /><br />
       <input type="button" name="DELETEButton" value="DELETE" onclick="deleteAPI('/products/','application/json'); return false;">
@@ -179,7 +179,7 @@ function deleteAPI($url,$contentType)
     </td>
     <td>
       <div id="delete_loading" style="margin-bottom: 10px;"></div>
-      <textarea style="width:100%;" id="delete_response"></textarea>
+      <textarea style="width:100%; height: 100%;" id="delete_response"></textarea>
       <div id="delete_footer" style="margin-top: 10px;"></div>
     </td>
   </tr>
