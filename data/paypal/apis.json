@@ -2,7 +2,7 @@
 	"name": "PayPal",
 	"description": "PayPal is an online payments and money transfer service that allows you to send money via email, phone, text message or Skype. They offer products to both individuals and businesses alike, including online vendors, auction sites and corporate users. PayPal connects effortlessly to bank accounts and credit cards.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/237_logo.png",
-	"x-open-ranking": "0",
+	"x-open-ranking": "1",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
