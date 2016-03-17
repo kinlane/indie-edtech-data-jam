@@ -19,7 +19,7 @@ title: Some APIs In Your World
 
 </script>
 
-<h1>Some APIs In Your World</h1>
+<h1>Putting APIs to Work</h1>
 <p>To help me prepare for talks, discussions, and workshops, I wanted to pull together a collection of APIs, and should be APIs to help everyone better understand what is APIs, and why they are important.</p>
 <p>I jotted down a list of APIs that should be present, and relevant to anyone operating at a public or private higher educational institution. Each company included in this workshop is profiled below, with details about its operations, each of the APIs it offers, and potentially some samples to help you get going.</p>
 
@@ -230,6 +230,7 @@ title: Some APIs In Your World
                     {% assign api_actions = '' %}
                   {% endif %}
                 {% endif %}
+                --{{ api_action_url }}
                 {% if api_action_url != '' %}
                   <tr style="display: none;" id="actions-for-{{ pathname }}">
                     <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
@@ -241,7 +242,7 @@ title: Some APIs In Your World
                         {% assign pathname = pathname | replace: '/','' %}
                         {% assign pathname = pathname | replace: '.json','' %}
                         {% assign api_action_spec = file | map: pathname %}
-
+                        --{{ api_action_spec }}--<br />
                         {% for action in api_action_spec %}
                           {% assign action_label = action[1].Action %}
                           {% assign action_url = action[1].URL %}
@@ -253,82 +254,6 @@ title: Some APIs In Your World
                 {% endif %}
               {% endfor %}
               </table>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="3" align="center" style="padding-bottom: 30px;">
-
-              {% for api in apijson.x-common %}
-
-                  {% assign thisname = apijson.name | downcase %}
-                  {% assign thisname = thisname | append:'/' %}
-                  {% assign thisname = thisname | replace: ' ','-' %}
-
-                  {% if api.type == 'x-api-plan' %}
-
-                    {% assign api_plan_url = api.url %}
-                    {% assign pathname = api_plan_url | replace: site.url,'' %}
-                    {% assign pathname = pathname | replace: '/data/','' %}
-
-                    {% assign pathname = pathname | replace: thisname,'' %}
-                    {% assign pathname = pathname | replace: '/','' %}
-                    {% assign pathname = pathname | replace: '.json','' %}
-                    {% assign api_plan_json = file | map: pathname %}
-
-                    <table cellpadding="3" cellspacing="2" width="90%" style="margin-bottom: 40px;">
-
-                    {% for entry in api_plan_json %}
-
-                        {% assign api_plan_json = entry[0] %}
-
-                        {% for plan in api_plan_json.plans %}
-
-                            {% assign entries = plan.entries %}
-
-                            <tr>
-                              <td colspan="10" style="padding-top: 5px; padding-bottom: 10px;"><strong>Plan Name: {{ plan.name }}</strong></td>
-                            </tr>
-
-                            <tr style="font-size: 12px; font-weight: bold;">
-                              <td>label</td>
-                              <td>description</td>
-                              <td>metric</td>
-                              <td>limit</td>
-                              <td>timeframe</td>
-                              <td>geo</td>
-                              <td>element</td>
-                              <td>one</td>
-                              <td>two</td>
-                              <td align="right">unit</td>
-                            </tr>
-
-                            {% for entry in entries %}
-
-                              <tr style="font-size: 11px;">
-                                <td>{{ entry.label }}</td>
-                                <td>{{ entry.description }}</td>
-                                <td>{{ entry.metric }}</td>
-                                <td>{{ entry.limit }}</td>
-                                <td>{{ entry.timeframe }}</td>
-                                <td>{{ entry.geo }}</td>
-                                <td>{{ entry.element }}</td>
-                                <td align="center">{{ entry.one }}</td>
-                                <td align="center">{{ entry.two }}</td>
-                                <td align="right">{{ entry.unit }}</td>
-                              </tr>
-
-                            {% endfor %}
-
-                        {% endfor %}
-
-                    {% endfor %}
-
-                  </table>
-
-                  {% endif %}
-
-              {% endfor %}
-
             </td>
           </tr>
           <tr>
