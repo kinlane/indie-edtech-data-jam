@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/telegram/apis.json",
+	"url": "http://kinlane.github.io/university-api-workshop/data/telegram/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 	],
@@ -29,7 +29,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
 		}
 	],
 	"maintainers": [

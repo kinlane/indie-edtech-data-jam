@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/apis.json",
+	"url": "http://kinlane.github.io/university-api-workshop/data/paypal/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-adaptive-accounts-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/paypal/paypal-adaptive-accounts-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-adaptive-payments-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/paypal/paypal-adaptive-payments-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-invoicing-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/paypal/paypal-invoicing-openapi-spec.json"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-payments-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/paypal/paypal-payments-openapi-spec.json"
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-permissions-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/paypal/paypal-permissions-openapi-spec.json"
 				}
 			]
 		}
@@ -128,12 +128,16 @@
 		{
 			"type": "x-webinars",
 			"url": "https://paypal.com"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/university-api-workshop/data/paypal/paypal-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
 		}
 	],
 	"maintainers": [
