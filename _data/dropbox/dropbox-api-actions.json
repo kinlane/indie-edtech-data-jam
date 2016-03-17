@@ -1,12 +1,6 @@
 [
   {
     "Platform": "Dropbox",
-    "Action": "Dropbox",
-    "URL": "https://zapier.com/zapbook/dropbox/",
-    "": "null"
-  },
-  {
-    "Platform": "Dropbox",
     "Action": "Save Gmail attachments to Dropbox as original file format",
     "URL": "https://zapier.com/app/min/166/start",
     "": "null"

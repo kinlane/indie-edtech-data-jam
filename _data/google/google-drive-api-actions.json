@@ -1,12 +1,6 @@
 [
   {
     "Platform": "Google Drive",
-    "Action": "Google Drive",
-    "URL": "https://zapier.com/zapbook/google-drive/",
-    "": "null"
-  },
-  {
-    "Platform": "Google Drive",
     "Action": "Save new Gmail attachments (original file format) to Google Drive",
     "URL": "https://zapier.com/zapbook/zaps/192/save-your-gmail-attachments-to-google-drive-automatically/",
     "": "null"

@@ -1,12 +1,6 @@
 [
   {
     "Platform": "Google Tasks",
-    "Action": "Google Tasks",
-    "URL": "https://zapier.com/zapbook/google-tasks/",
-    "": "null"
-  },
-  {
-    "Platform": "Google Tasks",
     "Action": "Add Google Tasks tasks for new Google Calendar events",
     "URL": "https://zapier.com/zapbook/zaps/2100/add-google-tasks-tasks-for-new-google-calendar-events/",
     "": "null"
