@@ -133,7 +133,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam/apis.json"
 		}
 	],
 	"maintainers": [

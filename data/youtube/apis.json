@@ -180,6 +180,10 @@
 		{
 			"type": "x-widgets",
 			"url": "https://developers.google.com/youtube/youtube_upload_widget"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-api-actions.json"
 		}
 	],
 	"include": [

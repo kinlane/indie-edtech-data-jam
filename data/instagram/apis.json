@@ -192,6 +192,10 @@
 		{
 			"type": "x-twitter",
 			"url": "https://twitter.com/instagram"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam/data/instagram/instagram-api-actions.json"
 		}
 	],
 	"include": [

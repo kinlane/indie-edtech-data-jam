@@ -84,6 +84,10 @@
 		{
 			"type": "x-webinars",
 			"url": "http://www.pinboard.in"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam/data/pinboard/pinboard-api-actions.json"
 		}
 	],
 	"include": [

@@ -126,7 +126,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": ["comments"],
+				"tags": [""],
 				"security": []
 			},
 			"post": {
@@ -203,7 +203,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": ["comments"],
+				"tags": [""],
 				"security": []
 			}
 		},
@@ -228,7 +228,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": ["comments"],
+				"tags": [""],
 				"security": []
 			},
 			"get": {
@@ -251,7 +251,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": ["comments"],
+				"tags": [""],
 				"security": []
 			},
 			"post": {
@@ -328,7 +328,7 @@
 						"description": "OK"
 					}
 				},
-				"tags": ["comments"],
+				"tags": [""],
 				"security": []
 			}
 		}

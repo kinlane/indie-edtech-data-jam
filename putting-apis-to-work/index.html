@@ -1,6 +1,344 @@
 ---
 layout: page
-title: Putting APIs To Work
+title: Some APIs In Your World
 ---
 
-<h1>Putting APIs To Work</h1>
+<script type="text/javascript">
+
+  function showme($id)
+    {
+    if(document.getElementById($id).style.display=='none')
+      {
+      document.getElementById($id).style.display = '';
+      }
+    else
+      {
+      document.getElementById($id).style.display = 'none';
+      }
+    }
+
+</script>
+
+<h1>Some APIs In Your World</h1>
+<p>To help me prepare for talks, discussions, and workshops, I wanted to pull together a collection of APIs, and should be APIs to help everyone better understand what is APIs, and why they are important.</p>
+<p>I jotted down a list of APIs that should be present, and relevant to anyone operating at a public or private higher educational institution. Each company included in this workshop is profiled below, with details about its operations, each of the APIs it offers, and potentially some samples to help you get going.</p>
+
+<table cellpadding="3" cellspacing="2" width="100%" border="0" style="margin-top: 10px;">
+{% for folder in site.data %}
+  {% for item in folder %}
+    {% assign file = item %}
+
+    {% if file.apis != null %}
+      {% assign apijson = file.apis %}
+
+      {% if apijson.specificationVersion != null %}
+
+        {% assign blog_url = '' %}
+        {% assign blogrss_url = '' %}
+        {% assign portal_url = '' %}
+        {% assign gitub_url = '' %}
+        {% assign twitter_url = '' %}
+        {% assign website_url = '' %}
+
+        {% for common in apijson.x-common %}
+          {% if common.type == 'x-blog' %}
+            {% assign blog_url = common.url %}
+          {% endif %}
+          {% if common.type == 'x-blog-rss-feed' %}
+            {% assign blogrss_url = common.url %}
+          {% endif %}
+          {% if common.type == 'x-portal' %}
+            {% assign portal_url = common.url %}
+          {% endif %}
+          {% if common.type == 'x-github' %}
+            {% assign gitub_url = common.url %}
+          {% endif %}
+          {% if common.type == 'x-twitter' %}
+            {% assign twitter_url = common.url %}
+          {% endif %}
+          {% if common.type == 'x-api-actions' %}
+            {% assign common_api_action_url = common.url %}
+          {% endif %}
+        {% endfor %}
+
+        {% if apisjson.humanURL == null %}
+          {% assign website_url = portal_url %}
+        {% else %}
+          {% assign website_url = apisjson.humanURL %}
+        {% endif %}
+
+          <tr>
+            <td width="110" align="center" style="margin-top 25px;">
+              {% if apijson.x-open-ranking != 0 %}
+                <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-rating-{{ apijson.x-open-ranking }}.png" align="left" style="padding: 15px;" width="100" />
+              {% endif %}
+            </td>
+            <td colspan="2">
+              {% if apijson.image != null %}
+                <a href="{{ website_url }}">
+                  <img src="{{ apijson.image }}" align="left" style="padding: 5px;" width="150" />
+                </a>
+              {% endif %}
+              <a href="{{ website_url }}" style="font-size: 22px;"><strong>{{ apijson.name }}</strong></a><br />
+              {{ apijson.description }}
+            </td>
+          </tr>
+          <tr>
+            <td align="center" colspan="3" style="margin-left: 25px; margin-right: 25px;">
+              <ul style="list-style: none; display: inline;">
+                {% if portal_url != '' %}
+                  <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                    <a href="{{ portal_url }}" target="_blank" title="Portal">
+                      <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-portal-developers.jpg" width="36" align="center" />
+                    </a>
+                  </li>
+                {% endif %}
+                {% if blog_url != '' %}
+                  <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                    <a href="{{ blog_url }}" target="_blank" title="Blog">
+                      <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="36" align="center" />
+                    </a>
+                  </li>
+                {% endif %}
+
+                {% if blogrss_url != '' %}
+                  <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                    <a href="{{ blogrss_url }}" target="_blank" title="Blog RSS">
+                      <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" align="center" />
+                    </a>
+                  </li>
+                {% endif %}
+
+                {% if twitter_url != '' %}
+                  <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                    <a href="{{ twitter_url }}" target="_blank" title="Twitter">
+                      <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="55" align="center" />
+                    </a>
+                  </li>
+                {% endif %}
+
+                {% if gitub_url != '' %}
+                  <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                    <a href="{{ gitub_url }}" target="_blank" title="Github">
+                      <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="62" align="center" />
+                    </a>
+                  </li>
+                {% endif %}
+
+                {% if apijson.url != null %}
+                  <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                    <a href="{{ apijson.url }}" target="_blank" title="APIs.json">
+                      <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="61" align="center" />
+                    </a>
+                  </li>
+                {% endif %}
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" colspan="3" style="margin-left: 25px; margin-right: 25px;">
+              <table cellpadding="3" cellspacing="2" width="90%" border="0">
+              {% for api in apijson.apis %}
+
+                {% for property in api.properties %}
+
+                  {% assign thisname = apijson.name | downcase %}
+                  {% assign thisname = thisname | append:'/' %}
+                  {% assign thisname = thisname | replace: ' ','-' %}
+
+                  {% if property.type == 'x-openapi-spec' %}
+
+                    {% assign openapi_spec_url = property.url %}
+                    {% assign pathname = openapi_spec_url | replace: site.url,'' %}
+                    {% assign pathname = pathname | replace: '/data/','' %}
+                    {% assign pathname = pathname | replace: thisname,'' %}
+                    {% assign pathname = pathname | replace: '/','' %}
+                    {% assign pathname = pathname | replace: '.json','' %}
+                    {% assign openapi_spec_json = file | map: pathname %}
+
+                  {% endif %}
+
+                  {% if property.type == 'x-postman %}
+                    {% assign postman_url = property.url %}
+                  {% endif %}
+
+                  {% if property.type == 'x-api-blueprint' %}
+                    {% assign api_blueprint_url = property.url %}
+                  {% endif %}
+
+                  {% if property.type == 'x-api-actions' %}
+                    {% assign api_action_url = property.url %}
+                  {% endif %}
+
+                {% endfor %}
+
+                <tr>
+                  <td align="left">
+                    <strong>{{ api.name }}</strong>
+                  </td>
+                  <td align="right">
+                    {% if openapi_spec_url != null and openapi_spec_url != empty %}
+                      <a href="{{ openapi_spec_url }}" target="_blank" title="OpenAPI Spec">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" align="right" />
+                      </a>
+                    {% endif %}
+                    {% if api_blueprint_url != null and api_blueprint_url != empty %}
+                      <a href="{{ api_blueprint_url }}" target="_blank" title="API Blueprint">
+                        <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-blueprint-icon.png" width="25" align="right" />
+                      </a>
+                    {% endif %}
+                    {% if postman_url != null and postman_url != empty %}
+                      <a href="{{ postman_url }}" target="_blank" title="API Blueprint">
+                        <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/building-blocks/x-postman.png" width="25" align="right" />
+                      </a>
+                    {% endif %}
+                    <a href="#" onclick="showme('methods-for-{{ pathname }}'); return false;" target="_blank" title="View Endpoint List">
+                      <img style="padding-top: 4px; padding-right: 3px; padding-left: 3px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-endpoints.png" width="25" align="right" />
+                    </a>
+                  </td>
+                </tr>
+                <tr style="display: none;" id="methods-for-{{ pathname }}">
+                  <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
+
+                    <ul>
+                      {% for spec in openapi_spec_json %}
+
+                        {% for path in spec.paths %}
+
+                          {% assign method_json = path[1] %}
+
+                          {% for method in method_json %}
+
+                            {% assign verb = method[0] | upcase %}
+                            {% assign summary = method[1].summary %}
+                            <li style="font-size: 12px;">{{ path[0] }} <strong>[{{ verb }}]</strong> {{ summary }}</li>
+
+                          {% endfor %}
+
+                        {% endfor %}
+
+                      {% endfor %}
+                    </ul>
+                  </td>
+                </tr>
+                {% if common_api_action_url != null and common_api_action_url != empty %}
+                  {% assign api_actions = common_api_action_url%}
+                {% else %}
+                  {% if api_action_url != null and api_action_url != empty %}
+                    {% assign api_actions = api_action_url %}
+                  {% else %}
+                    {% assign api_actions = '' %}
+                  {% endif %}
+                {% endif %}
+                {% if api_action_url != '' %}
+                  <tr style="display: none;" id="actions-for-{{ pathname }}">
+                    <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
+                      <ul>
+
+                        {% assign pathname = api_actions | replace: site.url,'' %}
+                        {% assign pathname = pathname | replace: '/data/','' %}
+                        {% assign pathname = pathname | replace: thisname,'' %}
+                        {% assign pathname = pathname | replace: '/','' %}
+                        {% assign pathname = pathname | replace: '.json','' %}
+                        {% assign api_action_spec = file | map: pathname %}
+
+                        {% for action in api_action_spec %}
+                          {% assign action_label = action[1].Action %}
+                          {% assign action_url = action[1].URL %}
+                          <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
+                        {% endfor %}
+                      </ul>
+                    </td>
+                  </tr>
+                {% endif %}
+              {% endfor %}
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" align="center" style="padding-bottom: 30px;">
+
+              {% for api in apijson.x-common %}
+
+                  {% assign thisname = apijson.name | downcase %}
+                  {% assign thisname = thisname | append:'/' %}
+                  {% assign thisname = thisname | replace: ' ','-' %}
+
+                  {% if api.type == 'x-api-plan' %}
+
+                    {% assign api_plan_url = api.url %}
+                    {% assign pathname = api_plan_url | replace: site.url,'' %}
+                    {% assign pathname = pathname | replace: '/data/','' %}
+
+                    {% assign pathname = pathname | replace: thisname,'' %}
+                    {% assign pathname = pathname | replace: '/','' %}
+                    {% assign pathname = pathname | replace: '.json','' %}
+                    {% assign api_plan_json = file | map: pathname %}
+
+                    <table cellpadding="3" cellspacing="2" width="90%" style="margin-bottom: 40px;">
+
+                    {% for entry in api_plan_json %}
+
+                        {% assign api_plan_json = entry[0] %}
+
+                        {% for plan in api_plan_json.plans %}
+
+                            {% assign entries = plan.entries %}
+
+                            <tr>
+                              <td colspan="10" style="padding-top: 5px; padding-bottom: 10px;"><strong>Plan Name: {{ plan.name }}</strong></td>
+                            </tr>
+
+                            <tr style="font-size: 12px; font-weight: bold;">
+                              <td>label</td>
+                              <td>description</td>
+                              <td>metric</td>
+                              <td>limit</td>
+                              <td>timeframe</td>
+                              <td>geo</td>
+                              <td>element</td>
+                              <td>one</td>
+                              <td>two</td>
+                              <td align="right">unit</td>
+                            </tr>
+
+                            {% for entry in entries %}
+
+                              <tr style="font-size: 11px;">
+                                <td>{{ entry.label }}</td>
+                                <td>{{ entry.description }}</td>
+                                <td>{{ entry.metric }}</td>
+                                <td>{{ entry.limit }}</td>
+                                <td>{{ entry.timeframe }}</td>
+                                <td>{{ entry.geo }}</td>
+                                <td>{{ entry.element }}</td>
+                                <td align="center">{{ entry.one }}</td>
+                                <td align="center">{{ entry.two }}</td>
+                                <td align="right">{{ entry.unit }}</td>
+                              </tr>
+
+                            {% endfor %}
+
+                        {% endfor %}
+
+                    {% endfor %}
+
+                  </table>
+
+                  {% endif %}
+
+              {% endfor %}
+
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" align="center"><hr /></td>
+          </tr>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</table>
+<br />
+<p>Next I will be making sure these APis are profiled, complete with <a href="https://github.com/OAI/OpenAPI-Specification">OpenAPI Specs</a>, that will help me better articulate what these platforms do, and wrap in <a href="http://apisjson.org">APIs.json</a>, which will then let me, and other attendees discover within the toolbox I have put together. <a href="https://github.com/kinlane/indie-edtech-data-jam">This toolbox is available as a machine readable, forkable Github repository, than anyone could clone, and make their own changes to the collection</a>.</p>
+<p>This is not meant to be a definiive list of APIs that university students will be interested in--it is meant to be one possible list to explore as they are getting to know the world of APis, and learning about how they impact their lives, as we have a conversation in North Carolina.</p>
