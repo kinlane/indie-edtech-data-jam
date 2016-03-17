@@ -148,10 +148,6 @@
 		{
 			"type": "x-webinars",
 			"url": "http://linkedin.com"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/linkedin/linkedin-api-actions.json"
 		}
 	],
 	"include": [
