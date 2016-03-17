@@ -1,41 +1,12 @@
-{
-	"swagger": "2.0",
-	"info": {
-		"title": "Pinboard User API",
-		"version": null
-	},
-	"schemes": ["http"],
-	"produces": ["application/json"],
-	"consumes": ["application/json"],
-	"paths": {
-		"/user/api_token/": {
-			"get": {
-				"summary": "User Api Token",
-				"description": "Returns the users API token (for making API calls without a password)",
-				"operationId": "user-api-token",
-				"responses": {
-					"200": {
-						"description": "OK"
-					}
-				},
-				"tags": ["links"],
-				"security": []
-			}
-		},
-		"/user/secret": {
-			"get": {
-				"summary": "User Secret",
-				"description": "Returns the users secret RSS key (for viewing private feeds)",
-				"operationId": "user-secret",
-				"responses": {
-					"200": {
-						"description": "OK"
-					}
-				},
-				"tags": ["links"],
-				"security": []
-			}
-		}
-	},
-	"definitions": []
-}
+<html><head><title>Slim Application Error</title><style>body{margin:0;padding:30px;font:12px/1.5 Helvetica,Arial,Verdana,sans-serif;}h1{margin:0;font-size:48px;font-weight:normal;line-height:48px;}strong{display:inline-block;width:65px;}</style></head><body><h1>Slim Application Error</h1><p>The application could not run because of the following error:</p><h2>Details</h2><div><strong>Code:</strong> 4</div><div><strong>Message:</strong> Expected status [201], actual status [422], URL [/repos/api-stack/api-stack/contents/data/pinboard/pinboard-user-api-swagger.json]</div><div><strong>File:</strong> /var/www/html/kin_lane/api/client/GitHubClientBase.php</div><div><strong>Line:</strong> 351</div><h2>Trace</h2><pre>#0 /var/www/html/kin_lane/api/client/GitHubClientBase.php(287): GitHubClientBase->parseResponse('/repos/api-stac...', 'HTTP/1.1 100 Co...', 'GitHubReadmeCon...', 201, false)
+#1 /var/www/html/kin_lane/api/client/services/GitHubReposContents.php(81): GitHubClientBase->request('/repos/api-stac...', 'PUT', Array, 201, 'GitHubReadmeCon...')
+#2 /var/www/html/kin_lane/api/api/methods/m-api-api_id-definitions-export-swagger-20.php(630): GitHubReposContents->createFile('api-stack', 'api-stack', 'data/pinboard/p...', 'Adding data/pin...', 'ewoJInN3YWdnZXI...', 'gh-pages')
+#3 [internal function]: {closure}('99IcTuxrnRaMWe5...')
+#4 /var/www/html/kin_lane/api/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#5 /var/www/html/kin_lane/api/Slim/Slim.php(1218): Slim\Router->dispatch(Object(Slim\Route))
+#6 /var/www/html/kin_lane/api/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#7 /var/www/html/kin_lane/api/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#8 /var/www/html/kin_lane/api/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#9 /var/www/html/kin_lane/api/Slim/Slim.php(1167): Slim\Middleware\PrettyExceptions->call()
+#10 /var/www/html/kin_lane/api/api/index.php(81): Slim\Slim->run()
+#11 {main}</pre></body></html>
