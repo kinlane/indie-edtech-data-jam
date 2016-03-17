@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/university-api-workshop/data/facebook/apis.json",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-achievement-type-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-achievement-type-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-achievement-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-achievement-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-album-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-album-api-openapi-spec.json"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-application-context-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-application-context-api-openapi-spec.json"
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-application-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-application-api-openapi-spec.json"
 				}
 			]
 		},
@@ -103,7 +103,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-comment-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-comment-api-openapi-spec.json"
 				}
 			]
 		},
@@ -119,7 +119,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-conversation-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-conversation-api-openapi-spec.json"
 				}
 			]
 		},
@@ -135,7 +135,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-domain-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-domain-api-openapi-spec.json"
 				}
 			]
 		},
@@ -151,7 +151,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-event-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-event-api-openapi-spec.json"
 				}
 			]
 		},
@@ -167,7 +167,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-friend-list-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-friend-list-api-openapi-spec.json"
 				}
 			]
 		},
@@ -183,7 +183,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-friendlist-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-friendlist-api-openapi-spec.json"
 				}
 			]
 		},
@@ -199,7 +199,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-group-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-group-api-openapi-spec.json"
 				}
 			]
 		},
@@ -215,7 +215,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-life-event-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-life-event-api-openapi-spec.json"
 				}
 			]
 		},
@@ -231,7 +231,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-link-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-link-api-openapi-spec.json"
 				}
 			]
 		},
@@ -247,7 +247,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-mailing-address-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-mailing-address-api-openapi-spec.json"
 				}
 			]
 		},
@@ -263,7 +263,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-message-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-message-api-openapi-spec.json"
 				}
 			]
 		},
@@ -279,7 +279,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-milestone-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-milestone-api-openapi-spec.json"
 				}
 			]
 		},
@@ -295,7 +295,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-notification-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-notification-api-openapi-spec.json"
 				}
 			]
 		},
@@ -311,7 +311,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-offer-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-offer-api-openapi-spec.json"
 				}
 			]
 		},
@@ -327,7 +327,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-page-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-page-api-openapi-spec.json"
 				}
 			]
 		},
@@ -343,7 +343,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-payment-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-payment-api-openapi-spec.json"
 				}
 			]
 		},
@@ -359,7 +359,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-photo-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-photo-api-openapi-spec.json"
 				}
 			]
 		},
@@ -375,7 +375,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-place-tag-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-place-tag-api-openapi-spec.json"
 				}
 			]
 		},
@@ -391,7 +391,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-place-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-place-api-openapi-spec.json"
 				}
 			]
 		},
@@ -407,7 +407,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-post-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-post-api-openapi-spec.json"
 				}
 			]
 		},
@@ -423,7 +423,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-profile-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-profile-api-openapi-spec.json"
 				}
 			]
 		},
@@ -439,7 +439,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-promotion-info-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-promotion-info-api-openapi-spec.json"
 				}
 			]
 		},
@@ -455,7 +455,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-status-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-status-api-openapi-spec.json"
 				}
 			]
 		},
@@ -471,7 +471,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-test-user-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-test-user-api-openapi-spec.json"
 				}
 			]
 		},
@@ -487,7 +487,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-thread-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-thread-api-openapi-spec.json"
 				}
 			]
 		},
@@ -503,7 +503,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-url-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-url-api-openapi-spec.json"
 				}
 			]
 		},
@@ -519,7 +519,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-user-context-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-user-context-api-openapi-spec.json"
 				}
 			]
 		},
@@ -535,7 +535,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-user-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-user-api-openapi-spec.json"
 				}
 			]
 		},
@@ -551,7 +551,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-video-broadcast-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-video-broadcast-api-openapi-spec.json"
 				}
 			]
 		},
@@ -567,7 +567,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-video-list-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-video-list-api-openapi-spec.json"
 				}
 			]
 		},
@@ -583,7 +583,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-graph-video-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/facebook-graph-video-api-openapi-spec.json"
 				}
 			]
 		}
@@ -640,16 +640,12 @@
 		{
 			"type": "x-webinars",
 			"url": "https://facebook.com"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/university-api-workshop/data/facebook/facebook-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [

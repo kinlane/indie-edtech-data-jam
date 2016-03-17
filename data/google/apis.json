@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/university-api-workshop/data/google/apis.json",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/blogger-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/blogger-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/books-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/books-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,11 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/gmail-api-openapi-spec.json"
-				}
-				{
-					"type": "x-api-actions",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/gmail-api-actions.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/gmail-api-openapi-spec.json"
 				}
 			]
 		},
@@ -75,11 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-calendar-api-openapi-spec.json"
-				},
-				{
-					"type": "x-api-actions",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-calendar-api-actions.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-calendar-api-openapi-spec.json"
 				}
 			]
 		},
@@ -95,15 +87,11 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-drive-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-drive-api-openapi-spec.json"
 				},
 				{
 					"type": "x-sdks",
 					"url": "https://sdks.io/SDK/View/drive-api-2"
-				},
-				{
-					"type": "x-api-actions",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-drive-api-actions.json"
 				}
 			]
 		},
@@ -119,7 +107,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-maps-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-maps-openapi-spec.json"
 				}
 			]
 		},
@@ -139,11 +127,7 @@
 				},
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-spreadsheets-openapi-spec.json"
-				},
-				{
-					"type": "x-api-actions",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-spreadsheets-api-actions.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-spreadsheets-openapi-spec.json"
 				}
 			]
 		},
@@ -163,11 +147,7 @@
 				},
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-tasks-openapi-spec.json"
-				},
-				{
-					"type": "x-api-actions",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/google-tasks-api-actions.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-tasks-openapi-spec.json"
 				}
 			]
 		},
@@ -183,7 +163,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/google/url-shortener-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/url-shortener-api-openapi-spec.json"
 				}
 			]
 		}
@@ -237,7 +217,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [

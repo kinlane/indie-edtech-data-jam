@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/university-api-workshop/data/slack/apis.json",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-authentication-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-authentication-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-channels-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-channels-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-chat-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-chat-api-openapi-spec.json"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-do-not-disturb-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-do-not-disturb-api-openapi-spec.json"
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-emoji-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-emoji-api-openapi-spec.json"
 				}
 			]
 		},
@@ -103,7 +103,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-files-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-files-api-openapi-spec.json"
 				}
 			]
 		},
@@ -119,7 +119,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-groups-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-groups-api-openapi-spec.json"
 				}
 			]
 		},
@@ -135,7 +135,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-instant-message-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-instant-message-api-openapi-spec.json"
 				}
 			]
 		},
@@ -151,7 +151,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-multiparty-direct-messages-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-multiparty-direct-messages-api-openapi-spec.json"
 				}
 			]
 		},
@@ -167,7 +167,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-oauth-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-oauth-api-openapi-spec.json"
 				}
 			]
 		},
@@ -183,7 +183,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-pins-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-pins-api-openapi-spec.json"
 				}
 			]
 		},
@@ -199,7 +199,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-reactions-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-reactions-api-openapi-spec.json"
 				}
 			]
 		},
@@ -215,7 +215,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-real-time-messaging-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-real-time-messaging-api-openapi-spec.json"
 				}
 			]
 		},
@@ -231,7 +231,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-search-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-search-api-openapi-spec.json"
 				}
 			]
 		},
@@ -247,7 +247,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-stars-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-stars-api-openapi-spec.json"
 				}
 			]
 		},
@@ -263,7 +263,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-team-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-team-api-openapi-spec.json"
 				}
 			]
 		},
@@ -279,7 +279,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-testing-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-testing-api-openapi-spec.json"
 				}
 			]
 		},
@@ -295,7 +295,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-user-groups-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-user-groups-api-openapi-spec.json"
 				}
 			]
 		},
@@ -311,7 +311,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-users-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-users-api-openapi-spec.json"
 				}
 			]
 		}
@@ -420,16 +420,12 @@
 		{
 			"type": "x-twitter",
 			"url": "https://twitter.com/slackapi"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/university-api-workshop/data/slack/slack-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [

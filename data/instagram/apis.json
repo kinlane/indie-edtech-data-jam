@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/university-api-workshop/data/instagram/apis.json",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/instagram/instagram-geographies-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/instagram-geographies-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/instagram/instagram-locations-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/instagram-locations-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/instagram/instagram-media-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/instagram-media-api-openapi-spec.json"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/instagram/instagram-tags-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/instagram-tags-api-openapi-spec.json"
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/instagram/instagram-users-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/instagram-users-api-openapi-spec.json"
 				}
 			]
 		}
@@ -192,16 +192,12 @@
 		{
 			"type": "x-twitter",
 			"url": "https://twitter.com/instagram"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/university-api-workshop/data/instagram/instagram-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [

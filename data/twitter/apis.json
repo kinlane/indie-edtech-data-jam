@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/university-api-workshop/data/twitter/apis.json",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-account-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-account-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-application-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-application-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-blocks-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-blocks-api-openapi-spec.json"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-collections-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-collections-api-openapi-spec.json"
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-curator-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-curator-api-openapi-spec.json"
 				}
 			]
 		},
@@ -103,7 +103,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-direct-messages-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-direct-messages-api-openapi-spec.json"
 				}
 			]
 		},
@@ -119,7 +119,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-favorites-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-favorites-api-openapi-spec.json"
 				}
 			]
 		},
@@ -135,7 +135,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-followers-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-followers-api-openapi-spec.json"
 				}
 			]
 		},
@@ -151,7 +151,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-friends-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-friends-api-openapi-spec.json"
 				}
 			]
 		},
@@ -167,7 +167,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-friendships-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-friendships-api-openapi-spec.json"
 				}
 			]
 		},
@@ -183,7 +183,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-geo-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-geo-api-openapi-spec.json"
 				}
 			]
 		},
@@ -199,7 +199,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-help-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-help-api-openapi-spec.json"
 				}
 			]
 		},
@@ -215,7 +215,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-lists-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-lists-api-openapi-spec.json"
 				}
 			]
 		},
@@ -231,7 +231,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-mutes-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-mutes-api-openapi-spec.json"
 				}
 			]
 		},
@@ -247,7 +247,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-saved-searches-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-saved-searches-api-openapi-spec.json"
 				}
 			]
 		},
@@ -263,7 +263,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-search-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-search-api-openapi-spec.json"
 				}
 			]
 		},
@@ -279,7 +279,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-status-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-status-api-openapi-spec.json"
 				}
 			]
 		},
@@ -295,7 +295,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-trends-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-trends-api-openapi-spec.json"
 				}
 			]
 		},
@@ -311,7 +311,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-users-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-users-api-openapi-spec.json"
 				}
 			]
 		}
@@ -396,16 +396,12 @@
 		{
 			"type": "x-twitter",
 			"url": "https://twitter.com/twittereng/"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/university-api-workshop/data/twitter/twitter-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [

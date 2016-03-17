@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/university-api-workshop/data/dropbox/apis.json",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/dropbox/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/dropbox/dropbox-core-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/dropbox/dropbox-core-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/dropbox/dropbox-for-business-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/dropbox/dropbox-for-business-api-openapi-spec.json"
 				}
 			]
 		}
@@ -84,16 +84,12 @@
 		{
 			"type": "x-webinars",
 			"url": "https://www.dropbox.com"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/university-api-workshop/data/dropbox/dropbox-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [

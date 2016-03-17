@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/university-api-workshop/data/spotify/apis.json",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/spotify/spotify-album-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/spotify-album-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/spotify/spotify-artist-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/spotify-artist-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/spotify/spotify-browse-music-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/spotify-browse-music-api-openapi-spec.json"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/spotify/spotify-me-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/spotify-me-api-openapi-spec.json"
 				}
 			]
 		},
@@ -99,7 +99,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/spotify/spotify-search-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/spotify-search-api-openapi-spec.json"
 				}
 			]
 		},
@@ -115,7 +115,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/spotify/spotify-tracks-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/spotify-tracks-api-openapi-spec.json"
 				}
 			]
 		},
@@ -131,7 +131,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/spotify/spotify-users-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/spotify-users-api-openapi-spec.json"
 				}
 			]
 		}
@@ -205,7 +205,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [

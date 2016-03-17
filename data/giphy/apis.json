@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/university-api-workshop/data/giphy/apis.json",
+	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/giphy/giphy-gif-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/giphy-gif-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/university-api-workshop/data/giphy/giphy-stickers-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/giphy-stickers-api-openapi-spec.json"
 				}
 			]
 		}
@@ -65,7 +65,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [
