@@ -1,0 +1,44 @@
+[
+  {
+    "Platform": "Dropbox",
+    "Action": "Save Gmail attachments to Dropbox as original file format",
+    "URL": "https://zapier.com/app/min/166/start",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Get an Email When Files are Added to Your Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/241/get-an-email-when-files-are-added-to-your-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Copy new Google Drive files in a specific folder to Dropbox",
+    "URL": "https://zapier.com/app/min/167/start",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Copy new Dropbox files to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/168/copy-new-dropbox-files-to-google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Get an RSS Feed of All New Files in Your Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/249/get-an-rss-feed-of-all-new-files-in-your-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Save new Instagram photos to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/197/save-instagram-photos-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Get notified in Slack when a file is added to your Dropbox folder",
+    "URL": "https://zapier.com/zapbook/zaps/1362/get-notified-in-slack-when-a-file-is-added-to-your-dropbox/",
+    "": "null"
+  }
+]
