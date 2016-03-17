@@ -2,7 +2,7 @@
 	"name": "LinkedIn",
 	"description": "With over 100 million users representing over 200 countries around the world, LinkedIn is a fast-growing professional networking site that allows members to create business contacts, search for jobs, and find potential clients. Individuals have the ability to create their own professional profile that can be viewed by others in their network, and also view the profiles of their own contacts.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png",
-	"x-open-ranking": "0",
+	"x-open-ranking": "2",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
