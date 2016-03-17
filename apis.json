@@ -2,7 +2,7 @@
 	"name": "Indie EdTech Data Jam",
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json",
+	"url": "http://kinlane.github.io/university-api-workshop//apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 	],
@@ -12,79 +12,79 @@
 	"include": [
 		{
 			"name": "Dropbox",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/dropbox/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/dropbox/apis.json"
 		},
 		{
 			"name": "Facebook",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/facebook/apis.json"
 		},
 		{
 			"name": "Fitbit",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/fitbit/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/fitbit/apis.json"
 		},
 		{
 			"name": "Giphy",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/giphy/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/giphy/apis.json"
 		},
 		{
 			"name": "Google",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/google/apis.json"
 		},
 		{
 			"name": "Instagram",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instagram/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/instagram/apis.json"
 		},
 		{
 			"name": "Instructure Canvas",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/apis.json"
 		},
 		{
 			"name": "LinkedIn",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/linkedin/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/linkedin/apis.json"
 		},
 		{
 			"name": "PayPal",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/paypal/apis.json"
 		},
 		{
 			"name": "Pinboard",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/pinboard/apis.json"
 		},
 		{
 			"name": "Slack",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/slack/apis.json"
 		},
 		{
 			"name": "Snapchat",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/snapchat/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/snapchat/apis.json"
 		},
 		{
 			"name": "Spotify",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/spotify/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/spotify/apis.json"
 		},
 		{
 			"name": "Telegram",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/telegram/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/telegram/apis.json"
 		},
 		{
 			"name": "Tinder",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/tinder/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/tinder/apis.json"
 		},
 		{
 			"name": "Twitter",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/twitter/apis.json"
 		},
 		{
 			"name": "WordPress",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/apis.json"
 		},
 		{
 			"name": "Yik Yak",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/yik-yak/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/yik-yak/apis.json"
 		},
 		{
 			"name": "YouTube",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/data/youtube/apis.json"
 		}
 	],
 	"maintainers": [

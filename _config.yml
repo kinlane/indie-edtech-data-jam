@@ -1,5 +1,5 @@
 title:        Indie EdTech Data Jam
-url:          http://kinlane.github.io/indie-edtech-data-jam
+url:          http://kinlane.github.io/university-api-workshop
 logo:         http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png
 
 logo_width:   55
@@ -21,7 +21,7 @@ categories_path : /categories.html
 tags_path : /tags.html
 
 # Masthead title
-masthead_link: http://kinlane.github.io/indie-edtech-data-jam/
+masthead_link: http://kinlane.github.io/university-api-workshop/
 masthead_font_size: 85
 masthead_title: '{"APIs"}'
 
@@ -37,8 +37,8 @@ project_summary: This is a research project to help me better understand exactly
 
 # Navigation
 navigation:
-  - label1: Project Overview
-    link1: /indie-edtech-data-jam/
+  - label1: Workshop Overview
+    link1: /university-api-workshop/
     size1: 80
     extend: 0
     label2:
@@ -47,7 +47,7 @@ navigation:
     padding: 0
     decorate: 0
   - label1: What is a website?
-    link1: /indie-edtech-data-jam/what-is-a-website/
+    link1: /university-api-workshop/what-is-a-website/
     size1: 80
     extend: 0
     label2:
@@ -56,7 +56,7 @@ navigation:
     padding: 25
     decorate: 0
   - label1: What is an API?
-    link1: /indie-edtech-data-jam/what-is-an-api/
+    link1: /university-api-workshop/what-is-an-api/
     size1: 80
     extend: 0
     label2:
@@ -65,7 +65,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: The History of APIs
-    link1: /indie-edtech-data-jam/history-of-apis/
+    link1: /university-api-workshop/history-of-apis/
     size1: 80
     extend: 0
     label2:
@@ -74,7 +74,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: The Programmable Web
-    link1: /indie-edtech-data-jam/programmable-web/
+    link1: /university-api-workshop/programmable-web/
     size1: 80
     extend: 0
     label2:
@@ -83,7 +83,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: Some APIs In Your World
-    link1: /indie-edtech-data-jam/apis/
+    link1: /university-api-workshop/apis/
     size1: 80
     extend: 0
     label2:
@@ -92,7 +92,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: The University API
-    link1: /indie-edtech-data-jam/unversitiy-api/
+    link1: /university-api-workshop/unversitiy-api/
     size1: 80
     extend: 0
     label2:
@@ -101,7 +101,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: The Personal APIs
-    link1: /indie-edtech-data-jam/personal-apis/
+    link1: /university-api-workshop/personal-apis/
     size1: 80
     extend: 0
     label2:
