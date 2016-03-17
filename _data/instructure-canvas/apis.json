@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/apis.json",
+	"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-accounts-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-accounts-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-appointment-groups-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-appointment-groups-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-audit-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-audit-api-openapi-spec.json"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-calendar-events-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-calendar-events-api-openapi-spec.json"
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-conversations-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-conversations-api-openapi-spec.json"
 				}
 			]
 		},
@@ -103,7 +103,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-courses-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-courses-api-openapi-spec.json"
 				}
 			]
 		},
@@ -119,7 +119,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-global-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-global-api-openapi-spec.json"
 				}
 			]
 		},
@@ -135,7 +135,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-groups-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-groups-api-openapi-spec.json"
 				}
 			]
 		},
@@ -151,7 +151,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-polls-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-polls-api-openapi-spec.json"
 				}
 			]
 		},
@@ -167,7 +167,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-quiz-submissions-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-quiz-submissions-api-openapi-spec.json"
 				}
 			]
 		},
@@ -183,7 +183,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-sections-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-sections-api-openapi-spec.json"
 				}
 			]
 		},
@@ -199,7 +199,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-users-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-users-api-openapi-spec.json"
 				}
 			]
 		},
@@ -215,7 +215,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/instructure-canvas-utility-apis-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/instructure-canvas/instructure-canvas-utility-apis-openapi-spec.json"
 				}
 			]
 		}
@@ -233,7 +233,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
 		}
 	],
 	"maintainers": [
