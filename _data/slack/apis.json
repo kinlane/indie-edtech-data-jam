@@ -420,6 +420,10 @@
 		{
 			"type": "x-twitter",
 			"url": "https://twitter.com/slackapi"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-api-actions.json"
 		}
 	],
 	"include": [
