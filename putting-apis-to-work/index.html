@@ -147,6 +147,8 @@ title: Some APIs In Your World
               {% assign api_action_url = '' %}
               {% for api in apijson.apis %}
 
+                {% assign api_action_spec = '' %}
+
                 {% for property in api.properties %}
 
                   {% assign thisname = apijson.name | downcase %}
