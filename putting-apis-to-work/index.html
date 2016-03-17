@@ -136,9 +136,9 @@ title: Some APIs In Your World
             </td>
           </tr>
           <tr>
-            <td align="center" colspan="3" style="margin-left: 25px; margin-right: 25px;">
-              <p style="font-size: 18px;"><strong>APIs</strong></p>
-              <table cellpadding="3" cellspacing="2" width="90%" border="0">
+            <td align="center" colspan="3" style="margin-left: 50px; margin-right: 50px;">
+              <p style="font-size: 18px; text-align: left;"><strong>APIs</strong></p>
+              <table cellpadding="3" cellspacing="2" width="80%" border="0">
 
               {% assign api_action_url = '' %}
               {% for api in apijson.apis %}
@@ -232,7 +232,7 @@ title: Some APIs In Your World
                   {% assign pathname = pathname | replace: '.json','' %}
                   {% assign api_action_spec = file | map: pathname %}
                   <tr>
-                    <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
+                    <td colspan="2" align="left" style="margin-left: 50px; margin-right: 50px;">
                       <p style="font-size: 18px;"><strong>Actions</strong></p>
                       <ul>
                         {% for actions in api_action_spec %}
@@ -266,7 +266,7 @@ title: Some APIs In Your World
             <tr>
               <td colspan="3" align="left" style="margin-left: 50px; margin-right: 50px;">
                 <p style="font-size: 18px;"><strong>Actions</strong></p>
-                <ul style="margin-left: 45px;">
+                <ul style="margin-left: 65px;">
                   {% for actions in api_action_spec %}
                     {% for action in actions %}
                       {% assign action_label = action.Action %}
