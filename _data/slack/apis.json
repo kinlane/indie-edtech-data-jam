@@ -6,8 +6,8 @@
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-10",
-	"modified": "2016-03-10",
+	"created": "2016-03-16",
+	"modified": "2016-03-16",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -420,10 +420,6 @@
 		{
 			"type": "x-twitter",
 			"url": "https://twitter.com/slackapi"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/slack/slack-api-actions.json"
 		}
 	],
 	"include": [
