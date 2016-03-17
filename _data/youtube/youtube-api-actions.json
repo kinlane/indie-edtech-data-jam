@@ -1,12 +1,6 @@
 [
   {
     "Platform": "Youtube",
-    "Action": "Youtube",
-    "URL": "https://zapier.com/zapbook/youtube/",
-    "": "null"
-  },
-  {
-    "Platform": "Youtube",
     "Action": "Post YouTube Videos From Users to Facebook",
     "URL": "https://zapier.com/zapbook/zaps/179/post-youtube-videos-from-users-to-facebook/",
     "": "null"

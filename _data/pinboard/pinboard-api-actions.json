@@ -1,12 +1,6 @@
 [
   {
     "Platform": "Pinboard",
-    "Action": "Pinboard",
-    "URL": "https://zapier.com/zapbook/pinboard/",
-    "": "null"
-  },
-  {
-    "Platform": "Pinboard",
     "Action": "Send messages on Slack for new bookmarks on Pinboard",
     "URL": "https://zapier.com/zapbook/zaps/7737/send-messages-on-slack-for-new-bookmarks-on-pinboard/",
     "": "null"
