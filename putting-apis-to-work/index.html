@@ -229,7 +229,7 @@ title: Some APIs In Your World
                   </td>
                 </tr>
                 {% if api_action_url != '' %}
-                  {% assign pathname = api_actions | replace: site.url,'' %}
+                  {% assign pathname = api_action_url | replace: site.url,'' %}
                   {% assign pathname = pathname | replace: '/data/','' %}
                   {% assign pathname = pathname | replace: thisname,'' %}
                   {% assign pathname = pathname | replace: '/','' %}
@@ -237,6 +237,7 @@ title: Some APIs In Your World
                   {% assign api_action_spec = file | map: pathname %}
                   <tr>
                     <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
+                      {{ api_action_spec }}
                       <ul>
                         {% for action in api_action_spec %}
                           {% assign action_label = action[1].Action %}
@@ -257,6 +258,7 @@ title: Some APIs In Your World
             </td>
           </tr>
           {% if common_api_action_url != '' %}
+
             {% assign pathname = common_api_action_url | replace: site.url,'' %}
             {% assign pathname = pathname | replace: '/data/','' %}
             {% assign pathname = pathname | replace: thisname,'' %}
@@ -265,6 +267,9 @@ title: Some APIs In Your World
             {% assign api_action_spec = file | map: pathname %}
             <tr>
               <td colspan="3" align="left" style="margin-left: 25px; margin-right: 25px;">
+
+                {{ api_action_spec}}
+
                 <ul>
                   {% for action in api_action_spec %}
                     {% assign action_label = action[1].Action %}
