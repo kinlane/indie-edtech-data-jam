@@ -396,6 +396,10 @@
 		{
 			"type": "x-twitter",
 			"url": "https://twitter.com/twittereng/"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/twitter-api-actions.json"
 		}
 	],
 	"include": [
