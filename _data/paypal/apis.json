@@ -21,6 +21,10 @@
 				"Indie EdTech Data Jam"
 			],
 			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-adaptive-accounts-openapi-spec.json"
+				}
 			]
 		},
 		{
@@ -33,6 +37,10 @@
 				"Indie EdTech Data Jam"
 			],
 			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-adaptive-payments-openapi-spec.json"
+				}
 			]
 		},
 		{
@@ -45,6 +53,10 @@
 				"Indie EdTech Data Jam"
 			],
 			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-invoicing-openapi-spec.json"
+				}
 			]
 		},
 		{
@@ -57,6 +69,10 @@
 				"Indie EdTech Data Jam"
 			],
 			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-payments-openapi-spec.json"
+				}
 			]
 		},
 		{
@@ -69,18 +85,10 @@
 				"Indie EdTech Data Jam"
 			],
 			"properties": [
-			]
-		},
-		{
-			"name": "PayPal Segmentation Service",
-			"description": "A segment is the definition that represents set of users that fall under certain criteria of current behavior, historic actions & attributes or higher propensity for being part of specific future event. You must use these APIs to get access to the various segment values of the users. A request can be made from an app that runs in the server side or the client side. Since the secret key has to be hashed and sent along with the request, it is advisable to make this call from the server side application and not from client side. Please refer to our PHP / JavaScript sample code in the Integration Guide.n",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/237_logo.png",
-			"humanURL": "https://www.x.com/developers/x.commerce/documentation-tools/api/segmentation-service-api-reference",
-			"baseURL": "https://api.paypal.com",
-			"tags": [
-				"Indie EdTech Data Jam"
-			],
-			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/paypal-permissions-openapi-spec.json"
+				}
 			]
 		}
 	],
@@ -125,7 +133,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [
