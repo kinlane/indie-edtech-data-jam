@@ -223,36 +223,38 @@ title: Some APIs In Your World
                     </ul>
                   </td>
                 </tr>
+                {% if api_action_url != '' %}
+                  {% assign pathname = api_actions | replace: site.url,'' %}
+                  {% assign pathname = pathname | replace: '/data/','' %}
+                  {% assign pathname = pathname | replace: thisname,'' %}
+                  {% assign pathname = pathname | replace: '/','' %}
+                  {% assign pathname = pathname | replace: '.json','' %}
+                  {% assign api_action_spec = file | map: pathname %}
+                  <tr>
+                    <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
+                      <ul>
+                        {% for action in api_action_spec %}
+                          {% assign action_label = action[1].Action %}
+                          {% assign action_url = action[1].URL %}
+                          <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
+                        {% endfor %}
+                      </ul>
+                    </td>
+                  </tr>
+                {% endif %}
               {% endfor %}
               </table>
             </td>
           </tr>
-          {% if common_api_action_url != null and common_api_action_url != empty %}
-            {% assign api_actions = common_api_action_url %}
-          {% else %}
-            {% if api_action_url != null and api_action_url != empty %}
-              {% assign api_actions = api_action_url %}
-            {% else %}
-              {% assign api_actions = '' %}
-            {% endif %}
-          {% endif %}
-
-          Here 1 : {{ common_api_action_url }}<br />
-          Here 2: {{ api_action_url }}<br />
-          Here 3: {{ api_actions }}<br />
-
-          {% if api_actions != '' %}
-
-            {% assign pathname = api_actions | replace: site.url,'' %}
+          {% if common_api_action_url != '' %}
+            {% assign pathname = common_api_action_url | replace: site.url,'' %}
             {% assign pathname = pathname | replace: '/data/','' %}
             {% assign pathname = pathname | replace: thisname,'' %}
             {% assign pathname = pathname | replace: '/','' %}
             {% assign pathname = pathname | replace: '.json','' %}
             {% assign api_action_spec = file | map: pathname %}
-
-            <tr id="actions-for-{{ pathname }}">
+            <tr>
               <td colspan="3" align="left" style="margin-left: 25px; margin-right: 25px;">
-                --{{ api_action_spec }}--
                 <ul>
                   {% for action in api_action_spec %}
                     {% assign action_label = action[1].Action %}
