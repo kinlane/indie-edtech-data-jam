@@ -137,7 +137,7 @@ title: Some APIs In Your World
           </tr>
           <tr>
             <td align="center" colspan="3" style="margin-left: 25px; margin-right: 25px;">
-              <table cellpadding="3" cellspacing="2" width="90%" border="0">
+              <table cellpadding="3" cellspacing="2" width="90%" border="1">
 
               {% assign api_action_url = '' %}
               {% for api in apijson.apis %}
@@ -223,6 +223,7 @@ title: Some APIs In Your World
                     </ul>
                   </td>
                 </tr>
+
                 {% if common_api_action_url != null and common_api_action_url != empty %}
                   {% assign api_actions = common_api_action_url%}
                 {% else %}
@@ -233,7 +234,9 @@ title: Some APIs In Your World
                   {% endif %}
                 {% endif %}
 
-                {% if api_action_url != '' %}
+                Here: {{ api_actions }}<br />
+
+                {% if api_actions != '' %}
 
                   {% assign pathname = api_actions | replace: site.url,'' %}
                   {% assign pathname = pathname | replace: '/data/','' %}
