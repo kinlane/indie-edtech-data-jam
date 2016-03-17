@@ -240,8 +240,8 @@ title: Some APIs In Your World
                       {{ api_action_spec }}
                       <ul>
                         {% for action in api_action_spec %}
-                          {% assign action_label = action[1].Action %}
-                          {% assign action_url = action[1].URL %}
+                          {% assign action_label = action.Action %}
+                          {% assign action_url = action.URL %}
                           <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
                         {% endfor %}
                       </ul>
@@ -272,8 +272,8 @@ title: Some APIs In Your World
 
                 <ul>
                   {% for action in api_action_spec %}
-                    {% assign action_label = action[1].Action %}
-                    {% assign action_url = action[1].URL %}
+                    {% assign action_label = action.Action %}
+                    {% assign action_url = action.URL %}
                     <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
                   {% endfor %}
                 </ul>
