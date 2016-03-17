@@ -91,15 +91,6 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
-  - label1: Mapping Our API World
-    link1: /indie-edtech-data-jam/mapping/
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 60
-    padding: 5
-    decorate: 0
   - label1: Putting APIs To Work
     link1: /indie-edtech-data-jam/putting-apis-to-work/
     size1: 80
