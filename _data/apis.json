@@ -1,7 +1,7 @@
 {
 	"name": "Indie EdTech Data Jam",
-	"created": "2016-03-15",
-	"modified": "2016-03-15",
+	"created": "2016-03-16",
+	"modified": "2016-03-16",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -39,6 +39,10 @@
 			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/instructure-canvas/apis.json"
 		},
 		{
+			"name": "LinkedIn",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/linkedin/apis.json"
+		},
+		{
 			"name": "PayPal",
 			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/paypal/apis.json"
 		},
@@ -65,6 +69,10 @@
 		{
 			"name": "Tinder",
 			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/tinder/apis.json"
+		},
+		{
+			"name": "Twitter",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/twitter/apis.json"
 		},
 		{
 			"name": "WordPress",
