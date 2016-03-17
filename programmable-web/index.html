@@ -4,13 +4,14 @@ title: The Programmable Web
 ---
 
 <h1>The Programmable Web</h1>
-<p>The web has become much more than a collection of static documents. The companies and individuals behind all the successful tech brands you know aren't just using the web for publishing of sites, they are using APIs to create the next generation of interactive web, mobile, and device based applications.</p>
+<p>The web we use daily, has become much more than a collection of static documents. The companies and individuals behind all the successful tech brands you know aren't just using the web for publishing of websites, they are using APIs to create the next generation of interactive web, mobile, and device based applications.</p>
 <p><strong>Leverage Building Blocks Of The Web</strong></p>
-<p>The most popular form of APIs, often called web APIs, or REST APIs, can attribute much of success to the fact that it employs existing, low costs infrastructure used to deploy the web, as a transport for any type of digital exchange of resources. APIs employs <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Hypertext Transfer Protocol (HTTP)</a>, an application protocol for distributed, collaborative, hypermedia information systems, opening up a rich set of protocols for developing interactive web, mobile, and device based applications.</p>
+<p>The most popular form of APIs, often called web APIs, or REST APIs, can attribute much of its success to the fact that it employs existing, low costs infrastructure used to deploy the web, as a transport for any type of digital exchange of resources. APIs employs <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Hypertext Transfer Protocol (HTTP)</a>, an application protocol for distributed, collaborative, hypermedia information systems, opening up a rich set of protocols for developing interactive web, mobile, and device based applications.</p>
 <p><strong>Using Your HTTP Verbs</strong></p>
-<p>One portion of the HTTP specification that API designers take advantage of is what is the HTTP verbs (or methods) POST, GET, PUT, PATCH, and DELETE, which when used, make the web interactive, not just an online TV, where you consume informaiton.</p>
+<p>One portion of the HTTP specification that API designers are taking advantage of, is what are called the HTTP verbs (or methods) POST, GET, PUT, PATCH, and DELETE--which when used, make the web interactive, not just an online TV, where you consume the information that is programmed for you.</p>
 <p><strong>/GET (read)</strong></p>
-<p>Every web page you request in your browsers makes a /GET request, and many APIs mimick this behavior, allowing users to request any content, data, or resource made available via a platform. Here is a basic example of making a /GET request to a sample website or API:</p>
+<p>Every web page you request in your browsers makes a /GET request, you just never see this behind the curtain functionality. Many APIs have learned to mimick this behavior, allowing users to request any structured content, data, or resource made available via a platform.</p>
+<p>Here is a basic example of making a /GET request to a sample website or API:</p>
 
 <script type="text/javascript">
   function getAPI($url,$contentType)
@@ -40,11 +41,12 @@ title: The Programmable Web
     </td>
   </tr>
 </table>
-
+<p>The majority of Internet made is a /GET request, with the next generation of APIs, using a more fuller vocabular, but before can apply our other verbs, we need to talk a little big about how things are secured first.</p>
 <p><strong>Secure Access Via The Open Web</strong></p>
-<p>A large part of the web is open and public, which allows you to /GET HTML documents, images, videos, and other content via your web or mobile browsers. Many sites generate revenue by dispaying ads against this traffic. Other parts of the web are private, requiring users to register, and authenticate themselves, before you can actually add, update, or delete any content, data, or other resources available via a platform--once logged in, other HTTP verbs are opened up to these authenticated users.</p>
+<p>A large part of the web is open and public, which allows you to /GET HTML documents, images, videos, and other content via your web or mobile browsers. Many sites generate revenue by dispaying ads against this traffic. However, there are other parts of the web that are private, requiring users to register, and authenticate themselves, before you can actually add, update, or delete any content, data, or other resources available via a platform--once logged in, other HTTP verbs are opened up to authenticated users.</p>
 <p><strong>/POST (add)</strong> - Requires knowing secret pass code to work.</p>
-<p>The POST HTTP verb is most often used for adding of new data, content, and other object via HTTP websites, and APIs. While this is popular opinion, it is not true with all APIs, and some providers leverage POST for many different types of API interactions, so keep an eye out for variations. Here is a basic /POST example for updating data available in the demo.</p>
+<p>The POST HTTP verb is most often used for adding of new data, content, and other object via HTTP websites, and APIs. While this is popular opinion, it is not true with all APIs, with some providers leverage POST for many different types of API interactions. Make sure you keep an eye out for variations, and suspend any dogmatic views of how things should be standardize.</p>
+<p>Here is a basic /POST example for updating data available in the demo.</p>
 
 <script type="text/javascript">
   function postAPI($url,$contentType)
@@ -112,9 +114,9 @@ title: The Programmable Web
     </td>
   </tr>
 </table>
-
+<p>The ability to add content to a system, using HTTP, is common practice via the web browser, but is something many companies and individuals have yet to master via the API, system to system></p>
 <p><strong>/PUT (update)</strong> - Requires knowing secret pass code to work.</p>
-<p>Complimenting POST, and the ability to add to the system, PUT allows for the updating of any resources that is made available via an API. PUTS requiring passing in of a unique identifier of the resource to be changed. Normally PUT involves updating the entire object, which includes all fields, but again, there are variations to this, with many API practioners employing a separate HTTP verb PATCH to handle partial updates. Here is a basic /PUT example for updating data available in the demo.</p>
+<p>Complimenting POST, and the ability to add to the system, PUT allows for the updating of any resources that are made available via an API. PUT requests require passing in of a unique identifier of the resource to be changed. Normally PUT involves updating the entire object, which includes all fields present, but again, there are variations to this, with many API practioners employing a separate HTTP verb PATCH to handle partial updates. Here is a basic /PUT example for updating data available in the demo.</p>
 
 <script type="text/javascript">
   function putAPI($url,$contentType)
@@ -182,9 +184,10 @@ title: The Programmable Web
     </td>
   </tr>
 </table>
-
+<p>Opening up databases, and content platform to trusted partners via an API, is one of the most productive ways to keep valuable data resources, and up to date. Acknowledging that more can be done amongst internal, partner, an even public stakeholders, than it can be from internal efforts alone.</p>
 <p><strong>/DELETE (remove)</strong> - Requires knowing secret pass code to work.</p>
-<p>Rounding off the set of verbs, there is a DELETE option allowing for the removal of anything stored within an API. DELETE is actually one of least used HTTP verbs, because most systems just update the status of any object, never actually deleting any resources from the system.  Here is a basic /DELETE example for updating data available in the demo.</p>
+<p>Rounding off our set of verbs, there is a DELETE option allowing for the removal of anything stored within an API. DELETE is actually one of least used HTTP verbs, because most systems just update the status of any object, never actually deleting any resources from the system.</p>
+<p>Here is a basic /DELETE example for updating data available in the demo.</p>
 
 <script type="text/javascript">
 function deleteAPI($url,$contentType)
@@ -236,12 +239,12 @@ function deleteAPI($url,$contentType)
     </td>
   </tr>
 </table>
-
-<p>There are other HTTP verbs avaiable, further rounding off the stack, but these are the most commonly focuse don set, providing create, read, update, and delete (CRUD) capabilities which accomodates 95% of the scenarios that web APIs are put to use around.</p>
+<p>DELETE is one of the least used verbs, resulting it not 100% support across all browsers, an possibly restricting it from being used in pure client-side JavaScript solutions.</p>
+<p>There are other HTTP verbs avaiable, further rounding off the stack, but these are the most commonly focused on set of methods, providing create, read, update, and delete (CRUD) capabilities which accomodates 95% of the scenarios that web APIs encounter.</p>
 <p><strong>You Create The Web</strong></p>
-<p>These HTTP verbs make the web programmable. While there are numerous other ways for making websites, and mobile applications interactive, HTTP, and web technologies helps make sure it is low cost, standardized, and potentially scalable to web scope.</p>
-<p>There are two types of web users, those that consume, and those that create. Web APIs are the preferred tool of those that are creating the web, and delivering the tools, services, apps, and integrations which the masses are putting to use on the web, and via our ubiquitous mobile phones.</p>
-<p>The programmable web...</p>
+<p>These HTTP verbs make the web programmable. While there are numerous other ways for making websites, and mobile applications interactive, HTTP, and web technologies helps make sure it is done in a low cost, standardized, and potentially scalable way.</p>
+<p>There are two types of web users, those that consume, and those that create. Web APIs are the preferred tool of those that are creating the web, and delivering the tools, services, apps, and integrations which the masses are putting to use around the globe on websites, web applications, and via our ubiquitous mobile phones.</p>
+<p>The programmable web is yours...</p>
 
 <script type="text/javascript">
 
