@@ -60,7 +60,7 @@ title: Some APIs In Your World
             {% assign common_api_action_url = common.url %}
           {% endif %}
         {% endfor %}
-
+        -- {{ common_api_action_url }}--
         {% if apisjson.humanURL == null %}
           {% assign website_url = portal_url %}
         {% else %}
@@ -160,7 +160,7 @@ title: Some APIs In Your World
 
 
                   {{ property.type }}
-                  
+
                   {% if property.type == 'x-postman %}
                     {% assign postman_url = property.url %}
                   {% endif %}
