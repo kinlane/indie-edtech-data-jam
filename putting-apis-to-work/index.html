@@ -257,13 +257,18 @@ title: Some APIs In Your World
             {% assign pathname = pathname | replace: '.json','' %}
             {% assign api_action_spec = file | map: pathname %}
             <tr>
-              <td colspan="3" align="left" style="margin-left: 25px; margin-right: 25px;">
+              <td colspan="3" align="left" style="margin-left: 50px; margin-right: 50px;">
                 <ul>
                   {% for actions in api_action_spec %}
                     {% for action in actions %}
                       {% assign action_label = action.Action %}
                       {% assign action_url = action.URL %}
-                      <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
+                      <li style="font-size: 12px;">
+                        <a href="{{ action_url }}">
+                          <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/zapier/zapier-icon.png" width="25" style="margin-left: 5px;" />
+                          <strong>[{{ action_label }}]</strong>
+                        </a>
+                      </li>
                     {% endfor %}
                   {% endfor %}
                 </ul>
