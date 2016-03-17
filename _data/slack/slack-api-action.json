@@ -1,0 +1,86 @@
+[
+  {
+    "Platform": "Slack",
+    "Action": "Slack",
+    "URL": "https://zapier.com/zapbook/slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Send emails into Slack",
+    "URL": "https://zapier.com/zapbook/zaps/223/send-your-important-emails-to-slack-automatically/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Post approaching Google Calendar events to a Slack channel",
+    "URL": "https://zapier.com/zapbook/zaps/356/get-a-google-calendar-meeting-reminder-in-a-slack-channel-10-minutes-before-it-starts/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Get Slack notifications for new Google Drive files in a folder",
+    "URL": "https://zapier.com/zapbook/zaps/842/get-notifications-in-slack-for-new-google-drive-files/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Share new Twitter mentions in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/123/send-twitter-mentions-to-a-slack-channel/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Share new Facebook Page posts in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/1551/send-posts-from-facebook-pages-to-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Post a new message to Slack whenever a Google Sheets row is updated",
+    "URL": "https://zapier.com/zapbook/zaps/1538/post-a-new-message-to-slack-whenever-a-google-sheets-row-is-updated/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Share new Tweets from a Twitter list in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/199/send-tweets-your-teams-slack-channel/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Share new RSS items in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/230/share-rss-feed-posts-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Get daily reminders in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/1522/send-daily-reminders-to-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Welcome new Slack users in #general",
+    "URL": "https://zapier.com/zapbook/zaps/1592/welcome-new-slack-users-in-general/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Get new email notifications in Slack (containing subject",
+    "URL": "snippet",
+    "": "https://zapier.com/zapbook/zaps/1510/get-new-email-notifications-in-slack-containing-subject-snippet-sender-and-gmail-link/"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Post today's weather forecast in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/752/post-todays-weather-forecast-in-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Get Slack notifications for Instagram photos and videos with a specific tag",
+    "URL": "https://zapier.com/zapbook/zaps/154/share-instagram-photos-and-videos-with-a-specific-tag-to-slack/",
+    "": "null"
+  }
+]

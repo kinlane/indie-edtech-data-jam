@@ -640,6 +640,10 @@
 		{
 			"type": "x-webinars",
 			"url": "https://facebook.com"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam/data/facebook/facebook-api-actions.json"
 		}
 	],
 	"include": [

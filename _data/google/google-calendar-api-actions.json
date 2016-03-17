@@ -1,0 +1,56 @@
+[
+  {
+    "Platform": "Google Calendar",
+    "Action": "Google Calendar",
+    "URL": "https://zapier.com/zapbook/google-calendar/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Create Google Calendar events from new or updated Google Sheets spreadsheet rows",
+    "URL": "https://zapier.com/zapbook/zaps/138/create-google-calendar-events-from-new-spreadsheet-rows/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Create Google Calendar events from new Google Form entries",
+    "URL": "https://zapier.com/zapbook/zaps/542/use-a-google-form-to-add-new-events-to-a-google-calendar/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Get SMS alerts for approaching Google Calendar events",
+    "URL": "https://zapier.com/zapbook/zaps/210/send-a-reminder-sms-before-google-calendar-events-start/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Copy new Google Calendar events to a different Google Calendar",
+    "URL": "https://zapier.com/zapbook/zaps/1497/copies-new-google-calendar-event-to-different-google-calendar/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Share Google Calendar events on your Facebook Page",
+    "URL": "https://zapier.com/zapbook/zaps/3314/post-a-google-event-calendar-entry-to-facebook-pages-post/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Create new Google Sheets row from a new Google Calendar event",
+    "URL": "https://zapier.com/zapbook/zaps/1499/create-new-google-sheets-row-from-a-new-google-calendar-event/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Save Google Calendar Events to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/1189/save-google-calendar-events-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Create Google Calendar events from RSS feed items",
+    "URL": "https://zapier.com/zapbook/zaps/1449/create-google-calendar-detailed-events-from-rss-feed-items/",
+    "": "null"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "Platform": "Google Tasks",
+    "Action": "Google Tasks",
+    "URL": "https://zapier.com/zapbook/google-tasks/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Add Google Tasks tasks for new Google Calendar events",
+    "URL": "https://zapier.com/zapbook/zaps/2100/add-google-tasks-tasks-for-new-google-calendar-events/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google Tasks from emails",
+    "URL": "https://zapier.com/zapbook/zaps/1932/create-new-google-tasks-from-emails/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google Calendar quick events from new Google Tasks",
+    "URL": "https://zapier.com/zapbook/zaps/1912/create-new-google-calendar-quick-event-from-new-google-task/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create Google Tasks items from new starred Slack messages",
+    "URL": "https://zapier.com/zapbook/zaps/1588/create-google-tasks-items-from-new-starred-slack-messages/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google Sheet rows from new Google tasks",
+    "URL": "https://zapier.com/zapbook/zaps/1914/create-new-google-sheet-row-from-new-google-task/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google tasks from new Google Sheets rows",
+    "URL": "https://zapier.com/zapbook/zaps/1915/create-new-google-task-from-a-new-google-sheets-row/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create Google Tasks from new Gmail",
+    "URL": "https://zapier.com/zapbook/zaps/4113/create-google-tasks-from-new-gmail/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google Calendar detailed event from a new Google task",
+    "URL": "https://zapier.com/zapbook/zaps/1909/create-new-google-calendar-detailed-event-from-a-new-google-task/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create a new Google task whenever you update a row in Google Sheets",
+    "URL": "https://zapier.com/zapbook/zaps/1922/create-a-new-google-task-whenever-you-update-a-row-in-google-sheets/",
+    "": "null"
+  }
+]

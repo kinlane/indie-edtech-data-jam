@@ -1,0 +1,836 @@
+[
+  {
+    "Platform": "Youtube",
+    "Action": "Youtube",
+    "URL": "https://zapier.com/zapbook/youtube/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Post YouTube Videos From Users to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/179/post-youtube-videos-from-users-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Share new YouTube videos via Gmail",
+    "URL": "https://zapier.com/zapbook/zaps/3936/send-new-youtube-videos-as-an-email-from-gmail/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Keep a list of YouTube videos matching a search string in a Dropbox text file",
+    "URL": "https://zapier.com/zapbook/zaps/4058/copy-new-youtube-videos-which-match-a-search-string-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Tweet YouTube Videos Automatically",
+    "URL": "https://zapier.com/zapbook/zaps/180/tweet-youtube-videos-automatically/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Send new YouTube videos in a channel to Slack",
+    "URL": "https://zapier.com/zapbook/zaps/7233/send-new-youtube-videos-in-a-channel-to-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Share new YouTube videos matching a search string on Slack",
+    "URL": "https://zapier.com/zapbook/zaps/4063/share-new-youtube-videos-which-match-a-search-string-on-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Post new YouTube videos matching a search string to WordPress",
+    "URL": "https://zapier.com/zapbook/zaps/4019/post-new-youtube-videos-which-match-a-search-string-to-wordpress/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Share new YouTube videos on Slack",
+    "URL": "https://zapier.com/zapbook/zaps/3935/post-new-youtube-videos-to-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Post new YouTube videos matching a search string to a Facebook page",
+    "URL": "https://zapier.com/zapbook/zaps/4020/post-new-youtube-videos-which-match-a-search-string-to-a-facebook-page/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Post new YouTube videos to a WordPress site",
+    "URL": "https://zapier.com/zapbook/zaps/3877/post-new-youtube-videos-to-your-wordpress-site/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Ensure your Facebook Page audience knows a new YouTube video is available.",
+    "URL": "https://zapier.com/zapbook/zaps/2101/ensure-facebook-page-audience-knows-a-new-youtube-video-is-available/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Make new WordPress posts from new YouTube videos",
+    "URL": "https://zapier.com/zapbook/zaps/3147/make-new-wordpress-post-from-new-youtube-video/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Send notifications via Gmail for new YouTube channel videos",
+    "URL": "https://zapier.com/zapbook/zaps/7257/send-notifications-via-gmail-for-new-youtube-channel-videos/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Post new YouTube videos to Twitter",
+    "URL": "https://zapier.com/zapbook/zaps/3878/post-new-youtube-videos-to-twitter/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Send new YouTube videos that match a search string by email",
+    "URL": "https://zapier.com/zapbook/zaps/4018/send-new-youtube-videos-which-match-a-search-string-by-email-from-zapier/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Create a RSS feed for new YouTube channel videos",
+    "URL": "https://zapier.com/zapbook/zaps/7234/create-a-rss-feed-for-new-youtube-channel-videos/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Post new YouTube videos as image tweets on Twitter",
+    "URL": "https://zapier.com/zapbook/zaps/4429/post-new-youtube-videos-as-image-tweets-on-twitter/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Send new YouTube videos in a channel to a Facebook Page",
+    "URL": "https://zapier.com/zapbook/zaps/7236/send-new-youtube-videos-in-a-channel-to-a-facebook-page/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Create Google Drive folders for new YouTube videos",
+    "URL": "https://zapier.com/zapbook/zaps/10452/create-google-drive-folders-for-new-youtube-videos/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Save new YouTube videos to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/10453/save-new-youtube-videos-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Youtube",
+    "Action": "Post new YouTube video matching a search string to Twitter",
+    "URL": "https://zapier.com/zapbook/zaps/4061/post-new-youtube-videos-which-match-a-search-string-to-twitter/",
+    "": "null"
+  },
+  {
+    "Platform": "Pinboard",
+    "Action": "Pinboard",
+    "URL": "https://zapier.com/zapbook/pinboard/",
+    "": "null"
+  },
+  {
+    "Platform": "Pinboard",
+    "Action": "Send messages on Slack for new bookmarks on Pinboard",
+    "URL": "https://zapier.com/zapbook/zaps/7737/send-messages-on-slack-for-new-bookmarks-on-pinboard/",
+    "": "null"
+  },
+  {
+    "Platform": "Pinboard",
+    "Action": "Post new Pinboard bookmarks on WordPress",
+    "URL": "https://zapier.com/zapbook/zaps/7739/post-new-pinboard-bookmarks-on-wordpress/",
+    "": "null"
+  },
+  {
+    "Platform": "Pinboard",
+    "Action": "Post new Pinboard bookmarks on an RSS feed",
+    "URL": "https://zapier.com/zapbook/zaps/7741/post-new-pinboard-bookmarks-on-an-rss-feed/",
+    "": "null"
+  },
+  {
+    "Platform": "Pinboard",
+    "Action": "Send emails through Gmail for new bookmarks on Pinboard",
+    "URL": "https://zapier.com/zapbook/zaps/7744/send-emails-through-gmail-for-new-bookmarks-on-pinboard/",
+    "": "null"
+  },
+  {
+    "Platform": "Pinboard",
+    "Action": "POST new Pinboard bookmarks to a webhook",
+    "URL": "https://zapier.com/zapbook/zaps/7747/post-new-pinboard-bookmarks-to-a-webhook/",
+    "": "null"
+  },
+  {
+    "Platform": "Pinboard",
+    "Action": "Post on new Pinboard bookmarks on Twitter",
+    "URL": "https://zapier.com/zapbook/zaps/7748/post-on-new-pinboard-bookmarks-on-twitter/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Paypal",
+    "URL": "https://zapier.com/zapbook/paypal/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Add new rows on Google Sheets for new PayPal sales",
+    "URL": "https://zapier.com/zapbook/zaps/61/save-your-paypal-sales-to-a-google-docs-spreadsheet/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Thank Paypal Sales via Automatic Emails",
+    "URL": "https://zapier.com/zapbook/zaps/757/turn-paypal-sales-into-email-list-subscribers/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Share new PayPal sales in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/1472/share-new-paypal-sales-to-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Send a webhook when you have a new PayPal sale",
+    "URL": "https://zapier.com/zapbook/zaps/1748/send-a-webhook-when-you-have-a-new-paypal-sale/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Log new PayPal transactions to a Google Sheets spreadsheet",
+    "URL": "https://zapier.com/zapbook/zaps/2843/log-new-paypal-transactions-to-a-google-sheets-spreadsheet/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Send SMTP emails for new PayPal sales",
+    "URL": "https://zapier.com/zapbook/zaps/4759/send-smtp-emails-for-new-paypal-sales/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Track PayPal sales as Google Calendar events",
+    "URL": "https://zapier.com/zapbook/zaps/2088/track-paypal-sales-as-google-calendar-events/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Send SMS messages for new successful sales in PayPal",
+    "URL": "https://zapier.com/zapbook/zaps/2851/send-sms-messages-for-new-successful-sales-in-paypal/",
+    "": "null"
+  },
+  {
+    "Platform": "Paypal",
+    "Action": "Post failed PayPal charges to Slack",
+    "URL": "https://zapier.com/zapbook/zaps/1595/get-notifications-of-failed-paypal-charges-in-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Instagram",
+    "URL": "https://zapier.com/zapbook/instagram/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Auto Share Instagram Photos to Your Facebook Page",
+    "URL": "https://zapier.com/zapbook/zaps/162/auto-share-instagram-photos-to-your-facebook-page/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Share Instagram Photos to Twitter Automatically",
+    "URL": "https://zapier.com/zapbook/zaps/177/share-instagram-photos-to-twitter-automatically/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Add new Instagram followers to a Google Spreadsheet",
+    "URL": "https://zapier.com/zapbook/zaps/2999/add-new-instagram-followers-to-a-google-spreadsheet/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Save new Instagram photos to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/197/save-instagram-photos-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Post New Instagram Photos to Your WordPress Blog",
+    "URL": "https://zapier.com/zapbook/zaps/178/post-new-instagram-photos-to-your-wordpress-blog/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Tweet Instagram Pictures with Image Preview",
+    "URL": "https://zapier.com/zapbook/zaps/1023/tweet-instagram-pictures-with-image-preview/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Create RSS posts from new Instagram content",
+    "URL": "https://zapier.com/zapbook/zaps/2991/create-rss-posts-from-new-instagram-content/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Share your new Instagram photos and videos in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/1566/share-your-new-instagram-photos-and-videos-in-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "List tagged Instagram photos in a Google Sheets spreadsheet",
+    "URL": "https://zapier.com/zapbook/zaps/2846/copy-new-photos-with-specific-hashtag-from-instagram-into-specified-dropbox-folder/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Share new tagged Instagram posts to Facebook Pages",
+    "URL": "https://zapier.com/zapbook/zaps/2995/share-new-tagged-instagram-posts-to-facebook-pages/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Share new Instagram photos to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2329/share-new-instagram-photos-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Save new tagged Instagram posts to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/2994/save-new-tagged-instagram-posts-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Share new Instagram posts to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2996/share-new-instagram-posts-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Create an RSS post from tagged Instagram photos",
+    "URL": "https://zapier.com/zapbook/zaps/2847/create-an-rss-post-from-a-newly-tagged-instagram-photo/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Get Slack alert messages for new Instagram followers",
+    "URL": "https://zapier.com/zapbook/zaps/2997/get-slack-alert-messages-for-new-instagram-followers/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Automatically share Instagram photos to your Facebook page",
+    "URL": "https://zapier.com/zapbook/zaps/3829/automatically-share-instagram-photos-as-text-posts-to-your-facebook-page/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Share Instagram posts via Gmail message",
+    "URL": "https://zapier.com/zapbook/zaps/9347/share-instagram-posts-via-gmail-message/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Create Facebook status updates from new Instagram posts",
+    "URL": "https://zapier.com/zapbook/zaps/2993/create-facebook-status-updates-from-new-instagram-posts/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Create WordPress posts from new tagged media on Instagram",
+    "URL": "https://zapier.com/zapbook/zaps/3157/create-wordpress-posts-for-new-tagged-media-on-instagram/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Add new tagged media on Instagram to WordPress",
+    "URL": "https://zapier.com/zapbook/zaps/2992/add-new-tagged-media-on-instagram-to-wordpress/",
+    "": "null"
+  },
+  {
+    "Platform": "Instagram",
+    "Action": "Share new Instagram photos to Facebook as a post",
+    "URL": "https://zapier.com/zapbook/zaps/2330/share-new-instagram-photos-to-facebook-as-a-post/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Google Tasks",
+    "URL": "https://zapier.com/zapbook/google-tasks/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Add Google Tasks tasks for new Google Calendar events",
+    "URL": "https://zapier.com/zapbook/zaps/2100/add-google-tasks-tasks-for-new-google-calendar-events/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google Tasks from emails",
+    "URL": "https://zapier.com/zapbook/zaps/1932/create-new-google-tasks-from-emails/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google Calendar quick events from new Google Tasks",
+    "URL": "https://zapier.com/zapbook/zaps/1912/create-new-google-calendar-quick-event-from-new-google-task/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create Google Tasks items from new starred Slack messages",
+    "URL": "https://zapier.com/zapbook/zaps/1588/create-google-tasks-items-from-new-starred-slack-messages/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google Sheet rows from new Google tasks",
+    "URL": "https://zapier.com/zapbook/zaps/1914/create-new-google-sheet-row-from-new-google-task/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google tasks from new Google Sheets rows",
+    "URL": "https://zapier.com/zapbook/zaps/1915/create-new-google-task-from-a-new-google-sheets-row/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create Google Tasks from new Gmail",
+    "URL": "https://zapier.com/zapbook/zaps/4113/create-google-tasks-from-new-gmail/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create new Google Calendar detailed event from a new Google task",
+    "URL": "https://zapier.com/zapbook/zaps/1909/create-new-google-calendar-detailed-event-from-a-new-google-task/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Tasks",
+    "Action": "Create a new Google task whenever you update a row in Google Sheets",
+    "URL": "https://zapier.com/zapbook/zaps/1922/create-a-new-google-task-whenever-you-update-a-row-in-google-sheets/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Google Calendar",
+    "URL": "https://zapier.com/zapbook/google-calendar/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Create Google Calendar events from new or updated Google Sheets spreadsheet rows",
+    "URL": "https://zapier.com/zapbook/zaps/138/create-google-calendar-events-from-new-spreadsheet-rows/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Create Google Calendar events from new Google Form entries",
+    "URL": "https://zapier.com/zapbook/zaps/542/use-a-google-form-to-add-new-events-to-a-google-calendar/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Get SMS alerts for approaching Google Calendar events",
+    "URL": "https://zapier.com/zapbook/zaps/210/send-a-reminder-sms-before-google-calendar-events-start/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Copy new Google Calendar events to a different Google Calendar",
+    "URL": "https://zapier.com/zapbook/zaps/1497/copies-new-google-calendar-event-to-different-google-calendar/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Share Google Calendar events on your Facebook Page",
+    "URL": "https://zapier.com/zapbook/zaps/3314/post-a-google-event-calendar-entry-to-facebook-pages-post/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Create new Google Sheets row from a new Google Calendar event",
+    "URL": "https://zapier.com/zapbook/zaps/1499/create-new-google-sheets-row-from-a-new-google-calendar-event/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Save Google Calendar Events to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/1189/save-google-calendar-events-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Calendar",
+    "Action": "Create Google Calendar events from RSS feed items",
+    "URL": "https://zapier.com/zapbook/zaps/1449/create-google-calendar-detailed-events-from-rss-feed-items/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Google Drive",
+    "URL": "https://zapier.com/zapbook/google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Save new Gmail attachments (original file format) to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/192/save-your-gmail-attachments-to-google-drive-automatically/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Copy new Google Drive files in a specific folder to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/167/copy-new-google-drive-files-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Copy new Dropbox files to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/168/copy-new-dropbox-files-to-google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Create an RSS feed of new Google Drive files in a folder",
+    "URL": "",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "https://zapier.com/zapbook/zaps/1316/create-an-rss-feed-of-new-google-drive-files-in-a-folder/",
+    "URL": "",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Send emails via Gmail when new files are added to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/1708/send-emails-via-gmail-when-new-files-are-added-to-google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Backup Google Calendar Events to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/1188/backup-google-calendar-events-to-google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Save Gmail emails matching search query to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/2643/save-gmail-emails-matching-search-query-to-google-drive-such-as-from-bossworkcom/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Create RSS feed of Google Drive files",
+    "URL": "https://zapier.com/zapbook/zaps/1688/create-rss-feed-of-google-drive-files/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Facebook",
+    "URL": "https://zapier.com/zapbook/facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share Posts from a Facebook Page on your Personal Timeline",
+    "URL": "https://zapier.com/zapbook/zaps/175/share-posts-from-a-facebook-page-you-run-on-your-personal-timeline/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share new RSS feed items to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2325/share-new-rss-feed-items-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share WordPress Posts to Your Facebook Profile Automatically",
+    "URL": "https://zapier.com/zapbook/zaps/182/share-wordpress-posts-to-your-facebook-profile-automatically/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share new rows in Google Sheets to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2781/share-a-new-row-in-google-sheets-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share new Gmail messages matching a search to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2783/share-new-gmail-messages-matching-a-search-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share new tweets to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2326/share-new-tweets-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share favorited Tweets to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2388/share-favorited-tweets-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Post Dropbox photos to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/1978/post-dropbox-photos-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share new Instagram photos to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2329/share-new-instagram-photos-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Post Webhook data to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/1968/post-webhook-data-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share new Instagram posts to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2996/share-new-instagram-posts-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Post new YouTube videos matching a search string to a Facebook page",
+    "URL": "https://zapier.com/zapbook/zaps/4020/post-new-youtube-videos-which-match-a-search-string-to-a-facebook-page/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Create Facebook status updates from new Instagram posts",
+    "URL": "https://zapier.com/zapbook/zaps/2993/create-facebook-status-updates-from-new-instagram-posts/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share new Instagram photos to Facebook as a post",
+    "URL": "https://zapier.com/zapbook/zaps/2330/share-new-instagram-photos-to-facebook-as-a-post/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share new WordPress posts to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2440/share-new-wordpress-posts-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Facebook",
+    "Action": "Share updated rows in Google Sheets to Facebook",
+    "URL": "https://zapier.com/zapbook/zaps/2782/share-updated-rows-in-google-sheets-to-facebook/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Slack",
+    "URL": "https://zapier.com/zapbook/slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Send emails into Slack",
+    "URL": "https://zapier.com/zapbook/zaps/223/send-your-important-emails-to-slack-automatically/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Post approaching Google Calendar events to a Slack channel",
+    "URL": "https://zapier.com/zapbook/zaps/356/get-a-google-calendar-meeting-reminder-in-a-slack-channel-10-minutes-before-it-starts/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Get Slack notifications for new Google Drive files in a folder",
+    "URL": "https://zapier.com/zapbook/zaps/842/get-notifications-in-slack-for-new-google-drive-files/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Share new Twitter mentions in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/123/send-twitter-mentions-to-a-slack-channel/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Share new Facebook Page posts in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/1551/send-posts-from-facebook-pages-to-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Post a new message to Slack whenever a Google Sheets row is updated",
+    "URL": "https://zapier.com/zapbook/zaps/1538/post-a-new-message-to-slack-whenever-a-google-sheets-row-is-updated/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Share new Tweets from a Twitter list in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/199/send-tweets-your-teams-slack-channel/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Share new RSS items in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/230/share-rss-feed-posts-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Get daily reminders in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/1522/send-daily-reminders-to-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Welcome new Slack users in #general",
+    "URL": "https://zapier.com/zapbook/zaps/1592/welcome-new-slack-users-in-general/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Get new email notifications in Slack (containing subject",
+    "URL": "snippet",
+    "": "https://zapier.com/zapbook/zaps/1510/get-new-email-notifications-in-slack-containing-subject-snippet-sender-and-gmail-link/"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Post today's weather forecast in Slack",
+    "URL": "https://zapier.com/zapbook/zaps/752/post-todays-weather-forecast-in-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Slack",
+    "Action": "Get Slack notifications for Instagram photos and videos with a specific tag",
+    "URL": "https://zapier.com/zapbook/zaps/154/share-instagram-photos-and-videos-with-a-specific-tag-to-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Dropbox",
+    "URL": "https://zapier.com/zapbook/dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Save Gmail attachments to Dropbox as original file format",
+    "URL": "https://zapier.com/app/min/166/start",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Get an Email When Files are Added to Your Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/241/get-an-email-when-files-are-added-to-your-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Copy new Google Drive files in a specific folder to Dropbox",
+    "URL": "https://zapier.com/app/min/167/start",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Copy new Dropbox files to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/168/copy-new-dropbox-files-to-google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Get an RSS Feed of All New Files in Your Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/249/get-an-rss-feed-of-all-new-files-in-your-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Save new Instagram photos to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/197/save-instagram-photos-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Dropbox",
+    "Action": "Get notified in Slack when a file is added to your Dropbox folder",
+    "URL": "https://zapier.com/zapbook/zaps/1362/get-notified-in-slack-when-a-file-is-added-to-your-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Gmail",
+    "URL": "https://zapier.com/zapbook/gmail/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Save new Gmail attachments (original file format) to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/192/save-your-gmail-attachments-to-google-drive-automatically/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Get new Gmail emails in Slack (full email)",
+    "URL": "https://zapier.com/zapbook/zaps/48/get-notified-of-important-emails-in-slack/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Save Gmail emails matching certain traits to a Google Spreadsheet",
+    "URL": "https://zapier.com/zapbook/zaps/2618/add-new-rows-to-google-sheets-based-on-gmail-contents/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Save Gmail attachments to Dropbox as original file format",
+    "URL": "https://zapier.com/zapbook/zaps/166/send-gmail-attachments-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Send emails based on Gmail contents",
+    "URL": "https://zapier.com/zapbook/zaps/2622/send-emails-based-on-gmail-contents/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Get new email notifications in Slack (containing subject",
+    "URL": "snippet",
+    "": "https://zapier.com/zapbook/zaps/1510/get-new-email-notifications-in-slack-containing-subject-snippet-sender-and-gmail-link/"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Thank Paypal Sales via Automatic Emails",
+    "URL": "https://zapier.com/zapbook/zaps/757/turn-paypal-sales-into-email-list-subscribers/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Send a weekly reminder email from your Gmail email",
+    "URL": "https://zapier.com/zapbook/zaps/1925/send-a-weekly-reminder-email-from-your-gmail-email/",
+    "": "null"
+  },
+  {
+    "Platform": "Gmail",
+    "Action": "Send Email Alerts for Any Tweet Mention via Gmail",
+    "URL": "https://zapier.com/zapbook/zaps/156/send-email-alerts-for-any-tweet-mention-via-gmail/",
+    "": "null"
+  }
+]

@@ -56,6 +56,10 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/gmail-api-openapi-spec.json"
+				},
+				{
+					"type": "x-api-actions",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam/data/google/gmail-api-actions.json"
 				}
 			]
 		},
@@ -72,6 +76,10 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-calendar-api-openapi-spec.json"
+				},
+				{
+					"type": "x-api-actions",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam/data/google/google-calendar-api-actions.json"
 				}
 			]
 		},
@@ -92,6 +100,10 @@
 				{
 					"type": "x-sdks",
 					"url": "https://sdks.io/SDK/View/drive-api-2"
+				},
+				{
+					"type": "x-api-actions",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-drive-api-actions.json"
 				}
 			]
 		},
@@ -128,6 +140,10 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-spreadsheets-openapi-spec.json"
+				},
+				{
+					"type": "x-api-actions",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam/data/google/google-spreadsheets-openapi-spec.json"
 				}
 			]
 		},
@@ -148,6 +164,10 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-tasks-openapi-spec.json"
+				},
+				{
+					"type": "x-api-actions",
+					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-tasks-api-actions.json"
 				}
 			]
 		},
