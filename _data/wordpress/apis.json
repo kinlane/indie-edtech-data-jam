@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/apis.json",
+	"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-categories-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-categories-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-comments-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-comments-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-media-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-media-api-openapi-spec.json"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-pages-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-pages-api-openapi-spec.json"
 				}
 			]
 		},
@@ -91,7 +91,7 @@
 				},
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-post-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-post-api-openapi-spec.json"
 				}
 			]
 		},
@@ -107,7 +107,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-tags-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-tags-api-openapi-spec.json"
 				}
 			]
 		},
@@ -123,7 +123,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-taxonomies-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-taxonomies-api-openapi-spec.json"
 				}
 			]
 		},
@@ -139,7 +139,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-users-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-users-api-openapi-spec.json"
 				}
 			]
 		}
@@ -148,12 +148,16 @@
 		{
 			"type": "x-blog",
 			"url": "http://wordpress.org/news/"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/university-api-workshop/data/wordpress/wordpressorg-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
 		}
 	],
 	"maintainers": [
