@@ -2,7 +2,7 @@
 	"name": "Twitter",
 	"description": "Twitter is a global real-time communications platform with 400 million monthly visitors to twitter.com, more than 200 million monthly active users around the world.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/266_logo.png",
-	"x-open-ranking": "0",
+	"x-open-ranking": "2",
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
