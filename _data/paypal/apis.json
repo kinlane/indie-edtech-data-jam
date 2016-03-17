@@ -128,16 +128,12 @@
 		{
 			"type": "x-webinars",
 			"url": "https://paypal.com"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam/data/paypal/paypal-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam/apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
 		}
 	],
 	"maintainers": [
