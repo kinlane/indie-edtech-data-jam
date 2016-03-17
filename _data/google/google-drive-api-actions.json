@@ -25,12 +25,6 @@
   },
   {
     "Platform": "Google Drive",
-    "Action": "https://zapier.com/zapbook/zaps/1316/create-an-rss-feed-of-new-google-drive-files-in-a-folder/",
-    "URL": "",
-    "": "null"
-  },
-  {
-    "Platform": "Google Drive",
     "Action": "Send emails via Gmail when new files are added to Google Drive",
     "URL": "https://zapier.com/zapbook/zaps/1708/send-emails-via-gmail-when-new-files-are-added-to-google-drive/",
     "": "null"
