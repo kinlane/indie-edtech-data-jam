@@ -1,0 +1,50 @@
+[
+  {
+    "Platform": "Google Drive",
+    "Action": "Save new Gmail attachments (original file format) to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/192/save-your-gmail-attachments-to-google-drive-automatically/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Copy new Google Drive files in a specific folder to Dropbox",
+    "URL": "https://zapier.com/zapbook/zaps/167/copy-new-google-drive-files-to-dropbox/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Copy new Dropbox files to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/168/copy-new-dropbox-files-to-google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Create an RSS feed of new Google Drive files in a folder",
+    "URL": "",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Send emails via Gmail when new files are added to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/1708/send-emails-via-gmail-when-new-files-are-added-to-google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Backup Google Calendar Events to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/1188/backup-google-calendar-events-to-google-drive/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Save Gmail emails matching search query to Google Drive",
+    "URL": "https://zapier.com/zapbook/zaps/2643/save-gmail-emails-matching-search-query-to-google-drive-such-as-from-bossworkcom/",
+    "": "null"
+  },
+  {
+    "Platform": "Google Drive",
+    "Action": "Create RSS feed of Google Drive files",
+    "URL": "https://zapier.com/zapbook/zaps/1688/create-rss-feed-of-google-drive-files/",
+    "": "null"
+  }
+]
