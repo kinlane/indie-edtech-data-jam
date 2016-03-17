@@ -1,0 +1,62 @@
+[
+{
+  "Type": "WordPress",
+  "Action": "Automatically Post New WordPress Posts to Facebook Page",
+  "URL": "https://zapier.com/zapbook/zaps/181/automatically-post-new-wordpress-posts-to-facebook-page/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Tweet New WordPress Posts With an Image",
+  "URL": "https://zapier.com/zapbook/zaps/184/tweet-new-wordpress-posts-with-an-image/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Automatically share new Facebook Page posts on a WordPress blog",
+  "URL": "https://zapier.com/zapbook/zaps/3821/automatically-post-new-facebook-pages-posts-to-wordpress/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Post New Instagram Photos to Your WordPress Blog",
+  "URL": "https://zapier.com/zapbook/zaps/178/post-new-instagram-photos-to-your-wordpress-blog/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Tweet Your New WordPress Posts Automatically",
+  "URL": "https://zapier.com/zapbook/zaps/183/tweet-your-new-wordpress-posts-automatically/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Share published WordPress posts in a Slack channel",
+  "URL": "https://zapier.com/zapbook/zaps/491/share-published-wordpress-posts-in-a-slack-channel/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Post Your New WordPress Posts to LinkedIn Automatically",
+  "URL": "https://zapier.com/zapbook/zaps/159/post-your-new-wordpress-posts-to-linkedin-automatically/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Share WordPress Posts to Your Facebook Profile Automatically",
+  "URL": "https://zapier.com/zapbook/zaps/182/share-wordpress-posts-to-your-facebook-profile-automatically/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Post RSS feed items to WordPress",
+  "URL": "https://zapier.com/zapbook/zaps/1414/post-rss-feed-items-to-wordpress/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Create WordPress posts from other new WordPress posts",
+  "URL": "https://zapier.com/zapbook/zaps/3149/create-a-wordpress-post-from-another-new-post/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Make new Wordpress post from new Google Document",
+  "URL": "https://zapier.com/zapbook/zaps/2715/make-new-wordpress-post-for-new-google-document/"
+},
+{
+  "Type": "WordPress",
+  "Action": "Backup WordPress Posts to Google Drive text files",
+  "URL": "https://zapier.com/zapbook/zaps/2046/backup-wordpress-posts-to-google-drive-text-files/"
+}
+]

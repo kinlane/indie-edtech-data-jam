@@ -228,6 +228,10 @@
 		{
 			"type": "x-portal",
 			"url": "https://www.google.com/"
+		},
+		{
+			"type": "x-api-spec",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-spreadsheets-api-actions.json"
 		}
 	],
 	"include": [

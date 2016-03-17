@@ -148,6 +148,10 @@
 		{
 			"type": "x-blog",
 			"url": "http://wordpress.org/news/"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/wordpress/wordpressorg-api-actions.json"
 		}
 	],
 	"include": [
