@@ -1,12 +1,6 @@
 [
   {
     "Platform": "Facebook",
-    "Action": "Facebook",
-    "URL": "https://zapier.com/zapbook/facebook/",
-    "": "null"
-  },
-  {
-    "Platform": "Facebook",
     "Action": "Share Posts from a Facebook Page on your Personal Timeline",
     "URL": "https://zapier.com/zapbook/zaps/175/share-posts-from-a-facebook-page-you-run-on-your-personal-timeline/",
     "": "null"

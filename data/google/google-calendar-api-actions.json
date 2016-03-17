@@ -1,12 +1,6 @@
 [
   {
     "Platform": "Google Calendar",
-    "Action": "Google Calendar",
-    "URL": "https://zapier.com/zapbook/google-calendar/",
-    "": "null"
-  },
-  {
-    "Platform": "Google Calendar",
     "Action": "Create Google Calendar events from new or updated Google Sheets spreadsheet rows",
     "URL": "https://zapier.com/zapbook/zaps/138/create-google-calendar-events-from-new-spreadsheet-rows/",
     "": "null"

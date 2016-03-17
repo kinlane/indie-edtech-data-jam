@@ -1,12 +1,6 @@
 [
   {
     "Platform": "Slack",
-    "Action": "Slack",
-    "URL": "https://zapier.com/zapbook/slack/",
-    "": "null"
-  },
-  {
-    "Platform": "Slack",
     "Action": "Send emails into Slack",
     "URL": "https://zapier.com/zapbook/zaps/223/send-your-important-emails-to-slack-automatically/",
     "": "null"

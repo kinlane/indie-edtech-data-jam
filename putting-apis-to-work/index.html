@@ -137,18 +137,14 @@ title: Some APIs In Your World
           </tr>
           <tr>
             <td align="center" colspan="3" style="margin-left: 90px; margin-right: 90px;">
-              <table cellpadding="3" cellspacing="2" width="70%" border="0">
                 {% assign api_action_url = '' %}
                 {% assign numberofapis = apijson.apis | size %}
                 {% if numberofapis == 0 %}
 
                 {% else %}
 
-                  <tr>
-                    <td align="left" colspan="2">
-                      <p style="font-size: 18px; text-align: left;"><strong>APIs:</strong></p>
-                    </td>
-                  </tr>
+                  <p style="font-size: 18px; text-align: left;"><strong>APIs:</strong></p>
+                  <table cellpadding="3" cellspacing="2" width="70%" border="0">
 
                   {% assign api_action_url = '' %}
                   {% for api in apijson.apis %}
@@ -264,8 +260,10 @@ title: Some APIs In Your World
                       </tr>
                     {% endif %}
                   {% endfor %}
-                  {% endif %}
+
                   </table>
+
+                  {% endif %}
                 </td>
               </tr>
               {% if common_api_action_url != '' %}

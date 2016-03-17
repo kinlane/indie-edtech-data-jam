@@ -140,10 +140,6 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/google/google-spreadsheets-openapi-spec.json"
-				},
-				{
-					"type": "x-api-actions",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam/data/google/google-spreadsheets-openapi-spec.json"
 				}
 			]
 		},
@@ -237,7 +233,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+			"url": "http://kinlane.github.io/indie-edtech-data-jam/apis.json"
 		}
 	],
 	"maintainers": [
