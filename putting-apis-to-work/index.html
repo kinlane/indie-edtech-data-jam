@@ -247,7 +247,7 @@ title: Some APIs In Your World
                   {% assign pathname = pathname | replace: '.json','' %}
                   {% assign api_action_spec = file | map: pathname %}
 
-                  <tr style="display: none;" id="actions-for-{{ pathname }}">
+                  <tr id="actions-for-{{ pathname }}">
                     <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
                       --{{ api_action_spec }}--
                       <ul>
