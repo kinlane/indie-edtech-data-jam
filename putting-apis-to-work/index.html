@@ -233,11 +233,12 @@ title: Some APIs In Your World
                   <tr>
                     <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
                       <ul>
-                        {% for action in api_action_spec %}
-                        1: {{ api_action_spec }}
-                          {% assign action_label = action.Action %}
-                          {% assign action_url = action.URL %}
-                          <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
+                        {% for actions in api_action_spec %}
+                          {% for action in actions %}
+                            {% assign action_label = action.Action %}
+                            {% assign action_url = action.URL %}
+                            <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
+                          {% endfor %}
                         {% endfor %}
                       </ul>
                     </td>
@@ -258,8 +259,8 @@ title: Some APIs In Your World
             <tr>
               <td colspan="3" align="left" style="margin-left: 25px; margin-right: 25px;">
                 <ul>
-                  {% for object in api_action_spec %}
-                    {% for action in object %}
+                  {% for actions in api_action_spec %}
+                    {% for action in actions %}
                       {% assign action_label = action.Action %}
                       {% assign action_url = action.URL %}
                       <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
