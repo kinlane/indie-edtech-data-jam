@@ -223,11 +223,6 @@ title: Some APIs In Your World
                     </ul>
                   </td>
                 </tr>
-                <tr>
-                  <td colspan="2">
-                    {{ api_action_url }}
-                  </td>
-                </tr>
                 {% if api_action_url != '' %}
                   {% assign pathname = api_action_url | replace: site.url,'' %}
                   {% assign pathname = pathname | replace: '/data/','' %}
@@ -252,11 +247,6 @@ title: Some APIs In Your World
               </table>
             </td>
           </tr>
-          <tr>
-            <td colspan="3">
-              {{ common_api_action_url }}
-            </td>
-          </tr>
           {% if common_api_action_url != '' %}
 
             {% assign pathname = common_api_action_url | replace: site.url,'' %}
@@ -267,14 +257,13 @@ title: Some APIs In Your World
             {% assign api_action_spec = file | map: pathname %}
             <tr>
               <td colspan="3" align="left" style="margin-left: 25px; margin-right: 25px;">
-                {{ pathname }} --<br />
-                {{ api_action_spec }}
                 <ul>
-                  {% for action in api_action_spec %}
-                    2: {{ action }}
-                    {% assign action_label = action.Action %}
-                    {% assign action_url = action.URL %}
-                    <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
+                  {% for object in api_action_spec %}
+                    {% for action in object %}
+                      {% assign action_label = action.Action %}
+                      {% assign action_url = action.URL %}
+                      <li style="font-size: 12px;"><a href="{{ action_url }}"><strong>[{{ action_label }}]</strong></a></li>
+                    {% endfor %}
                   {% endfor %}
                 </ul>
               </td>
