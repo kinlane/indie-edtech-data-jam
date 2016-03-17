@@ -144,96 +144,97 @@ title: Some APIs In Your World
                 {% else %}
 
                   <p style="font-size: 18px; text-align: left; margin-left: 117px;"><strong>APIs:</strong></p>
-                  <table cellpadding="3" cellspacing="2" width="70%" border="0">
-
                     {% assign api_action_url = '' %}
                     {% for api in apijson.apis %}
 
-                      {% assign api_action_spec = '' %}
-                      {% assign api_action_url = '' %}
-                      {% for property in api.properties %}
+                    <table cellpadding="3" cellspacing="2" width="70%" border="0">
 
-                        {% assign thisname = apijson.name | downcase %}
-                        {% assign thisname = thisname | append:'/' %}
-                        {% assign thisname = thisname | replace: ' ','-' %}
+                        {% assign api_action_spec = '' %}
+                        {% assign api_action_url = '' %}
+                        {% for property in api.properties %}
 
-                        {% if property.type == 'x-openapi-spec' %}
+                          {% assign thisname = apijson.name | downcase %}
+                          {% assign thisname = thisname | append:'/' %}
+                          {% assign thisname = thisname | replace: ' ','-' %}
 
-                          {% assign openapi_spec_url = property.url %}
-                          {% assign pathname = openapi_spec_url | replace: site.url,'' %}
-                          {% assign pathname = pathname | replace: '/data/','' %}
-                          {% assign pathname = pathname | replace: thisname,'' %}
-                          {% assign pathname = pathname | replace: '/','' %}
-                          {% assign pathname = pathname | replace: '.json','' %}
-                          {% assign openapi_spec_json = file | map: pathname %}
+                          {% if property.type == 'x-openapi-spec' %}
 
-                        {% endif %}
+                            {% assign openapi_spec_url = property.url %}
+                            {% assign pathname = openapi_spec_url | replace: site.url,'' %}
+                            {% assign pathname = pathname | replace: '/data/','' %}
+                            {% assign pathname = pathname | replace: thisname,'' %}
+                            {% assign pathname = pathname | replace: '/','' %}
+                            {% assign pathname = pathname | replace: '.json','' %}
+                            {% assign openapi_spec_json = file | map: pathname %}
 
-                        {% if property.type == 'x-postman %}
-                          {% assign postman_url = property.url %}
-                        {% endif %}
-
-                        {% if property.type == 'x-api-blueprint' %}
-                          {% assign api_blueprint_url = property.url %}
-                        {% endif %}
-
-                        {% if property.type == 'x-api-actions' %}
-                          {% assign api_action_url = property.url %}
-                        {% endif %}
-
-                      {% endfor %}
-
-                      <tr>
-                        <td align="left">
-                          {{ api.name }}
-                        </td>
-                        <td align="right">
-                          {% if openapi_spec_url != null and openapi_spec_url != empty %}
-                            <a href="{{ openapi_spec_url }}" target="_blank" title="OpenAPI Spec">
-                              <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" align="right" />
-                            </a>
                           {% endif %}
-                          {% if api_blueprint_url != null and api_blueprint_url != empty %}
-                            <a href="{{ api_blueprint_url }}" target="_blank" title="API Blueprint">
-                              <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-blueprint-icon.png" width="25" align="right" />
-                            </a>
+
+                          {% if property.type == 'x-postman %}
+                            {% assign postman_url = property.url %}
                           {% endif %}
-                          {% if postman_url != null and postman_url != empty %}
-                            <a href="{{ postman_url }}" target="_blank" title="API Blueprint">
-                              <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/building-blocks/x-postman.png" width="25" align="right" />
-                            </a>
+
+                          {% if property.type == 'x-api-blueprint' %}
+                            {% assign api_blueprint_url = property.url %}
                           {% endif %}
-                          <a href="#" onclick="showme('methods-for-{{ pathname }}'); return false;" target="_blank" title="View Endpoint List">
-                            <img style="padding-top: 4px; padding-right: 3px; padding-left: 3px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-endpoints.png" width="25" align="right" />
-                          </a>
-                        </td>
-                      </tr>
-                      <tr style="display: none;" id="methods-for-{{ pathname }}">
-                        <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
 
-                          <ul>
-                            {% for spec in openapi_spec_json %}
+                          {% if property.type == 'x-api-actions' %}
+                            {% assign api_action_url = property.url %}
+                          {% endif %}
 
-                              {% for path in spec.paths %}
+                        {% endfor %}
 
-                                {% assign method_json = path[1] %}
+                        <tr>
+                          <td align="left">
+                            {{ api.name }}
+                          </td>
+                          <td align="right">
+                            {% if openapi_spec_url != null and openapi_spec_url != empty %}
+                              <a href="{{ openapi_spec_url }}" target="_blank" title="OpenAPI Spec">
+                                <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" align="right" />
+                              </a>
+                            {% endif %}
+                            {% if api_blueprint_url != null and api_blueprint_url != empty %}
+                              <a href="{{ api_blueprint_url }}" target="_blank" title="API Blueprint">
+                                <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-blueprint-icon.png" width="25" align="right" />
+                              </a>
+                            {% endif %}
+                            {% if postman_url != null and postman_url != empty %}
+                              <a href="{{ postman_url }}" target="_blank" title="API Blueprint">
+                                <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/building-blocks/x-postman.png" width="25" align="right" />
+                              </a>
+                            {% endif %}
+                            <a href="#" onclick="showme('methods-for-{{ pathname }}'); return false;" target="_blank" title="View Endpoint List">
+                              <img style="padding-top: 4px; padding-right: 3px; padding-left: 3px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-endpoints.png" width="25" align="right" />
+                            </a>
+                          </td>
+                        </tr>
+                        <tr style="display: none;" id="methods-for-{{ pathname }}">
+                          <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
 
-                                {% for method in method_json %}
+                            <ul>
+                              {% for spec in openapi_spec_json %}
 
-                                  {% assign verb = method[0] | upcase %}
-                                  {% assign summary = method[1].summary %}
-                                  <li style="font-size: 12px;">{{ path[0] }} <strong>[{{ verb }}]</strong> {{ summary }}</li>
+                                {% for path in spec.paths %}
+
+                                  {% assign method_json = path[1] %}
+
+                                  {% for method in method_json %}
+
+                                    {% assign verb = method[0] | upcase %}
+                                    {% assign summary = method[1].summary %}
+                                    <li style="font-size: 12px;">{{ path[0] }} <strong>[{{ verb }}]</strong> {{ summary }}</li>
+
+                                  {% endfor %}
 
                                 {% endfor %}
 
                               {% endfor %}
+                            </ul>
+                          </td>
+                        </tr>
+                      </table>
 
-                            {% endfor %}
-                          </ul>
-                        </td>
-                      </tr>
-                    </table>
-                    {% if api_action_url != '' %}
+                      {% if api_action_url != '' %}
                       <p style="font-size: 18px; text-align: left; margin-left: 117px;"><strong>Actions:</strong></p>
                       <table cellpadding="3" cellspacing="2" width="70%" border="0">
                         {% assign pathname = api_action_url | replace: site.url,'' %}
@@ -259,13 +260,10 @@ title: Some APIs In Your World
                               {% endfor %}
                             </ul>
                           </td>
-                        </tr>
-                      </table>
-
-                      {% endfor %}
-
+                          </tr>
+                        </table>
                       {% endif %}
-                      
+                    {% endfor %}
                   {% endif %}
                 </td>
               </tr>
