@@ -233,38 +233,36 @@ title: Some APIs In Your World
                       </td>
                     </tr>
                   </table>
-                  <p style="font-size: 18px; text-align: left; margin-left: 117px;"><strong>Actions:</strong></p>
-                  <table cellpadding="3" cellspacing="2" width="70%" border="0">
-                    {% if api_action_url != '' %}
-                      {% assign pathname = api_action_url | replace: site.url,'' %}
-                      {% assign pathname = pathname | replace: '/data/','' %}
-                      {% assign pathname = pathname | replace: thisname,'' %}
-                      {% assign pathname = pathname | replace: '/','' %}
-                      {% assign pathname = pathname | replace: '.json','' %}
-                      {% assign api_action_spec = file | map: pathname %}
-                      <tr>
-                        <td colspan="2" align="left" style="margin-left: 75px; margin-right: 75px; margin-top: 15px;">
-                          <ul style="margin-left: 15px;">
-                            {% for actions in api_action_spec %}
-                              {% for action in actions %}
-                                {% assign action_label = action.Action %}
-                                {% assign action_url = action.URL %}
-                                <li style="font-size: 14px; list-style: none;">
-                                  <a href="{{ action_url }}">
-                                    <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/zapier/zapier-icon.png" width="30" style="margin-right: 5px;" />
-                                    {{ action_label }}
-                                  </a>
-                                </li>
+                  {% if api_action_url != '' %}
+                    <p style="font-size: 18px; text-align: left; margin-left: 117px;"><strong>Actions:</strong></p>
+                    <table cellpadding="3" cellspacing="2" width="70%" border="0">
+                        {% assign pathname = api_action_url | replace: site.url,'' %}
+                        {% assign pathname = pathname | replace: '/data/','' %}
+                        {% assign pathname = pathname | replace: thisname,'' %}
+                        {% assign pathname = pathname | replace: '/','' %}
+                        {% assign pathname = pathname | replace: '.json','' %}
+                        {% assign api_action_spec = file | map: pathname %}
+                        <tr>
+                          <td colspan="2" align="left" style="margin-left: 75px; margin-right: 75px; margin-top: 15px;">
+                            <ul style="margin-left: 15px;">
+                              {% for actions in api_action_spec %}
+                                {% for action in actions %}
+                                  {% assign action_label = action.Action %}
+                                  {% assign action_url = action.URL %}
+                                  <li style="font-size: 14px; list-style: none;">
+                                    <a href="{{ action_url }}">
+                                      <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/zapier/zapier-icon.png" width="30" style="margin-right: 5px;" />
+                                      {{ action_label }}
+                                    </a>
+                                  </li>
+                                {% endfor %}
                               {% endfor %}
-                            {% endfor %}
-                          </ul>
-                        </td>
-                      </tr>
+                            </ul>
+                          </td>
+                        </tr>
+                      </table>
                     {% endif %}
                   {% endfor %}
-
-                  </table>
-
                   {% endif %}
                 </td>
               </tr>
