@@ -30,7 +30,7 @@ title: Some APIs In Your World
 
     {% if file.apis != null %}
       {% assign apijson = file.apis %}
-
+      {% assign common_api_action_url = '' %}
       {% if apijson.specificationVersion != null %}
 
         {% assign blog_url = '' %}
@@ -138,6 +138,8 @@ title: Some APIs In Your World
           <tr>
             <td align="center" colspan="3" style="margin-left: 25px; margin-right: 25px;">
               <table cellpadding="3" cellspacing="2" width="90%" border="0">
+
+              {% assign api_action_url = '' %}
               {% for api in apijson.apis %}
 
                 {% for property in api.properties %}
@@ -233,7 +235,8 @@ title: Some APIs In Your World
                     {% assign api_actions = '' %}
                   {% endif %}
                 {% endif %}
-                --{{ api_action_url }}
+                
+                --{{ api_action_url }}--
                 {% if api_action_url != '' %}
                   <tr style="display: none;" id="actions-for-{{ pathname }}">
                     <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
@@ -245,7 +248,7 @@ title: Some APIs In Your World
                         {% assign pathname = pathname | replace: '/','' %}
                         {% assign pathname = pathname | replace: '.json','' %}
                         {% assign api_action_spec = file | map: pathname %}
-                        --{{ api_action_spec }}--<br />
+
                         {% for action in api_action_spec %}
                           {% assign action_label = action[1].Action %}
                           {% assign action_url = action[1].URL %}
