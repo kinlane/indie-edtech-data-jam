@@ -1,111 +1,12 @@
-{
-	"swagger": "2.0",
-	"info": {
-		"title": "Twitter Account API",
-		"description": "The API for Twitter accounts.",
-		"termsOfService": "https://dev.twitter.com/overview/terms",
-		"contact": {
-			"name": "Twitter",
-			"url": "https://twittercommunity.com/"
-		},
-		"version": "1.1"
-	},
-	"host": "api.twitter.com",
-	"basePath": "/1.1",
-	"schemes": ["http"],
-	"produces": ["application/json"],
-	"consumes": ["application/json"],
-	"paths": {
-		"/account/update_profile_colors/": {
-			"post": {
-				"summary": "account/update_profile_colors",
-				"description": "This endpoint has been deprecated. Most of the values below may no longer be customised. Please refer to account/update_profile to update profile link colors.Sets one or more hex values that control the color scheme of the authenticating user&#8217;s profile page on twitter.com. Each parameter&#8217;s value must be a valid hexadecimal value, and may be either three or six characters (ex: #fff or #ffffff).",
-				"operationId": "accountUpdateProfileColors",
-				"parameters": [{
-					"in": "query",
-					"name": "include_entities"
-				},
-				{
-					"in": "query",
-					"name": "profile_background_color"
-				},
-				{
-					"in": "query",
-					"name": "profile_link_color"
-				},
-				{
-					"in": "query",
-					"name": "profile_sidebar_border_color"
-				},
-				{
-					"in": "query",
-					"name": "profile_sidebar_fill_color"
-				},
-				{
-					"in": "query",
-					"name": "profile_text_color"
-				},
-				{
-					"in": "query",
-					"name": "skip_status"
-				}],
-				"responses": {
-					"200": {
-						"description": "OK"
-					}
-				},
-				"tags": [""],
-				"security": []
-			}
-		},
-		"/account/update_profile_image/": {
-			"post": {
-				"summary": "account/update_profile_image",
-				"description": "Updates the authenticating user&#8217;s profile image. Note that this method expects raw multipart data, not a URL to an image.This method asynchronously processes the uploaded file before updating the user&#8217;s profile image URL. You can either update your local cache the next time you request the user&#8217;s information, or, at least 5 seconds after uploading the image, ask for the updated URL using GET users / show.",
-				"operationId": "accountUpdateProfileImage",
-				"parameters": [{
-					"in": "query",
-					"name": ""
-				},
-				{
-					"in": "query",
-					"name": "include_entities"
-				},
-				{
-					"in": "query",
-					"name": "skip_status"
-				}],
-				"responses": {
-					"200": {
-						"description": "OK"
-					}
-				},
-				"tags": [""],
-				"security": []
-			}
-		},
-		"/account/verify_credentials/": {
-			"get": {
-				"summary": "account/verify_credentials",
-				"description": "Returns an HTTP 200 OK response code and a representation of the requesting user if authentication was successful; returns a 401 status code and an error message if not. Use this method to test if supplied user credentials are valid.",
-				"operationId": "accountVerifyCredentials",
-				"parameters": [{
-					"in": "query",
-					"name": "include_entities"
-				},
-				{
-					"in": "query",
-					"name": "skip_status"
-				}],
-				"responses": {
-					"200": {
-						"description": "OK"
-					}
-				},
-				"tags": [""],
-				"security": []
-			}
-		}
-	},
-	"definitions": []
-}
+<html><head><title>Slim Application Error</title><style>body{margin:0;padding:30px;font:12px/1.5 Helvetica,Arial,Verdana,sans-serif;}h1{margin:0;font-size:48px;font-weight:normal;line-height:48px;}strong{display:inline-block;width:65px;}</style></head><body><h1>Slim Application Error</h1><p>The application could not run because of the following error:</p><h2>Details</h2><div><strong>Code:</strong> 4</div><div><strong>Message:</strong> Expected status [201], actual status [422], URL [/repos/api-stack/api-stack/contents/data/twitter/twitter-account-api-swagger.json]</div><div><strong>File:</strong> /var/www/html/kin_lane/api/client/GitHubClientBase.php</div><div><strong>Line:</strong> 351</div><h2>Trace</h2><pre>#0 /var/www/html/kin_lane/api/client/GitHubClientBase.php(287): GitHubClientBase->parseResponse('/repos/api-stac...', 'HTTP/1.1 100 Co...', 'GitHubReadmeCon...', 201, false)
+#1 /var/www/html/kin_lane/api/client/services/GitHubReposContents.php(81): GitHubClientBase->request('/repos/api-stac...', 'PUT', Array, 201, 'GitHubReadmeCon...')
+#2 /var/www/html/kin_lane/api/api/methods/m-api-api_id-definitions-export-swagger-20.php(630): GitHubReposContents->createFile('api-stack', 'api-stack', 'data/twitter/tw...', 'Adding data/twi...', 'ewoJInN3YWdnZXI...', 'gh-pages')
+#3 [internal function]: {closure}('d7irt8pAUMb69Or...')
+#4 /var/www/html/kin_lane/api/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#5 /var/www/html/kin_lane/api/Slim/Slim.php(1218): Slim\Router->dispatch(Object(Slim\Route))
+#6 /var/www/html/kin_lane/api/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#7 /var/www/html/kin_lane/api/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#8 /var/www/html/kin_lane/api/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#9 /var/www/html/kin_lane/api/Slim/Slim.php(1167): Slim\Middleware\PrettyExceptions->call()
+#10 /var/www/html/kin_lane/api/api/index.php(81): Slim\Slim->run()
+#11 {main}</pre></body></html>
