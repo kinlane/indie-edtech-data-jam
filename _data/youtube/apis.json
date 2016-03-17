@@ -6,8 +6,8 @@
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-15",
-	"modified": "2016-03-15",
+	"created": "2016-03-16",
+	"modified": "2016-03-16",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -180,10 +180,6 @@
 		{
 			"type": "x-widgets",
 			"url": "https://developers.google.com/youtube/youtube_upload_widget"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/youtube/youtube-api-actions.json"
 		}
 	],
 	"include": [
