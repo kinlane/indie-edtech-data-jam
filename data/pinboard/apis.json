@@ -8,7 +8,7 @@
 	],
 	"created": "2016-03-16",
 	"modified": "2016-03-16",
-	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/apis.json",
+	"url": "http://kinlane.github.io/university-api-workshop/data/pinboard/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -23,7 +23,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/pinboard-posts-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/pinboard/pinboard-posts-api-openapi-spec.json"
 				}
 			]
 		},
@@ -39,7 +39,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/pinboard-tag-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/pinboard/pinboard-tag-api-openapi-spec.json"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/pinboard-user-api-openapi-spec.json"
+					"url": "http://kinlane.github.io/university-api-workshop/data/pinboard/pinboard-user-api-openapi-spec.json"
 				}
 			]
 		}
@@ -84,12 +84,20 @@
 		{
 			"type": "x-webinars",
 			"url": "http://www.pinboard.in"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/university-api-workshop/data/pinboard/pinboard-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam//apis.json"
+			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/indie-edtech-data-jam//data/pinboard/pinboard-api-actions.json"
 		}
 	],
 	"maintainers": [
