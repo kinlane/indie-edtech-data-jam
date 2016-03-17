@@ -148,16 +148,16 @@
 		{
 			"type": "x-webinars",
 			"url": "http://linkedin.com"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/university-api-workshop/data/linkedin/linkedin-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
 			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/university-api-workshop/data/linkedin/linkedin-api-actions.json"
 		}
 	],
 	"maintainers": [

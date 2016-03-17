@@ -128,16 +128,16 @@
 		{
 			"type": "x-webinars",
 			"url": "https://paypal.com"
+		},
+		{
+			"type": "x-api-actions",
+			"url": "http://kinlane.github.io/university-api-workshop/data/paypal/paypal-api-actions.json"
 		}
 	],
 	"include": [
 		{
 			"name": "Parent",
 			"url": "http://kinlane.github.io/university-api-workshop/apis.json"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/university-api-workshop/data/paypal/paypal-api-actions.json"
 		}
 	],
 	"maintainers": [
