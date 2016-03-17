@@ -138,13 +138,10 @@ title: Some APIs In Your World
           <tr>
             <td align="center" colspan="3" style="margin-left: 75px; margin-right: 75px;">
               <table cellpadding="3" cellspacing="2" width="75%" border="0">
-                <tr>
-                  <td align="left" colspan="2">
-                    <p style="font-size: 18px; text-align: left;"><strong>APIs</strong></p>
-                  </td>
-                </tr>
 
               {% assign api_action_url = '' %}
+
+              HERE: {{ {{ apijson | size }} }}<br />
               {% for api in apijson.apis %}
 
                 {% assign api_action_spec = '' %}
