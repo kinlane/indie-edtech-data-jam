@@ -6,8 +6,8 @@
 	"tags": [
 		"Indie EdTech Data Jam"
 	],
-	"created": "2016-03-10",
-	"modified": "2016-03-10",
+	"created": "2016-03-16",
+	"modified": "2016-03-16",
 	"url": "http://kinlane.github.io/indie-edtech-data-jam//data/facebook/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -640,10 +640,6 @@
 		{
 			"type": "x-webinars",
 			"url": "https://facebook.com"
-		},
-		{
-			"type": "x-api-actions",
-			"url": "http://kinlane.github.io/indie-edtech-data-jam/data/facebook/facebook-api-actions.json"
 		}
 	],
 	"include": [
