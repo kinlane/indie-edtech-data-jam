@@ -223,6 +223,11 @@ title: Some APIs In Your World
                     </ul>
                   </td>
                 </tr>
+                <tr>
+                  <td colspan="2">
+                    {{ api_action_url }}
+                  </td>
+                </tr>
                 {% if api_action_url != '' %}
                   {% assign pathname = api_actions | replace: site.url,'' %}
                   {% assign pathname = pathname | replace: '/data/','' %}
@@ -244,6 +249,11 @@ title: Some APIs In Your World
                 {% endif %}
               {% endfor %}
               </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              {{ common_api_action_url }}
             </td>
           </tr>
           {% if common_api_action_url != '' %}
