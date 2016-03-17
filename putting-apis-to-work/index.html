@@ -189,7 +189,7 @@ title: Some APIs In Your World
 
                     <tr>
                       <td align="left">
-                        <strong>{{ api.name }}</strong>
+                        {{ api.name }}
                       </td>
                       <td align="right">
                         {% if openapi_spec_url != null and openapi_spec_url != empty %}
@@ -254,7 +254,7 @@ title: Some APIs In Your World
                                 <li style="font-size: 14px; list-style: none;">
                                   <a href="{{ action_url }}">
                                     <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/zapier/zapier-icon.png" width="30" style="margin-right: 5px;" />
-                                    <strong>{{ action_label }}</strong>
+                                    {{ action_label }}
                                   </a>
                                 </li>
                               {% endfor %}
@@ -287,7 +287,7 @@ title: Some APIs In Your World
                           <li style="font-size: 14px; list-style: none;">
                             <a href="{{ action_url }}">
                               <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/zapier/zapier-icon.png" width="30" style="margin-right: 5px;" />
-                              <strong>{{ action_label }}</strong>
+                              { action_label }}
                             </a>
                           </li>
                         {% endfor %}
