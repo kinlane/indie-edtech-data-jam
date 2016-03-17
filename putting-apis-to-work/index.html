@@ -225,7 +225,7 @@ title: Some APIs In Your World
                 </tr>
 
                 {% if common_api_action_url != null and common_api_action_url != empty %}
-                  {% assign api_actions = common_api_action_url%}
+                  {% assign api_actions = common_api_action_url %}
                 {% else %}
                   {% if api_action_url != null and api_action_url != empty %}
                     {% assign api_actions = api_action_url %}
@@ -234,7 +234,9 @@ title: Some APIs In Your World
                   {% endif %}
                 {% endif %}
 
-                Here: {{ api_actions }}<br />
+                Here 1 : {{ common_api_action_url }}<br />
+                Here 2: {{ api_action_url }}<br />
+                Here 3: {{ api_actions }}<br />
 
                 {% if api_actions != '' %}
 
