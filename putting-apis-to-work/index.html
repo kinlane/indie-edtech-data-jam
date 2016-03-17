@@ -239,8 +239,8 @@ title: Some APIs In Your World
                   {% assign api_action_spec = file | map: pathname %}
                   <tr>
                     <td colspan="2" align="left" style="margin-left: 75px; margin-right: 75px; margin-top: 8px;">
-                      <p style="font-size: 18px; margin-left: 75px;"><strong>Actions</strong></p>
-                      <ul style="margin-left: 100px;">
+                      <p style="font-size: 18px; margin-left: 50px;"><strong>Actions</strong></p>
+                      <ul style="margin-left: 50px;">
                         {% for actions in api_action_spec %}
                           {% for action in actions %}
                             {% assign action_label = action.Action %}
@@ -271,7 +271,7 @@ title: Some APIs In Your World
             {% assign api_action_spec = file | map: pathname %}
             <tr>
               <td colspan="3" align="left" style="margin-left: 75px; margin-right: 75px; margin-top 8px;">
-                <p style="font-size: 18px; margin-left: 90px;"><strong>Actions</strong></p>
+                <p style="font-size: 18px; margin-left: 110px;"><strong>Actions</strong></p>
                 <ul style="margin-left: 110px;">
                   {% for actions in api_action_spec %}
                     {% for action in actions %}
