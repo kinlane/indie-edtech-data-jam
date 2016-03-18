@@ -20,6 +20,9 @@ paginate_path: "/updates/page:num"
 categories_path : /categories.html
 tags_path : /tags.html
 
+github_user: kinlane
+github_repo: university-api-workshop
+
 # Masthead title
 masthead_link: http://kinlane.github.io/university-api-workshop/
 masthead_font_size: 85
