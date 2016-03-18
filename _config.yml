@@ -109,6 +109,15 @@ navigation:
     size2: 60
     padding: 5
     decorate: 0
+  - label1: Tools
+    link1: /university-api-workshop/tools/
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 60
+    padding: 5
+    decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
     size1: 80
